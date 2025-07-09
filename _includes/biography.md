@@ -31,7 +31,7 @@
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
     <img src="/assets/img/zzu.png" alt="ZZU Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <span>
-      <strong>Zhengzhou University</strong> — B.Eng <em>2016 - 2020</em>
+      <strong>Zhengzhou University</strong> — B.Eng. <em>2016 - 2020</em>
     </span>
   </li>
 </ul>
