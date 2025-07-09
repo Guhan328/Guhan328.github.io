@@ -15,7 +15,7 @@ enable_hopkins_logo: false
 enable_last_update: true
 
 # Links
-email: g.zheng2@lancaster.ac.uk
+#email: g.zheng2@lancaster.ac.uk
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl=EN
 linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
