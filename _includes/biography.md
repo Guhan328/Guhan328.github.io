@@ -5,21 +5,21 @@
 <h4 style="margin:0 10px 0;">Experience</h4>
 
 <ul style="margin:0 0 20px; list-style: none; padding: 0;">
-  <li style="display: flex; align-items: center; margin-bottom: 15px;">
-    <img src="/assets/img/lanc.png" style="height: 40px; margin-right: 15px;">
+  <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
+    <img src="/assets/img/lanc.png" alt="NJU Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <div>
-      <strong>Lancaster University</strong><br>
-      Senior Research Associate<br>
-      <small> 2023 - Present</small>
+      <strong>Lancaster University</strong>
+      Senior Research Associate
+      <em> 2023 - Present<em>
     </div>
   </li>
 
-  <li style="display: flex; align-items: center; margin-bottom: 15px;">
-    <img src="/assets/img/sussex.png" style="height: 40px; margin-right: 15px;">
+  <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
+    <img src="/assets/img/sussex.png" alt="NJU Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <div>
-      <strong>University of Sussex</strong><br>
-      Research Assistant<br>
-      <small>2023</small>
+      <strong>University of Sussex</strong>
+      Research Assistant
+      <em>2023<em>
     </div>
   </li>
 </ul>
@@ -28,21 +28,21 @@
 <h4 style="margin:0 10px 0;">Education</h4>
 
 <ul style="margin:0 0 20px; list-style: none; padding: 0;">
-  <li style="display: flex; align-items: center; margin-bottom: 15px;">
-    <img src="/assets/img/lanc.png" style="height: 40px; margin-right: 15px;">
+  <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
+    <img src="/assets/img/lanc.png" alt="NJU Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <div>
-      <strong>Lancaster University</strong><br>
-      P.hD.<br>
-      <small> 2020 - 2024</small>
+      <strong>Lancaster University</strong>
+      P.hD.
+      <em> 2020 - 2024<em>
     </div>
   </li>
 
-  <li style="display: flex; align-items: center; margin-bottom: 15px;">
-    <img src="/assets/img/zzu.png" style="height: 40px; margin-right: 15px;">
+  <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
+    <img src="/assets/img/zzu.png" alt="NJU Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <div>
-      <strong>Zhengzhou University</strong><br>
-      B.Eng<br>
-      <small>2016-2020</small>
+      <strong>Zhengzhou University</strong>
+      B.Eng
+      <em>2016-2020<em>
     </div>
   </li>
 </ul>
