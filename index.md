@@ -13,12 +13,14 @@ layout: homepage
 
 I am currently an Assistant Professor at the [Center for Advanced Control and Smart Operations (CACSO)](https://cacso.nju.edu.cn/main.psp), [Nanjing University](https://www.nju.edu.cn), [Suzhou Campus](https://njusz.nju.edu.cn). Previously, I served as a Postdoctoral Fellow at the [Multi-Scale Medical Robotics Center](https://www.mrc-cuhk.com/) and as a Research Associate in the [Department of Mechanical and Automation Engineering](https://www4.mae.cuhk.edu.hk/) at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html). I received my B.S. from the [University of Science and Technology of China](https://www.ustc.edu.cn/) in 2015, followed by a Ph.D. from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/) in 2020.
 
+
+I am a Senior Research Associate at Lancaster University and worked with Prof. Qiang Ni
+
 <h2 style="margin: 30px 0px 10px;">Research Interests</h2>
-- Hybrid feedback control
-- Coordination of multi-agent systems
-- Geometric control
-- Network formation
-- Application: Robot control systems    
+- Non-terrestrial networks
+- Vehicular networks
+- Semantic communications
+- Network economics   
   
 
 
