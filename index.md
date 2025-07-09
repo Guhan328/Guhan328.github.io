@@ -26,4 +26,7 @@ I am a Senior Research Associate at Lancaster University and worked with Prof. Q
 
 {% include_relative _includes/biography.md %}
 
+{% include_relative _includes/services.md %}
+
+
 <!-- {% include_relative _includes/contact.md %} -->
