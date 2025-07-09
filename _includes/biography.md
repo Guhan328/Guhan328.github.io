@@ -38,7 +38,7 @@
   </li>
 
   <li style="display: flex; align-items: center; margin-bottom: 15px;">
-    <img src="/assets/img/szzu.png" style="height: 40px; margin-right: 15px;">
+    <img src="/assets/img/zzu.png" style="height: 40px; margin-right: 15px;">
     <div>
       <strong>Zhengzhou University</strong><br>
       B.Eng<br>
