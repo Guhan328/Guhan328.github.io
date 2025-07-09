@@ -3,7 +3,7 @@
 
 <h2 style="margin: 80px 0px 10px;">Contact</h2>
 
-#<p>
+<p>
 <strong>Email:</strong> <email>   g.zheng2 (at) lancaster.ac.uk </email>
 <br />
 <strong>Office:</strong>   B28, InfoLab 21 
