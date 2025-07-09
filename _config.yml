@@ -8,11 +8,6 @@ affiliation_link: https://www.lancaster.ac.uk/
 affiliation_logo: ./assets/img/nju_logo.png
 email: g.zheng2@lancaster.ac.uk
 
-# Search Engine Optimization (SEO)
-#keywords: xin tong, tong xin, xintong, tongxin
-#canonical: https://cacso.nju.edu.cn/main.psp
-#description: Xin Tong is an assistant professor at Nanjing University. 
-
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: false
 
@@ -26,7 +21,7 @@ linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
 orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
-avatar: ./assets/img/TongXin_Photo_202208.jpg  # base: https://img.yliu.me/avatar.jpg 
+avatar: ./assets/img/guhan.jpg  
 favicon: ./assets/img/nju_favicon.ico
 favicon_dark: ./assets/img/nju_favicon.ico
 
