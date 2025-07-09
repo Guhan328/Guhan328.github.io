@@ -11,8 +11,6 @@ layout: homepage
 <!-- I received my B.S. in Applied Physics from the [University of Science and Technology of China](https://www.ustc.edu.cn/) in 2015, followed by a Ph.D. in Microelectronics and Solid-State Electronics from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/) in 2020. From 2021 to 2024, I served as a Research Associate in the [Department of Mechanical and Automation Engineering](https://www4.mae.cuhk.edu.hk/) and the [Multi-Scale Medical Robotics Center](https://www.mrc-cuhk.com/) at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), under the guidance of [Prof. Shing Shin Cheng](https://sites.google.com/view/surgicalroboticslab). -->
 
 
-I am currently an Assistant Professor at the [Center for Advanced Control and Smart Operations (CACSO)](https://cacso.nju.edu.cn/main.psp), [Nanjing University](https://www.nju.edu.cn), [Suzhou Campus](https://njusz.nju.edu.cn). Previously, I served as a Postdoctoral Fellow at the [Multi-Scale Medical Robotics Center](https://www.mrc-cuhk.com/) and as a Research Associate in the [Department of Mechanical and Automation Engineering](https://www4.mae.cuhk.edu.hk/) at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html). I received my B.S. from the [University of Science and Technology of China](https://www.ustc.edu.cn/) in 2015, followed by a Ph.D. from the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/) in 2020.
-
 
 I am a Senior Research Associate at Lancaster University and worked with Prof. Qiang Ni
 
