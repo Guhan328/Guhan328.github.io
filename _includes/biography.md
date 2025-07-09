@@ -1,6 +1,5 @@
-<h2 style="margin: 30px 0px 10px;">Biography</h2>
+<h2 style="margin: 30px 0px 10px;">Experience</h2>
 
-<h4 style="margin:0 10px 0;">Experience</h4>
 
 <ul style="margin:0 0 20px; list-style: none; padding: 0;">
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
@@ -18,7 +17,7 @@
   </li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Education</h4>
+<h2 style="margin: 30px 0px 10px;">Education</h2>
 
 <ul style="margin:0 0 20px; list-style: none; padding: 0;">
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
