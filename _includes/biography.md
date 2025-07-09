@@ -5,14 +5,14 @@
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
     <img src="/assets/img/lanc.png" alt="Lancaster Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <span>
-      <strong>Lancaster University</strong> — Senior Research Associate &nbsp; <em>2023 - Present</em>
+      <strong>Lancaster University</strong> &nbsp; Senior Research Associate &nbsp; <em>2023 - Present</em>
     </span>
   </li>
 
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
     <img src="/assets/img/sussex.png" alt="Sussex Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <span>
-      <strong>University of Sussex</strong> — Research Assistant &nbsp; <em>2023</em>
+      <strong>University of Sussex</strong> &nbsp; Research Assistant &nbsp; <em>2023</em>
     </span>
   </li>
 </ul>
@@ -23,14 +23,14 @@
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
     <img src="/assets/img/lanc.png" alt="Lancaster Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <span>
-      <strong>Lancaster University</strong> — Ph.D. &nbsp; <em>2020 - 2024</em>
+      <strong>Lancaster University</strong> &nbsp; Ph.D. &nbsp; <em>2020 - 2024</em>
     </span>
   </li>
 
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
     <img src="/assets/img/zzu.png" alt="ZZU Logo" style="height: 1em; margin-right: 8px; vertical-align: middle;">
     <span>
-      <strong>Zhengzhou University</strong> — B.Eng &nbsp; <em>2016 - 2020</em>
+      <strong>Zhengzhou University</strong> &nbsp; B.Eng &nbsp; <em>2016 - 2020</em>
     </span>
   </li>
 </ul>
