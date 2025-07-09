@@ -24,6 +24,6 @@ I am a Senior Research Associate at Lancaster University and worked with Prof. Q
 
 <!-- <strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600">I am actively looking for self-motivated Ph.D. students with interests in computer vision and machine learning. If you are interested, please send me an email.</strong></strong> -->
 
-{% include_relative _includes/news.md %}
+{% include_relative _includes/biography.md %}
 
 <!-- {% include_relative _includes/contact.md %} -->
