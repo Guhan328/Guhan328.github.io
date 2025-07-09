@@ -1,7 +1,7 @@
 <h1 id="publication"></h1>
 
-<h2 style="margin: 80px 0px 10px;">Selected Journal Papers</h2>
-
+<h2 style="margin: 80px 0px 10px;">Selected Publications</h2>
+<p style="font-size: 0.8rem; color: #666; margin-top: 4px;">* is corresponding author</p>
 
 <ol style="margin:0 0 5px;">
   <li><a href="https://ieeexplore.ieee.org/document/10735354"><autocolor><strong>Tong, Xin</strong>, Qingpeng Ding, and Shing Shin Cheng. "Global Coordinated Stabilization of Multiple Simple Mechanical Control Systems on a Class of Lie Groups." IEEE Transactions on Automatic Control 70, no. 3 (2025): 2043-50</autocolor></a></li>
