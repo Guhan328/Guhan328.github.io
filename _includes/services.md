@@ -10,7 +10,7 @@
   <li><autocolor>IEEE Transactions on Mobile Computing</autocolor></li>
   <li><autocolor>IEEE Transactions on Communications</autocolor></li>
   <li><autocolor>IEEE Transactions on Green Communications and Networking</autocolor></li>
- 
+</ul> 
 
 
   
