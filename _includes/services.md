@@ -1,6 +1,4 @@
-<h1 id="services"></h1>
-
-<h2 style="margin: 80px 0px 10px;">Academic Services</h2>
+<h2 style="margin: 30px 0px 10px;">Academic Services</h2>
 
 <h4 style="margin:0 10px 0;">Journal Reviewer</h4>
 
