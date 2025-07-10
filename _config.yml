@@ -19,7 +19,7 @@ enable_last_update: true
 link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl=EN
 linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
-orcid: https://orcid.org/0000-0001-5602-1108
+ieee: https://ieeexplore.ieee.org/author/37089447351
 
 # Images 
 avatar: ./assets/img/guhan2.jpg  
