@@ -9,7 +9,7 @@
 <h4 style="margin:0 10px 0;">2025</h4>
 <ol style="margin:0 0 5px;">
   <li><autocolor><strong>Guhan Zheng</strong>, Qiang Ni*, Keivan Navaie, and Charilaos Zarakovitis, "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems," <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025.</autocolor><a href="https://ieeexplore.ieee.org/abstract/document/10734671">[Link]</a></li>
-  <li><autocolor>Jie Liang, Zhengxin Yu, Haris Pervaiz, <strong>Guhan Zheng*</strong>, and Neeraj Suri, "Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things," <em>IEEE Internet of Things Journal</em>, 2025.</autocolor><a href="https://ieeexplore.ieee.org/abstract/document/10919123">[Link]</a></li>
+  <li><autocolor>Jie Liang, Zhengxin Yu, Haris Pervaiz, <strong>Guhan Zheng*</strong>, and Neeraj Suri, "Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things," <em>IEEE Internet of Things Journal</em>, 2025.</autocolor><a href="https://ieeexplore.ieee.org/document/11075850">[Link]</a></li>
   <li><autocolor><strong>Guhan Zheng</strong>, Zhengxin Yu*, Haris Pervaiz, Luyao Zhang, Haejoon Jung, and Syed Ali Hassan, "Towards Fairness and Green Semantic Communication System: An Anti-discrimination Federated Learning Approach," <em>IEEE International Conference on Communications</em>, 2025.</autocolor></li>
 </ol>
 
