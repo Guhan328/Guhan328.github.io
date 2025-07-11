@@ -2,7 +2,7 @@
 
 <ul style="margin:0 0 20px; list-style: none; padding: 0;">
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
-    <img src="/assets/img/lanc.png" alt="Lancaster Logo" style="height: 1em; margin-right: 10px; vertical-align: middle;">
+    <img src="/assets/img/lanc.png" alt="Lancaster Logo" style="height: 1em; margin-right: 11px; vertical-align: middle;">
     <span>
       <strong style="display: inline-block; width: 180px;">Lancaster University</strong> Senior Research Associate &nbsp; <em>2023 - Present</em>
     </span>
@@ -20,7 +20,7 @@
 
 <ul style="margin:0 0 20px; list-style: none; padding: 0;">
   <li style="display: flex; align-items: center; white-space: nowrap; margin-bottom: 10px;">
-    <img src="/assets/img/lanc.png" alt="Lancaster Logo" style="height: 1em; margin-right: 10px; vertical-align: middle;">
+    <img src="/assets/img/lanc.png" alt="Lancaster Logo" style="height: 1em; margin-right: 11px; vertical-align: middle;">
     <span>
       <strong style="display: inline-block; width: 180px;">Lancaster University</strong> Ph.D. &nbsp; <em>2020 - 2024</em>
     </span>
