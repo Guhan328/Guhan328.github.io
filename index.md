@@ -12,7 +12,7 @@ layout: homepage
 
 
 
-I am a Senior Research Associate at Lancaster University and worked with Prof. Qiang Ni
+I received the B.Eng. degree in telecommunication engineering from Zhengzhou University, China, in 2020, and the Ph.D. degree in communication systems from Lancaster University, U.K., in 2024. I was a Research Assistant with the University of Sussex, U.K., in 2023. I am currently a Senior Research Associate with the School of Computing and Communications at Lancaster University.
 
 <h2 style="margin: 30px 0px 10px;">Research Interests</h2>
 - Non-terrestrial networks
