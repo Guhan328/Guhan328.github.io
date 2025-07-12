@@ -12,7 +12,7 @@ layout: homepage
 
 
 
-I received the B.Eng. degree in telecommunication engineering from Zhengzhou University, China, in 2020, and the Ph.D. degree in communication systems from Lancaster University, U.K., in 2024. I was a Research Assistant with the University of Sussex, U.K., in 2023. I am currently a Senior Research Associate with the School of Computing and Communications at Lancaster University.
+Guhan Zheng received the B.Eng. degree in telecommunication engineering from Zhengzhou University, Zhengzhou, China, in 2020, and the Ph.D. degree in communication systems from Lancaster University, Lancaster, U.K., in 2024. In 2023, he was a Research Assistant at the University of Sussex, Brighton, U.K. He is currently a Senior Research Associate with the School of Computing and Communications at Lancaster University. He has published, as the first author in multiple IEEE flagship and top-tier journals/magazines/conferences, including IEEE JSAC, COMMAG, ICC, etc. In parallel, he is serving as a technical reviewer for IEEE JSAC, TMC, TWC, and TCOM. He also served as a regular TPC member for IEEE ICC, GlobeCom, and TrustCom. 
 
 <h2 style="margin: 30px 0px 10px;">Research Interests</h2>
 - Non-terrestrial networks
