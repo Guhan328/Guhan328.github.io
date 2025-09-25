@@ -2,6 +2,8 @@
 layout: homepage
 ---
 
+<div id="top"></div>
+
 <h1 id="about-me"></h1>
 
 <h2 style="margin: 80px 0px 10px;">个人介绍</h2>
