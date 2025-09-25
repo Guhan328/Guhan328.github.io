@@ -4,5 +4,5 @@
 
 
 <ol style="margin:0 0 5px;">
-  <li><a href="https://ieeexplore.ieee.org/abstract/document/11075850"><autocolor>Jie Liang; Zhengxin Yu; Haris Pervaiz; <strong>Guhan Zheng*</strong>; Neeraj Suri; Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things, <em>IEEE Internet of Things Journal</em>, 2025, 17(12): 34875-34889. (Q1)</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/11075850"><autocolor>Jie Liang; Zhengxin Yu; Haris Pervaiz; <strong>Guhan Zheng*</strong>; Neeraj Suri; Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things, <em>IEEE Internet of Things Journal</em>, 2025, 17(12): 34875-34889. (SCI一区)</autocolor></a></li>
 </ol>
