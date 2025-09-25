@@ -4,7 +4,10 @@
 
 
 <ol style="margin:0 0 5px;">
-  <li><a href="https://ieeexplore.ieee.org/document/11112788"><autocolor>Ding, Qingpeng, Yongjun Yan, <strong>Xin Tong</strong>, Kim Yan, Wu Yuan, George Kwok Chu Wong, and Shing Shin Cheng. "Integrating in-Bore Navigation Frames with Continuum Robot for Mri-Guided Steerable Laser Ablation of Brain Tumor." IEEE Transactions on Medical Robotics and Bionics 7, no. 3 (2025): 1099–110.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/11075850"><autocolor>Jie Liang; Zhengxin Yu; Haris Pervaiz; <strong>Guhan Zheng*<\strong>; Neeraj Suri; Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things, <strong>IEEE Internet of Things Journal<strong>, 2025, 17(12): 34875-34889.</autocolor></a></li>
+
+
+    
   <li><a href="https://ieeexplore.ieee.org/document/10735354"><autocolor><strong>Tong, Xin</strong>, Qingpeng Ding, and Shing Shin Cheng. "Global Coordinated Stabilization of Multiple Simple Mechanical Control Systems on a Class of Lie Groups." IEEE Transactions on Automatic Control 70, no. 3 (2025): 2043-50</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/document/10645234"><autocolor><strong>Tong, Xin</strong> and Shing Shin Cheng. "Centrally Synergistic Hybrid Feedback for Global Pose Tracking Using Dual Quaternions." IEEE Transactions on Aerospace and Electronic Systems 61, no. 1 (2025): 195-207.</autocolor></a></li>
   <li><a href="https://doi.org/10.1016/j.automatica.2024.111785"><autocolor><strong>Tong, Xin</strong>, Qingpeng Ding, Haiyang Fang, and Shing Shin Cheng. "Quaternion-Based Attitude Stabilization Using Synergistic Hybrid Feedback with Minimal Potential Functions." Automatica 168 (2024): 111785.</autocolor></a></li>
