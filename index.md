@@ -18,24 +18,24 @@ layout: homepage
 
 
 <h1 id="group"></h1>
-<h2 style="margin: 80px 0px 10px;">学生培养</h2>
+<h2 style="margin: 30px 0px 10px;">学生培养</h2>
 招收2026级硕士研究生，欢迎前来询问
 
-<h3 style="margin: 80px 0px 10px;">硕士生</h3>
+<h3 style="margin: 30px 0px 10px;">硕士生</h3>
 刘欣（2025级）
 
-<h3 style="margin: 80px 0px 10px;">参与指导博士生</h3>
+<h3 style="margin: 30px 0px 10px;">参与指导博士生</h3>
 Yushi Wang, [英国兰卡斯特大学]（2023级）
 Jie Liang, [英国兰卡斯特大学] （2025级）IEEE IoT-J 1篇
 
 <h1 id="porject"></h1>
-<h2 style="margin: 80px 0px 10px;">科研项目</h2>
+<h2 style="margin: 80px 0px 10px;">承担或参与的科研项目</h2>
 
 
 
   
 <h1 id="publication"></h1>
-<h2 style="margin: 80px 0px 10px;">第一/通讯作者期刊论文（部分）</h2>
+<h2 style="margin: 30px 0px 10px;">第一/通讯作者期刊论文（部分）</h2>
 <ol style="margin:0 0 5px;">
   <li><a href="https://ieeexplore.ieee.org/abstract/document/11075850"><autocolor>Jie Liang; Zhengxin Yu; Haris Pervaiz; <strong>Guhan Zheng*</strong>; Neeraj Suri; Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things, <em>IEEE Internet of Things Journal</em>, 2025. (SCI一区)</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10919123"><autocolor><strong>Guhan Zheng</strong>; Qiang Ni; Keivan Navaie; Charilaos Zarakovitis; Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems, <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2025. (SCI一区)</autocolor></a></li>
