@@ -25,10 +25,10 @@ layout: homepage
 <h1 id="group"></h1>
 <h2 style="margin: 30px 0px 10px;">学生培养</h2>
 
--<h3 style="margin: 30px 0px 10px;">硕士生</h3>
+<h3 style="margin: 30px 0px 10px;">-硕士生</h3>
 刘欣（2025级）
 
--<h3 style="margin: 30px 0px 10px;">参与指导博士生</h3>
+<h3 style="margin: 30px 0px 10px;">-参与指导博士生</h3>
 <p>Yushi Wang, [英国兰卡斯特大学]（2023级）</p>
 <p>Jie Liang, [英国兰卡斯特大学] （2025级）IEEE IoT-J 1篇</p>
 
