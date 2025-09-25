@@ -30,8 +30,8 @@ layout: homepage
 
 <h1 id="porject"></h1>
 <h2 style="margin: 80px 0px 10px;">承担或参与的科研项目</h2>
-<p>Western O-RAN Dense Mobile Challenge</p>
-<p>Net Zero and Sustainable 6G: communications, sensing and computing</p>
+- 参与 Western O-RAN Dense Mobile Challenge
+- 参与 Net Zero and Sustainable 6G: communications, sensing and computing
 
   
 <h1 id="publication"></h1>
