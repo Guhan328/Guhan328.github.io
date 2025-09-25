@@ -1,17 +1,17 @@
 # Basic Information 
-title: Xin Tong
-position: Assistant Professor
-department: CACSO
-department_link: https://cacso.nju.edu.cn/main.psp
-affiliation: Nanjing University
-affiliation_link: https://www.nju.edu.cn
+title: 郑谷寒
+position: 副教授
+department: 通信与信息工程学院
+department_link: https://scie.shu.edu.cn/
+affiliation: 上海大学
+affiliation_link: https://www.shu.edu.cn/
 affiliation_logo: ./assets/img/nju_logo.png
-email: xintong (at) nju.edu.cn
+email: gzheng (at) shu.edu.cn
 
 # Search Engine Optimization (SEO)
-keywords: xin tong, tong xin, xintong, tongxin
-canonical: https://cacso.nju.edu.cn/main.psp
-description: Xin Tong is an assistant professor at Nanjing University. 
+keywords: 郑谷寒, guhan zheng
+canonical: https://scie.shu.edu.cn/
+description: 
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: false
@@ -21,11 +21,9 @@ enable_last_update: true
 
 # Links
 link_type: icon #text/icon
-# google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-# github_link: https://github.com/yaoyao-liu/
-# linkedin: https://www.linkedin.com/in/liuyaoyao/
-# twitter: https://twitter.com/YaoyaoLiu1/
-orcid: https://orcid.org/0000-0002-6646-0638
+google_scholar: https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl
+linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
+orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
 avatar: ./assets/img/TongXin_Photo_202208.jpg  # base: https://img.yliu.me/avatar.jpg 
