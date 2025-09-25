@@ -20,12 +20,14 @@
     margin-bottom:0pt;
     margin-top:10pt;
     margin-left:30%;
+	width: 30px;        
+    height: 30px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a.normal {
     float: right;
-    color: #0B6F8F;
+    color: #ffffff;
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
