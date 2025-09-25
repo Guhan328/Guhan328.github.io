@@ -1,17 +1,19 @@
 main:
-
-  - title: "Contact"
-    url: /contact/
+  - title: "联系方式"
+    url: "#contact"
     right: true 
 
-  # - title: "Services"
-  #   url: /services/
+  - title: "科研成果"
+    url: "#publication"
 
-  # - title: "Teaching"
-  #   url: ./teaching.html
+  - title: "科研项目"
+    url: "#porject"
 
-  - title: "Publications"
-    url: /publications/
+  - title: "学生培养"
+    url: "#group"
 
-  - title: "Home"
-    url: /
+  - title: "个人介绍"
+    url: "#about-me"
+
+  - title: "首页"
+    url: "#top"
