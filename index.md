@@ -25,13 +25,13 @@ layout: homepage
 刘欣（2025级）
 
 <h3 style="margin: 30px 0px 10px;">参与指导博士生</h3>
-Yushi Wang, [英国兰卡斯特大学]（2023级）
-Jie Liang, [英国兰卡斯特大学] （2025级）IEEE IoT-J 1篇
+<p>Yushi Wang, [英国兰卡斯特大学]（2023级</p>
+<p>Jie Liang, [英国兰卡斯特大学] （2025级）IEEE IoT-J 1篇</p>
 
 <h1 id="porject"></h1>
 <h2 style="margin: 80px 0px 10px;">承担或参与的科研项目</h2>
-
-
+<p>Western O-RAN Dense Mobile Challenge</p>
+<p>Net Zero and Sustainable 6G: communications, sensing and computing</p>
 
   
 <h1 id="publication"></h1>
