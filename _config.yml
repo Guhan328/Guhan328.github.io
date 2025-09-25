@@ -27,8 +27,8 @@ orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
 avatar: ./assets/img/phd.jpg  # base: https://img.yliu.me/avatar.jpg 
-favicon: ./assets/img/nju_favicon.ico
-favicon_dark: ./assets/img/nju_favicon.ico
+#favicon: ./assets/img/nju_favicon.ico
+#favicon_dark: ./assets/img/nju_favicon.ico
 
 # Footnotes
 #footnote: Powered by Jekyll and Minimal Light theme.
