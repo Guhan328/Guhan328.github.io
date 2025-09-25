@@ -47,4 +47,13 @@ Communication Networks, <em>IEEE Internet of Things Journal</em>, 2024. (SCI一�
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10527365"><autocolor><strong>Guhan Zheng</strong>; Qiang Ni; Keivan Navaie; Haris Pervaiz; Aryan Kaushik; Charilaos Zarakovitis; Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks, <em>IEEE Transactions on Green Communications and Networking</em>, 2024. (SCI一区)</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10328182"><autocolor><strong>Guhan Zheng</strong>; Qiang Ni; Keivan Navaie; Haris Pervaiz; Charilaos Zarakovitis; A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading, <em>IEEE Communications Magazine</em>, 2024. (SCI一区)</autocolor></a></li>
 </ol>
+
+<h1 id="contact"></h1> 
+
+<h2 style="margin: 30px 0px 10px;">联系方式</h2>
+<p>
+<strong>邮箱:</strong> <email>   gzheng@shu.edu.cn </email>
+<br />
+<strong>办公室:</strong>   上海大学宝山校区东区12号楼B301
+
   
