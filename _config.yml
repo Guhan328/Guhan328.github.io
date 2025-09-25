@@ -5,7 +5,7 @@ department: 通信与信息工程学院
 department_link: https://scie.shu.edu.cn/
 affiliation: 上海大学
 affiliation_link: https://www.shu.edu.cn/
-affiliation_logo: ./assets/img/nju_logo.png
+affiliation_logo: ./assets/img/pic2.png
 email: gzheng (at) shu.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -26,13 +26,13 @@ linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
 orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
-avatar: ./assets/img/TongXin_Photo_202208.jpg  # base: https://img.yliu.me/avatar.jpg 
+avatar: ./assets/img/phd.jpg  # base: https://img.yliu.me/avatar.jpg 
 favicon: ./assets/img/nju_favicon.ico
 favicon_dark: ./assets/img/nju_favicon.ico
 
 # Footnotes
-footnote: Powered by Jekyll and Minimal Light theme.
-footnote_link: https://github.com/yaoyao-liu/yaoyao-liu.github.io
+#footnote: Powered by Jekyll and Minimal Light theme.
+#footnote_link: https://github.com/yaoyao-liu/yaoyao-liu.github.io
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
