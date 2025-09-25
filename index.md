@@ -19,8 +19,8 @@ layout: homepage
 
 <h1 id="group"></h1>
 <h2 style="margin: 30px 0px 10px;">学生培养</h2>
-招收<mark>2026级</mark>硕士研究生，欢迎前来询问
-<mark>欢迎大二、大三优秀本科生加入，表现突出者可获海外直博推荐</mark>
+<p>招收<mark>2026级</mark>硕士研究生，欢迎前来询问</p>
+<p><mark>欢迎大二、大三优秀本科生加入，表现突出者可获海外直博推荐</mark></p>
 
 <h3 style="margin: 30px 0px 10px;">硕士生</h3>
 刘欣（2025级）
