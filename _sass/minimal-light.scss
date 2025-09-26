@@ -1,29 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-
-@font-face {
-    font-family: "KaiTiOnlyCN";
-    src: local("KaiTi"), local("STKaiti"), local("华文楷体");
-    unicode-range: U+4E00-9FFF; 
-}
-body { 
-    background-color: #fff; 
-    padding: 0px; 
-    font: 16.0px/1.5 "Times New Roman", Times, serif;
-    color: #595959; 
-    font-weight: 400; 
-    margin: 0; 
-}
-
-
-[class^="icon"], 
-[class*=" icon"], 
-[class^="fa"], 
-[class*=" fa"], 
-[class^="ai"], 
-[class*=" ai"] {
-    font-family: inherit; /* 保持它们原来的图标字体，不被楷体覆盖 */
-}
+body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif; color: #595959; font-weight: 400; margin: 0; }
 
 .pub-row { display: flex; align-items: center; }
 
