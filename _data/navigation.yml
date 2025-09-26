@@ -1,19 +1,19 @@
-main:
-  - title: "联系方式"
-    url: "#contact"
-    right: true 
+#main:
+  #- title: "联系方式"
+  #  url: "#contact"
+  #  right: true 
 
-  - title: "科研成果"
-    url: "#publication"
+  #- title: "科研成果"
+  #  url: "#publication"
 
-  - title: "科研项目"
-    url: "#porject"
+  #- title: "科研项目"
+  #  url: "#porject"
 
-  - title: "学生培养"
-    url: "#group"
+  #- title: "学生培养"
+  #  url: "#group"
 
-  - title: "个人介绍"
-    url: "#about-me"
+  #- title: "个人介绍"
+  #  url: "#about-me"
 
-  - title: "首页"
-    url: "#top"
+  #- title: "首页"
+  #  url: "#top"
