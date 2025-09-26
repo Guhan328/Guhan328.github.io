@@ -12,8 +12,8 @@ main:
   - title: "学生培养"
     url: "#group"
 
-  - title: "个人介绍"
-    url: "#about-me"
+  #- title: "个人介绍"
+  #  url: "#about-me"
 
-  - title: "首页"
-    url: "#top"
+  #- title: "首页"
+  #  url: "#top"
