@@ -3,10 +3,16 @@
 body { 
     background-color: #fff; 
     padding: 0px; 
-    font: 16.0px/1.5 "Times New Roman", Times, serif, "楷体", "STKaiti", "华文楷体", "Microsoft YaHei"; 
+    font: 16.0px/1.5 "Times New Roman", Times, serif;
     color: #595959; 
     font-weight: 400; 
     margin: 0; 
+}
+
+
+body, 
+:not([class*="icon"]):not([class*="button"]) {
+    font-family: "楷体", "STKaiti", "华文楷体", "Microsoft YaHei", "Times New Roman", Times, serif;
 }
 .pub-row { display: flex; align-items: center; }
 
