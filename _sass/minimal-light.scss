@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+@font-face {
+    font-family: "KaiTiOnlyCN";
+    src: local("KaiTi"), local("STKaiti"), local("华文楷体");
+    unicode-range: U+4E00-9FFF; 
+
 body { 
     background-color: #fff; 
     padding: 0px; 
@@ -10,10 +16,15 @@ body {
 }
 
 
-body, 
-:not([class*="icon"]):not([class*="button"]) {
-    font-family: "楷体", "STKaiti", "华文楷体", "Microsoft YaHei", "Times New Roman", Times, serif;
+[class^="icon"], 
+[class*=" icon"], 
+[class^="fa"], 
+[class*=" fa"], 
+[class^="ai"], 
+[class*=" ai"] {
+    font-family: inherit; /* 保持它们原来的图标字体，不被楷体覆盖 */
 }
+
 .pub-row { display: flex; align-items: center; }
 
 .social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: #13294B !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
