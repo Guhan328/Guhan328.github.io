@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #0B6F8F; /*上大蓝*/
+    background-color: #00457D; /*#0B6F8F;上大蓝*/
     overflow: hidden;
 	  position:fixed;
 	  z-index:999;
