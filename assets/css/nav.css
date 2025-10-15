@@ -28,9 +28,10 @@
     float: right;
     color: #ffffff;
     text-align: center;
-    padding: 10px 9px;
+    padding: 15px 9px;
     text-decoration: none;
     font-size: 16px;
+	line-height: 1;
   }
   
   /* Change the color of links on hover */
@@ -136,18 +137,20 @@
         text-decoration: none;
         font-size: 14px;
         display: block;
+		line-height: 1;
       }
 
       .topnav a.icon {
         color: white;
         display: block;
-        padding: 10px 16px;
+        padding: 14px 16px;
         font-size: 17px;
         position: absolute;
         float: right;
         right: 0;
         top: 0;
         margin-right:5%;
+		line-height: 1;
       }
 
       .topnav a.right {
@@ -158,6 +161,7 @@
         font-size: 14px;
         display: block;
         margin-right:0;
+		line-height: 1;
       }
    }
    
