@@ -2,9 +2,10 @@
 .topnav {
     background-color: #00457D; /*#0B6F8F;上大蓝*/
     overflow: hidden;
-	  position:fixed;
-	  z-index:999;
+	position:fixed;
+	z-index:999;
     width:100%;
+	height: 60px;
   }
 
 
@@ -21,6 +22,7 @@
     margin-top:10pt;
     margin-left:30%;      
     #height: 30px;
+	vertical-align: middle;
   }
   
   /* Style the links inside the navigation bar */
@@ -28,11 +30,15 @@
     float: right;
     color: #ffffff;
     text-align: center;
-    padding: 15px 9px;
+    padding: 0 9px; /* 上下padding改为0 */
     text-decoration: none;
     font-size: 16px;
-	line-height: 1;
-  }
+    line-height: 60px; /* 与导航栏高度一致 */
+    height: 60px;
+    display: inline-block; /* 确保line-height生效 */
+    vertical-align: middle; /* 垂直居中 */
+}
+
   
   /* Change the color of links on hover */
   .topnav a.normal:hover {
@@ -133,25 +139,27 @@
       .topnav a.normal {
         color: white;
         float: none;
-        padding: 14px 16px;
+        padding: 0 16px; /* 上下padding改为0 */
         text-decoration: none;
         font-size: 14px;
         display: block;
-		line-height: 1;
-      }
+        line-height: 50px; /* 设置合适的行高 */
+        height: 50px;
+    }
 
       .topnav a.icon {
         color: white;
         display: block;
-        padding: 14px 16px;
+        padding: 0 16px; /* 上下padding改为0 */
         font-size: 17px;
         position: absolute;
-        float: right;
         right: 0;
-        top: 0;
-        margin-right:5%;
-		line-height: 1;
-      }
+        top: 50%; /* 改为垂直居中 */
+        transform: translateY(-50%); /* 配合top:50%实现完美居中 */
+        margin-right: 5%;
+        line-height: 50px;
+        height: 50px;
+    }
 
       .topnav a.right {
         color: white;
