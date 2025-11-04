@@ -54,6 +54,6 @@ Communication Networks, <em>IEEE Internet of Things Journal</em>, 2024. (SCI一�
 <p>
 <strong>邮箱:</strong> <email>   gzheng@shu.edu.cn </email>
 <br />
-<strong>办公室:</strong>   上海大学宝山校区东区12号楼B301
+<strong>办公室:</strong>   上海大学宝山校区东区12号楼B327
 
   
