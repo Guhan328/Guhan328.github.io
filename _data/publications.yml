@@ -1,1 +1,65 @@
+- title: "Game Theory Empowered Carbon-Intelligent Federated Multi-Edge Caching for Industrial Internet of Things"
+  authors: "Jie Liang, Zhengxin Yu, Haris Pervaiz, Guhan Zheng*, Neeraj Suri"
+  venue: "IEEE Internet of Things Journal"
+  year: 2025
+  type: "journal"
+  url: "https://ieeexplore.ieee.org/abstract/document/11075850"
 
+#- title: "Towards Fairness and Green Semantic Communication System: An Anti-Discrimination Federated Learning Approach" 
+#  authors: "Guhan Zheng, Zhengxin Yu, Haris Pervaiz, Luyao Zhang, Haejoon Jung, Syed Ali Hassan"
+#  venue: "ICC 2025"
+#  year: 2025
+#  type: "conference"
+#  url: "https://ieeexplore.ieee.org/abstract/document/11161092"
+  
+- title: "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems"
+  authors: "Guhan Zheng, Qiang Ni, Keivan Navaie, Charilaos Zarakovitis"
+  venue: "IEEE Transactions on Intelligent Transportation Systems"
+  year: 2025  
+  type: "journal"
+  url: "https://ieeexplore.ieee.org/abstract/document/10919123"
+
+- title: "Privacy-aware anomaly detection and notification enhancement for VANET based on collaborative intrusion detection system"
+  authors: "Guhan Zheng, Qiang Ni, Yang Lu"
+  venue: "IEEE Transactions on Intelligent Transportation Systems"
+  year: 2024
+  type: "journal"
+  url: "https://ieeexplore.ieee.org/abstract/document/10734671"
+
+#- title: "Energy-efficient secure dynamic service migration for edge-based 3-D networks"
+#  authors: "Guhan Zheng, Keivan Navaie, Qiang Ni, Haris Pervaiz, Charilaos Zarakovitis"
+#  venue: "Telecommunication Systems"
+#  year: 2024
+#  type: "journal"
+#  url: "https://ieeexplore.ieee.org/abstract/document/10445211"
+
+- title: "Mobility-aware split-federated with transfer learning for vehicular semantic communication networks"
+  authors: "Guhan Zheng, Qiang Ni, Keivan Navaie, Haris Pervaiz, Geyong Min, Aryan Kaushik, Charilaos Zarakovitis"
+  venue: "IEEE Internet of Things Journal"
+  year: 2024
+  type: "journal"
+  url: "https://link.springer.com/article/10.1007/s11235-023-01094-2"
+
+
+- title: "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks"
+  authors: "Guhan Zheng, Qiang Ni, Keivan Navaie, Haris Pervaiz, Aryan Kaushik, Charilaos Zarakovitis"
+  venue: "IEEE Transactions on Green Communications and Networking"
+  year: 2024
+  type: "journal"
+  url: "https://ieeexplore.ieee.org/abstract/document/10527365"
+
+- title: "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading"
+  authors: "Guhan Zheng, Qiang Ni, Keivan Navaie, Haris Pervaiz, Charilaos Zarakovitis"
+  venue: "IEEE Communications Magazine"
+  year: 2023
+  type: "journal"
+  url: "https://ieeexplore.ieee.org/abstract/document/10328182"
+
+
+
+
+
+
+
+
+  
