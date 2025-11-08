@@ -6,6 +6,14 @@ author_profile: true
 sitemap: true
 ---
 
+
+<!-- 调试信息 -->
+<p>调试信息: 总共 {{ site.publications | size }} 篇论文</p>
+
+{% for pub in site.publications %}
+<p>{{ pub.title }} - {{ pub.year }}</p>
+{% endfor %}
+
 <p>All my publications are available from <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>.</p>
 
 
