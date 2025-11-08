@@ -22,55 +22,25 @@ atom_feed:
 # Site Author
 author:
   name             : "Guhan Zheng"
-  avatar           : "/images/profile.png"
-  bio              : "Matthew Bradbury is a Senior Lecturer conducting research into security, context privacy and trust assessment in resource-constrained and distributed systems."
+  avatar           : "/images/2寸照.png"
+  #bio              : "Guhan Zheng is an Associate Professor"
   
   employer         : "Shanghai University"
   employer_url     : "https://en.shu.edu.cn/"
   email            : gzheng@shu.edu.cn
-  #uri              : "https://www.research.lancs.ac.uk/portal/en/people/matthew-bradbury(a725915d-0988-4573-8d81-5784ead7fd75).html"
   links: &author_links
-    # - label: "Twitter"
-    #   icon: "fab fa-fw si-twitter-square"
-    #   url: "https://twitter.com/MattBradbury_"
     - label: "LinkedIn"
       icon: "fab fa-fw si-linkedin"
       url: "https://www.linkedin.com/in/guhan-zheng-69139a184/"
-    #- label: "GitHub"
-    #  icon: "fab fa-fw si-github"
-    #  url: "https://github.com/MBradbury"
-    #- label: "GitLab"
-    #  icon: "fab fa-fw fa-gitlab"
-    #  url:
-    #- label: "Bitbucket"
-    #  icon: "fab fa-fw fa-bitbucket"
-    #  url:
-    #- label: "DBLP"
-    #  icon: "ai fa-fw si-dblp-square"
-    #  url: "https://dblp.uni-trier.de/pers/hd/b/Bradbury:Matthew"
     - label: "Google Scholar"
       icon: "ai fa-fw si-google-scholar"
       url: "https://scholar.google.co.uk/citations?user=377WJ7IAAAAJ&hl"
-    #- label: "Semantic Scholar"
-    #  icon: "ai fa-fw si-semantic-scholar"
-    #  url: "https://www.semanticscholar.org/author/M.-Bradbury/31941534"
     - label: "ORCID"
       icon: "ai fa-fw si-orcid"
       url: "https://orcid.org/0000-0001-5602-1108"
-    #- label: "Scopus"
-    #  icon: "ai fa-fw si-scopus"
-    #  url: "https://www.scopus.com/authid/detail.uri?authorId=55440590400"
-    #- label: "ACM"
-    #  icon: "ai fa-fw ai-acm-square"
-    #  url: "https://dl.acm.org/profile/81508705455"
-    #- label: "WRAP"
-    #  icon: "fab fa-fw fa-link"
-    #  url: "https://wrap.warwick.ac.uk/view/author_id/39286.html"
-  #other_links:
-  #  - https://www.lancaster.ac.uk/scc/about-us/people/matthew-bradbury
 
-footer:
-  links: *author_links
+#footer:
+#  links: *author_links
 
 # Reading Files
 include:
