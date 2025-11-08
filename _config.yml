@@ -95,8 +95,8 @@ kramdown:
 collections:
   publications:
     output: true
-    sort_by: publishDate
-    permalink: /:collection/:path/
+    permalink: /publications/:path/
+    sort_by: year
   publications_hidden:
     output: false
   projects:
@@ -104,12 +104,12 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    sort_by: publishDate
     permalink: /:collection/:path/
+    sort_by: year
   blog:
     output: true
-    sort_by: publishDate
     permalink: /:collection/:path/
+    sort_by: date
   blog_hidden:
     output: false
 
@@ -128,15 +128,30 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single-project
+      layout: single
       author_profile: true
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single-publication
+      layout: single
+      author_profile: false
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
       author_profile: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: true
+
 
 # Sass/SCSS
 # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
