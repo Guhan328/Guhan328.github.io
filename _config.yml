@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Dr. Matthew Bradbury"
+title                    : "Guhan Zheng"
 title_separator          : "-"
 name                     : &name "Dr. Matthew Bradbury"
 description              : &description "Lecturer at Lancaster University"
-url                      : https://MBradbury.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "MBradbury/MBradbury.github.io"
-initial_year             : 2021
+#url                      : https://MBradbury.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#baseurl                  : "" # the subpath of your site, e.g. "/blog"
+#repository               : "MBradbury/MBradbury.github.io"
+#initial_year             : 2021
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 future                   : true
