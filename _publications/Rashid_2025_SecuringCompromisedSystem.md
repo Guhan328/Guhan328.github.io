@@ -4,5 +4,5 @@ authors: "Jie Liang, Zhengxin Yu, Haris Pervaiz, Guhan Zheng*, Neeraj Suri"
 venue: "IEEE Internet of Things Journal"
 year: 2025
 paper_type: "journal"
-url: "https://example.com/paper-link"  # 只需要这个字段
+url: "https://example.com/paper-link" 
 ---
