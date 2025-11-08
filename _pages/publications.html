@@ -11,14 +11,22 @@ sitemap: true
 <h2 id="FirstAuthor">First/Corresponding Author</h2>
 <ul class="publication-list">
 {% for publication in site.publications %}
-    {% if publication.first_author == true %}
+    {% if publication.first_author == true or publication.corresponding_author == true %}
     <li class="publication publication-{{ publication.paper_type | default: 'other' }}">
         <span>
         <strong>{{ publication.title }}</strong><br>
         {{ publication.authors }}<br>
         <em>{{ publication.venue }}</em>, {{ publication.year }}
         {% if publication.url %} [<a href="{{ publication.url }}" target="_blank">Paper Link</a>]{% endif %}
-        <span style="color: #e74c3c; font-weight: bold;">(First Author)</span>
+        
+        <!-- 显示作者身份标签 -->
+        {% if publication.first_author == true and publication.corresponding_author == true %}
+            <span style="color: #e74c3c; font-weight: bold;">(First & Corresponding Author)</span>
+        {% elsif publication.first_author == true %}
+            <span style="color: #e74c3c; font-weight: bold;">(First Author)</span>
+        {% elsif publication.corresponding_author == true %}
+            <span style="color: #2980b9; font-weight: bold;">(Corresponding Author)</span>
+        {% endif %}
         </span>
     </li>
     {% endif %}
@@ -28,7 +36,7 @@ sitemap: true
 <h2 id="OtherPublications">Others</h2>
 <ul class="publication-list">
 {% for publication in site.publications %}
-    {% if publication.first_author != true %}
+    {% if publication.first_author != true and publication.corresponding_author != true %}
     <li class="publication publication-{{ publication.paper_type | default: 'other' }}">
         <span>
         <strong>{{ publication.title }}</strong><br>
