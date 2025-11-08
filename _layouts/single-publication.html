@@ -19,7 +19,6 @@ layout: default
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.abstract %}<meta itemprop="abstract" content="{{ page.abstract | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.publishDate %}<meta itemprop="datePublished" content="{{ page.publishDate | date_to_xmlschema }}">{% endif %}
-    {% if page.file %}<meta itemprop="archivedAt" content="{{ page.file }}">{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -29,73 +28,17 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        <!-- 论文链接 -->
-        <div class="publication-links">
-          {% if page.bibtex or page.file or page.poster or page.presentation or page.dataset or page.project %}
+        <!-- 只保留一个简单的URL链接 -->
+        {% if page.url_link %}
+          <div class="publication-links">
             <p>
-              {% if page.bibtex %}
-               [<a href="{{ page.bibtex }}"><i class="fas si-asterisk"></i> bibtex</a>] 
-              {% endif %}
-              {% if page.file %}
-               [<a href="{{ page.file }}"><i class="fas si-file-pdf"></i> PDF</a>] 
-              {% endif %}
-              {% if page.supplemental %}
-               [<a href="{{ page.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
-              {% endif %}
-              {% if page.poster %}
-               [<a href="{{ page.poster }}"><i class="fas si-file-image"></i> poster</a>] 
-              {% endif %}
-              {% if page.presentation %}
-               [<a href="{{ page.presentation }}"><i class="fas si-file-powerpoint"></i> presentation</a>] 
-              {% endif %}
-              {% if page.dataset %}
-               [<a href="{{ page.dataset }}"><i class="fas si-database"></i> dataset</a>] 
-              {% endif %}
-              {% if page.project %}
-               [<a href="/projects/{{ page.project }}/"><i class="fas si-project-diagram"></i> project</a>]
-              {% endif %}
-            </p>
-          {% endif %}
-        </div>
-
-        <!-- 扩展关系部分 - 保留在最上面 -->
-        {% if page.extends %}
-          <div class="publication-relations">
-            <h3>Extends</h3>
-            <p>
-            {% assign pub_extends_link = "/publications/" | append: page.extends | append: "/" %}
-            {% assign pub_hidden_extends_link = "/publications_hidden/" | append: page.extends | append: "/" %}
-
-            {% assign publications_extends = site.publications | where: "url", pub_extends_link %}
-            {% assign publications_hidden_extends = site.publications_hidden | where: "url", pub_hidden_extends_link %}
-
-            {% if publications_extends.size == 1 %}
-              This paper extends a previous shorter <a href="{{ pub_extends_link }}">paper</a>
-            {% else %}
-              This paper extends a previous shorter paper
-            {% endif %}
+              [<a href="{{ page.url_link }}" target="_blank"><i class="fas fa-external-link-alt"></i> 论文链接</a>]
             </p>
           </div>
         {% endif %}
 
-        {% assign pub_extended_by = page.url | remove_first: "/publications" | remove: "/" %}
-        {% assign publications_extends = site.publications | where: "extends", pub_extended_by %}
-        {% assign publications_hidden_extends = site.publications_hidden | where: "extends", pub_extended_by %}
-
-        {% if publications_extends.size != 0 or publications_hidden_extends.size != 0 %}
-          <div class="publication-relations">
-            <h3>Extended By</h3>
-            <p>
-            {% if publications_extends.size != 0 %}
-              An extended version of this article has been <a href="{{ publications_extends.first.url }}">published</a>
-            {% else %}
-              An extended version of this article has been published
-            {% endif %}
-            </p>
-          </div>
-        {% endif %}
-
-        <!-- 移除了详细内容 {{ content }} 和其他多媒体部分 -->
+        <!-- 显示论文内容 -->
+        {{ content }}
         
       </section>
 
