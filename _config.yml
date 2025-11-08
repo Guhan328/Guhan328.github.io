@@ -23,7 +23,7 @@ atom_feed:
 author:
   name             : "Guhan Zheng"
   avatar           : "/images/2寸照.jpg"
-  #bio              : "Guhan Zheng is an Associate Professor"
+  bio              : "I am an Associate Professor in the [Group of Research and Education in AI and Telecom (GREAT)](https://scie.shu.edu.cn/info/1281/6334.htm) of the [Shanghai University](https://en.shu.edu.cn/) [School of Communication and Information Engineering](https://scie-en.shu.edu.cn/)."
   
   employer         : "Shanghai University"
   employer_url     : "https://en.shu.edu.cn/"
