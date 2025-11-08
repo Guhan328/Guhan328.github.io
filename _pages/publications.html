@@ -23,18 +23,14 @@ sitemap: true
     </tbody>
 </table>
 
-<h2 id="PublicationMap">Publication Map</h2>
-<div id="publication-map"></div>
+<p>All my publications are available from <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>.</p>
 
-<p>The bibtex for all my publications is available from <a href="https://raw.githubusercontent.com/MBradbury/publications/master/self.bib"><i class="fas si-asterisk"></i> here</a>.</p>
 
-{%- assign publications = site.publications | concat: site.publications_hidden | where: "type", "paper" | sort: 'publishDate' -%}
-{%- include publication-list-split publications=publications -%}
 
-<h2 id="PhDThesis">PhD Thesis</h2>
-{%- assign publications = site.publications | concat: site.publications_hidden | where: "type", "thesis" | sort: 'publishDate' -%}
-{%- include publication-list publications=publications -%}
+<h2 id="FirstAuthor">First/Corresponding Author</h2>
+{%- assign first_author_publications = site.publications | concat: site.publications_hidden | where: "author_position", "first" | sort: 'publishDate' | reverse -%}
+{%- include publication-list publications=first_author_publications -%}
 
-<h2 id="TechnicalReports">Technical Reports</h2>
-{%- assign publications = site.publications | concat: site.publications_hidden | where: "type", "techreport" | sort: 'publishDate' -%}
-{%- include publication-list publications=publications -%}
+<h2 id="OtherPublications">Others</h2>
+{%- assign other_publications = site.publications | concat: site.publications_hidden | where: "author_position", "other" | sort: 'publishDate' | reverse -%}
+{%- include publication-list publications=other_publications -%}
