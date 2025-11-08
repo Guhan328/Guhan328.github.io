@@ -24,110 +24,79 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-        {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-             
-        {% if page.citation %}
-          <p><span itemprop="citation">{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-
-            {% if page.bibtex or page.file or page.poster or page.presentation or page.dataset or page.project %}
-              <br /><br />
-            {% endif %}
-
-            {% if page.bibtex %}
-             [<a href="{{ page.bibtex }}"><i class="fas si-asterisk"></i> bibtex</a>] 
-            {% endif %}
-            {% if page.file %}
-             [<a href="{{ page.file }}"><i class="fas si-file-pdf"></i> file</a>] 
-            {% endif %}
-            {% if page.supplemental %}
-             [<a href="{{ page.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
-            {% endif %}
-            {% if page.poster %}
-             [<a href="{{ page.poster }}"><i class="fas si-file-image"></i> poster</a>] 
-            {% endif %}
-            {% if page.presentation %}
-             [<a href="{{ page.presentation }}"><i class="fas si-file-powerpoint"></i> presentation</a>] 
-            {% endif %}
-            {% if page.dataset %}
-             [<a href="{{ page.dataset }}"><i class="fas si-database"></i> dataset</a>] 
-            {% endif %}
-            {% if page.project %}
-             [<a href="/projects/{{ page.project }}/"><i class="fas si-project-diagram"></i> project</a>]
-            {% endif %}
-          </p>
-        {% endif %}
-
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        <!-- 论文链接 -->
+        <div class="publication-links">
+          {% if page.bibtex or page.file or page.poster or page.presentation or page.dataset or page.project %}
+            <p>
+              {% if page.bibtex %}
+               [<a href="{{ page.bibtex }}"><i class="fas si-asterisk"></i> bibtex</a>] 
+              {% endif %}
+              {% if page.file %}
+               [<a href="{{ page.file }}"><i class="fas si-file-pdf"></i> PDF</a>] 
+              {% endif %}
+              {% if page.supplemental %}
+               [<a href="{{ page.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
+              {% endif %}
+              {% if page.poster %}
+               [<a href="{{ page.poster }}"><i class="fas si-file-image"></i> poster</a>] 
+              {% endif %}
+              {% if page.presentation %}
+               [<a href="{{ page.presentation }}"><i class="fas si-file-powerpoint"></i> presentation</a>] 
+              {% endif %}
+              {% if page.dataset %}
+               [<a href="{{ page.dataset }}"><i class="fas si-database"></i> dataset</a>] 
+              {% endif %}
+              {% if page.project %}
+               [<a href="/projects/{{ page.project }}/"><i class="fas si-project-diagram"></i> project</a>]
+              {% endif %}
+            </p>
+          {% endif %}
+        </div>
 
-        {% if page.poster %}
-          <h2 id="Poster">Poster</h2>
-          {% capture fixed_poster_link %}{{ page.poster | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
+        <!-- 扩展关系部分 - 保留在最上面 -->
+        {% if page.extends %}
+          <div class="publication-relations">
+            <h3>Extends</h3>
+            <p>
+            {% assign pub_extends_link = "/publications/" | append: page.extends | append: "/" %}
+            {% assign pub_hidden_extends_link = "/publications_hidden/" | append: page.extends | append: "/" %}
 
-          {% include embed-presentation link=fixed_poster_link %}
+            {% assign publications_extends = site.publications | where: "url", pub_extends_link %}
+            {% assign publications_hidden_extends = site.publications_hidden | where: "url", pub_hidden_extends_link %}
+
+            {% if publications_extends.size == 1 %}
+              This paper extends a previous shorter <a href="{{ pub_extends_link }}">paper</a>
+            {% else %}
+              This paper extends a previous shorter paper
+            {% endif %}
+            </p>
+          </div>
         {% endif %}
 
-
         {% assign pub_extended_by = page.url | remove_first: "/publications" | remove: "/" %}
-
         {% assign publications_extends = site.publications | where: "extends", pub_extended_by %}
         {% assign publications_hidden_extends = site.publications_hidden | where: "extends", pub_extended_by %}
 
         {% if publications_extends.size != 0 or publications_hidden_extends.size != 0 %}
-          <h2 id="ExtendedBy">Extended By</h2>
-          <p>
-          {% if publications_extends.size != 0 %}
-            An extended version of the article has been <a href="{{ publications_extends.first.url }}">published</a>, so should be referred to instead:<br/>
-            <span itemprop="citation">
-            {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-            </span>
-          {% else %}
-            An extended version of the article has been published so should be referred to instead:<br/>
-            <span itemprop="citation">
-            {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-            </span>
-          {% endif %}
-          </p>
+          <div class="publication-relations">
+            <h3>Extended By</h3>
+            <p>
+            {% if publications_extends.size != 0 %}
+              An extended version of this article has been <a href="{{ publications_extends.first.url }}">published</a>
+            {% else %}
+              An extended version of this article has been published
+            {% endif %}
+            </p>
+          </div>
         {% endif %}
 
-        {% if page.extends %}
-          <h2 id="Extends">Extends</h2>
-          <p>
-          {% assign pub_extends_link = "/publications/" | append: page.extends | append: "/" %}
-          {% assign pub_hidden_extends_link = "/publications_hidden/" | append: page.extends | append: "/" %}
-
-          {% assign publications_extends = site.publications | where: "url", pub_extends_link %}
-          {% assign publications_hidden_extends = site.publications_hidden | where: "url", pub_hidden_extends_link %}
-
-          {% if publications_extends.size == 1 %}
-            This paper extends a previous shorter <a href="{{ pub_extends_link }}">paper</a>:<br/>
-            <span itemprop="citation">
-            {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-            </span>
-          {% else %}
-            This paper extends a previous shorter paper:<br/>
-            <span itemprop="citation">
-            {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-            </span>
-          {% endif %}
-          </p>
-        {% endif %}
-
-        {% if page.presentation or page.video %}
-          <h2 id="Presentation">Presentation</h2>
-          {% if page.video %}
-            {% include embed-presentation link=page.video %}
-          {% endif %}
-
-          {% if page.presentation %}
-            {% capture fixed_presentation_link %}{{ page.presentation | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
-
-            {% include embed-presentation link=fixed_presentation_link %}
-          {% endif %}
-        {% endif %}
+        <!-- 移除了详细内容 {{ content }} 和其他多媒体部分 -->
+        
       </section>
 
       <footer class="page__meta">
