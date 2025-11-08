@@ -1,7 +1,7 @@
 <div>
     <ul class="publication-list">
     {% for publication in publications reversed %}
-        {% assign paper_type = publication.publication.paper_type | default: 'other' %}
+        {% assign paper_type = publication.paper_type | default: 'other' %}
         {% assign li_class = 'publication publication-' | append: paper_type %}
 
         {%- capture paper_title -%}
@@ -22,8 +22,20 @@
         {%- endcapture -%}
 
         <li class="{{li_class}}" id="{{ publication.path | split: '/' | last | remove: '.md' }}" title="{{ paper_title }}">
-            <span title="">
-            {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            <span>
+            <!-- 直接显示论文信息 -->
+            <strong>{{ publication.title }}</strong><br>
+            {{ publication.authors }}<br>
+            <em>{{ publication.venue }}</em>, {{ publication.year }}
+            
+            <!-- 显示相关链接 -->
+            {% if publication.url %}
+             [<a href="{{ publication.url }}" target="_blank">论文链接</a>]
+            {% endif %}
+            
+            {% if publication.first_author %}
+             <span style="color: #e74c3c; font-weight: bold;">(第一作者)</span>
+            {% endif %}
             </span>
         </li>
     {% endfor %}
