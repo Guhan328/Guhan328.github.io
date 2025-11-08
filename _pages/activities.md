@@ -43,12 +43,12 @@ sitemap: true
  * IEEE Internet of Things Magazine ([IoTM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8548628))
 
 
-{% comment %}
 ## Technical Program Committee
 
  * IEEE International Conference on Communications, ICC 
  * IEEE Wireless Communications and Networking Conference, WCNC
  * IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom
-{% endcomment %}
+
+
 
 
