@@ -1,7 +1,7 @@
 <div>
     <ul class="publication-list">
     {% for publication in publications reversed %}
-        {% assign paper_type = publication.paper_type | default: 'other' %}
+        {% assign paper_type = publication.publication.paper_type | default: 'other' %}
         {% assign li_class = 'publication publication-' | append: paper_type %}
 
         {%- capture paper_title -%}
@@ -24,11 +24,6 @@
         <li class="{{li_class}}" id="{{ publication.path | split: '/' | last | remove: '.md' }}" title="{{ paper_title }}">
             <span title="">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
-
-            {% if publication.url %}
-              <br />
-              [<a href="{{ publication.url }}"><i class="fas fa-external-link-alt" aria-hidden="true"></i> link</a>]
-            {% endif %}
             </span>
         </li>
     {% endfor %}
