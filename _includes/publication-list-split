@@ -1,0 +1,74 @@
+<div>
+    {% assign prev_year = nil %}
+
+    {% for publication in publications reversed %}
+        {% assign current_year = publication.publishDate | slice: 0, 4 %}
+        {% if current_year != prev_year %}
+            {% if prev_year != nil %}
+                </ul>
+            {% endif %}
+
+            <h2 id='pub_{{ current_year }}'>{{ current_year }}</h2>
+            <ul class="publication-list">
+        {% endif %}
+        {% assign prev_year = current_year %}
+
+        {% assign paper_type = publication.paper_type | default: 'other' %}
+        {% assign li_class = 'publication publication-' | append: paper_type %}
+
+        {%- capture paper_title -%}
+        {%- case paper_type -%}
+        {%- when 'journal' -%}
+            Journal Article
+        {%- when 'conference' -%}
+            Conference Paper
+        {%- when 'workshop' -%}
+            Workshop Paper
+        {%- when 'thesis' -%}
+            Thesis
+        {%- when 'techreport' -%}
+            Technical Report
+        {%- when 'other' -%}
+            Other Research Type
+        {%- endcase -%}
+        {%- endcapture -%}
+
+        <li class="{{li_class}}" id="{{ publication.path | split: '/' | last | remove: '.md' }}" title="{{ paper_title }}">
+            <span title="">
+            {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+
+            {% if publication.bibtex or publication.file or publication.poster or publication.presentation or publication.dataset or publication.project or
+            publication.collection == 'publications' %}
+              <br />
+            {% endif %}
+
+            {% if publication.bibtex %}
+             [<a href="{{ publication.bibtex }}"><i class="fas si-asterisk" aria-hidden="true"></i> bibtex</a>] 
+            {% endif %}
+            {% if publication.file %}
+             [<a href="{{ publication.file }}"><i class="fas si-file-pdf" aria-hidden="true"></i> file</a>] 
+            {% endif %}
+            {% if publication.supplemental %}
+             [<a href="{{ publication.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
+            {% endif %}
+            {% if publication.poster %}
+             [<a href="{{ publication.poster }}"><i class="fas si-file-image" aria-hidden="true"></i> poster</a>] 
+            {% endif %}
+            {% if publication.presentation %}
+             [<a href="{{ publication.presentation }}"><i class="fas si-file-powerpoint" aria-hidden="true"></i> presentation</a>] 
+            {% endif %}
+            {% if publication.dataset %}
+             [<a href="{{ publication.dataset }}"><i class="fas si-database" aria-hidden="true"></i> dataset</a>] 
+            {% endif %}
+            {% capture project_url %}{{ "/projects/" | append: publication.project | append: "/" }}{% endcapture%}
+            {% if publication.project and page.url != project_url %}
+             [<a href="{{ project_url }}"><i class="fas si-project-diagram" aria-hidden="true"></i> project</a>]
+            {% endif %}
+            {% if publication.collection == 'publications' %}
+             [<a href="{{ publication.url }}"><i class="fas si-ellipsis-h" aria-hidden="true"></i> more details</a>]
+            {% endif %}
+            </span>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

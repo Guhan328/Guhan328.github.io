@@ -1,0 +1,143 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="https://schema.org/ScholarlyArticle">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.abstract %}<meta itemprop="abstract" content="{{ page.abstract | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.publishDate %}<meta itemprop="datePublished" content="{{ page.publishDate | date_to_xmlschema }}">{% endif %}
+    {% if page.file %}<meta itemprop="archivedAt" content="{{ page.file }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+        {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+             
+        {% if page.citation %}
+          <p><span itemprop="citation">{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+
+            {% if page.bibtex or page.file or page.poster or page.presentation or page.dataset or page.project %}
+              <br /><br />
+            {% endif %}
+
+            {% if page.bibtex %}
+             [<a href="{{ page.bibtex }}"><i class="fas si-asterisk"></i> bibtex</a>] 
+            {% endif %}
+            {% if page.file %}
+             [<a href="{{ page.file }}"><i class="fas si-file-pdf"></i> file</a>] 
+            {% endif %}
+            {% if page.supplemental %}
+             [<a href="{{ page.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
+            {% endif %}
+            {% if page.poster %}
+             [<a href="{{ page.poster }}"><i class="fas si-file-image"></i> poster</a>] 
+            {% endif %}
+            {% if page.presentation %}
+             [<a href="{{ page.presentation }}"><i class="fas si-file-powerpoint"></i> presentation</a>] 
+            {% endif %}
+            {% if page.dataset %}
+             [<a href="{{ page.dataset }}"><i class="fas si-database"></i> dataset</a>] 
+            {% endif %}
+            {% if page.project %}
+             [<a href="/projects/{{ page.project }}/"><i class="fas si-project-diagram"></i> project</a>]
+            {% endif %}
+          </p>
+        {% endif %}
+
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+
+        {% if page.poster %}
+          <h2 id="Poster">Poster</h2>
+          {% capture fixed_poster_link %}{{ page.poster | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
+
+          {% include embed-presentation link=fixed_poster_link %}
+        {% endif %}
+
+
+        {% assign pub_extended_by = page.url | remove_first: "/publications" | remove: "/" %}
+
+        {% assign publications_extends = site.publications | where: "extends", pub_extended_by %}
+        {% assign publications_hidden_extends = site.publications_hidden | where: "extends", pub_extended_by %}
+
+        {% if publications_extends.size != 0 or publications_hidden_extends.size != 0 %}
+          <h2 id="ExtendedBy">Extended By</h2>
+          <p>
+          {% if publications_extends.size != 0 %}
+            An extended version of the article has been <a href="{{ publications_extends.first.url }}">published</a>, so should be referred to instead:<br/>
+            <span itemprop="citation">
+            {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
+          {% else %}
+            An extended version of the article has been published so should be referred to instead:<br/>
+            <span itemprop="citation">
+            {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
+          {% endif %}
+          </p>
+        {% endif %}
+
+        {% if page.extends %}
+          <h2 id="Extends">Extends</h2>
+          <p>
+          {% assign pub_extends_link = "/publications/" | append: page.extends | append: "/" %}
+          {% assign pub_hidden_extends_link = "/publications_hidden/" | append: page.extends | append: "/" %}
+
+          {% assign publications_extends = site.publications | where: "url", pub_extends_link %}
+          {% assign publications_hidden_extends = site.publications_hidden | where: "url", pub_hidden_extends_link %}
+
+          {% if publications_extends.size == 1 %}
+            This paper extends a previous shorter <a href="{{ pub_extends_link }}">paper</a>:<br/>
+            <span itemprop="citation">
+            {{ publications_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
+          {% else %}
+            This paper extends a previous shorter paper:<br/>
+            <span itemprop="citation">
+            {{ publications_hidden_extends.first.citation | markdownify | remove: "<p>" | remove: "</p>" }}
+            </span>
+          {% endif %}
+          </p>
+        {% endif %}
+
+        {% if page.presentation or page.video %}
+          <h2 id="Presentation">Presentation</h2>
+          {% if page.video %}
+            {% include embed-presentation link=page.video %}
+          {% endif %}
+
+          {% if page.presentation %}
+            {% capture fixed_presentation_link %}{{ page.presentation | replace_first:"https://raw.githubusercontent.com","https://rawcdn.githack.com" }}{% endcapture %}
+
+            {% include embed-presentation link=fixed_presentation_link %}
+          {% endif %}
+        {% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% include post_pagination.html %}
+    </div>
+  </article>
+</div>

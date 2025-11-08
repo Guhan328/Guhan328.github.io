@@ -1,0 +1,38 @@
+{% comment %}
+Based off:
+ - https://github.com/MihajloNesic/jekyll-pdf-embed/blob/master/lib/jekyll-pdf-embed.rb
+ - https://stackoverflow.com/questions/1244788/embed-vs-object?noredirect=1&lq=1
+{% endcomment %}
+
+{% if include.link contains "drive.google.com" %}
+
+<div class='pdf-embed-container'>
+	<iframe src="{{ include.link }}" allowfullscreen="" width="640" height="390" frameborder="0"></iframe>
+</div>
+
+{% elsif include.link contains "dropbox.com" %}
+
+<div class='pdf-embed-container'>
+	<video controls width="640">
+		<source src="{{ include.link }}" type="video/mp4">
+		Sorry, your browser doesn't support embedded videos.
+	</video>
+</div>
+
+{% elsif include.link | split: "." | last == "pdf" %}
+
+<div class='pdf-embed-container'>
+	<object data="{{ include.link }}" type="application/pdf" width="640" height="390">
+		<embed src="{{ include.link }}" type="application/pdf" />
+	</object>
+</div>
+
+{% elsif include.link | split: "." | last == "ppt" or include.link | split: "." | last == "pptx" %}
+
+<div class='pdf-embed-container'>
+	<iframe title="Powerpoint file" width="640" height="390" src="https://view.officeapps.live.com/op/embed.aspx?src={{ include.link }}" frameborder="0" allowfullscreen></iframe>
+</div>
+
+{% else %}
+<p>Download the presentation at <a href="{{ include.link }}">{{ include.link }}</a></p>
+{% endif %}
