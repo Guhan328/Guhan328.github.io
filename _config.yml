@@ -11,34 +11,12 @@ title                    : "Guhan Zheng"
 title_separator          : "-"
 name                     : &name "Guhan Zheng"
 description              : &description "Associate Professor at Shanghai University"
-#url                      : https://MBradbury.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#baseurl                  : "" # the subpath of your site, e.g. "/blog"
-#repository               : "MBradbury/MBradbury.github.io"
-#initial_year             : 2021
-#teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-#breadcrumbs              : false # true, false (default)
 future                   : true
-#read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+
 date_format              : "%d %B %Y"
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true
-
-# SEO Related
-#google_site_verification :
-#bing_site_verification   :
-#alexa_site_verification  :
-#yandex_site_verification :
-
-# Social Sharing
-#twitter:
-#  username               : &twitter "MattBradbury_"
-#og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-#social:
-#  type                   : "Person" # Person or Organization (defaults to Person)
-#  name                   : # If the user or organization name differs from the site's name
 
 
 # Site Author
@@ -46,7 +24,7 @@ author:
   name             : "Guhan Zheng"
   avatar           : "/images/profile.png"
   bio              : "Matthew Bradbury is a Senior Lecturer conducting research into security, context privacy and trust assessment in resource-constrained and distributed systems."
-  location         : "Shanghai"
+  
   employer         : "Shanghai University"
   employer_url     : "https://en.shu.edu.cn/"
   email            : gzheng@shu.edu.cn
