@@ -1,9 +1,9 @@
 ---
 title: "DSI: Western O-RAN dense mobile challenge"
 duration: "Oct. 2023 &ndash; Mar. 2025"
-location: "SCC. Lancaster University"
-role: "Participant"
+location: "SCC. Lancaster University, Participant"
 collection: projects
 ---
+
 
 
