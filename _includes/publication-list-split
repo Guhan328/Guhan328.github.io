@@ -1,18 +1,8 @@
 <div>
-    {% assign prev_year = nil %}
-
+    <h2>Selected Publications (First/Corresponding Authors)</h2>
+    <ul class="publication-list">
+    
     {% for publication in publications reversed %}
-        {% assign current_year = publication.publishDate | slice: 0, 4 %}
-        {% if current_year != prev_year %}
-            {% if prev_year != nil %}
-                </ul>
-            {% endif %}
-
-            <h2 id='pub_{{ current_year }}'>{{ current_year }}</h2>
-            <ul class="publication-list">
-        {% endif %}
-        {% assign prev_year = current_year %}
-
         {% assign paper_type = publication.paper_type | default: 'other' %}
         {% assign li_class = 'publication publication-' | append: paper_type %}
 
