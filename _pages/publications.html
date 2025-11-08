@@ -6,9 +6,6 @@ author_profile: true
 sitemap: true
 ---
 
-<h2>调试 Include</h2>
-{% assign test_publications = site.publications %}
-<p>传递给 include 的论文数量: {{ test_publications | size }}</p>
 
 {% include publication-list publications=test_publications %}
 
