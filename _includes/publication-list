@@ -25,9 +25,9 @@
             <span title="">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
-            {% if publication.file %}
+            {% if publication.url %}
               <br />
-              [<a href="{{ publication.file }}"><i class="fas si-file-pdf" aria-hidden="true"></i> pdf</a>]
+              [<a href="{{ publication.url }}"><i class="fas fa-external-link-alt" aria-hidden="true"></i> link</a>]
             {% endif %}
             </span>
         </li>
