@@ -9,7 +9,7 @@
 locale                   : "en-GB"
 title                    : "Guhan Zheng"
 title_separator          : "-"
-name                     : &name "郑谷寒"
+name                     : &name "Guhan Zheng"
 description              : &description "Associate Professor at Shanghai University"
 future                   : true
 
@@ -23,7 +23,7 @@ atom_feed:
 author:
   name             : "Guhan Zheng"
   avatar           : "/images/2寸照.jpg"
-  bio              : "Associate Professor, Master Supervisor"
+  bio              : "Associate Professor"
   
   employer         : "Shanghai University"
   employer_url     : "https://en.shu.edu.cn/"
@@ -136,20 +136,6 @@ defaults:
       type: publications
     values:
       layout: single-publication
-      author_profile: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-  # _blog
-  - scope:
-      path: ""
-      type: blog
-    values:
-      layout: single
       author_profile: true
 
 # Sass/SCSS
