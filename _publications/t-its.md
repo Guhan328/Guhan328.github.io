@@ -1,5 +1,5 @@
 ---
-title: "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems"
+title: "Privacy-aware anomaly detection and notification enhancement for VANET based on collaborative intrusion detection system"
 authors: "Guhan Zheng, Qiang Ni, Yang Lu"
 venue: "IEEE Transactions on Intelligent Transportation Systems"
 venue_short: "T-ITS"
