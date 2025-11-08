@@ -1,6 +1,6 @@
 <div>
     <ul class="publication-list">
-    {% for publication in publications reversed %}
+    {% for publication in include.publications reversed %}
         {% assign paper_type = publication.paper_type | default: 'other' %}
         {% assign li_class = 'publication publication-' | append: paper_type %}
 
