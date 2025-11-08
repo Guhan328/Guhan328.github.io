@@ -1,6 +1,6 @@
 ---
 title: "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things"
-authors: "Jie Liang, Zhengxin Yu, Haris Pervaiz, Guhan Zheng*, Neeraj Suri"
+authors: "Jie Liang, Zhengxin Yu, Haris Pervaiz, Guhan Zheng, Neeraj Suri"
 venue: "IEEE Internet of Things Journal"
 year: 2025
 paper_type: "journal"
