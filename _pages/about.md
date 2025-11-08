@@ -22,7 +22,7 @@ My research explores integrating AI techniques into future communication network
 -  semantic communications
 -  vehicular networks
 -  non-terrestrial networks
--  the economic aspects of networked systems.
+-  network economics.
 
 ## Bio
 
