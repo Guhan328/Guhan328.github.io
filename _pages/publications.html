@@ -6,15 +6,37 @@ author_profile: true
 sitemap: true
 ---
 
-
-{% include publication-list publications=test_publications %}
-
 <p>All my publications are available from <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>.</p>
 
 <h2 id="FirstAuthor">First/Corresponding Author</h2>
-{% assign first_author_publications = site.publications | where: "first_author", true %}
-{% include publication-list publications=first_author_publications %}
+<ul class="publication-list">
+{% for publication in site.publications %}
+    {% if publication.first_author == true %}
+    <li class="publication publication-{{ publication.paper_type | default: 'other' }}">
+        <span>
+        <strong>{{ publication.title }}</strong><br>
+        {{ publication.authors }}<br>
+        <em>{{ publication.venue }}</em>, {{ publication.year }}
+        {% if publication.url %} [<a href="{{ publication.url }}" target="_blank">Paper Link</a>]{% endif %}
+        <span style="color: #e74c3c; font-weight: bold;">(First Author)</span>
+        </span>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 <h2 id="OtherPublications">Others</h2>
-{% assign other_publications = site.publications | where: "first_author", "!=", true %}
-{% include publication-list publications=other_publications %}
+<ul class="publication-list">
+{% for publication in site.publications %}
+    {% if publication.first_author != true %}
+    <li class="publication publication-{{ publication.paper_type | default: 'other' }}">
+        <span>
+        <strong>{{ publication.title }}</strong><br>
+        {{ publication.authors }}<br>
+        <em>{{ publication.venue }}</em>, {{ publication.year }}
+        {% if publication.url %} [<a href="{{ publication.url }}" target="_blank">Paper Link</a>]{% endif %}
+        </span>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>
