@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr. Matthew Bradbury"
+title: "Guhan Zheng"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ I am an Associate Professor in the [Group of Research and Education in AI and Te
 
 ## My Open Positions
 
-If you are interested in undertaking a PhD on investigating technical privacy or security challenges in resource-constrained/autonomous cyber physical systems, please contact me by email.
+如果你有兴趣攻读无线通信与AI技术硕士，欢迎通过邮件联系我
 
 ## Research
 
@@ -20,8 +20,6 @@ My research has explored a variety of issues involving security, context privacy
 
 ## Bio
 
-I completed my undergraduate Master of Engineering degree in Computer Science at the [University of Warwick](https://warwick.ac.uk) in 2013 and spent a short period in industry before returning to the [Department of Computer Science](https://warwick.ac.uk/fac/sci/dcs) at the [University of Warwick](https://warwick.ac.uk) to undertake my [PhD](/projects/project-1-PhD/) supervised by [Dr. Arshad Jhumka](https://www2.warwick.ac.uk/fac/sci/dcs/people/Arshad_Jhumka). I submitted my PhD in May 2018, after which I worked in the [Cyber Security Centre](https://warwick.ac.uk/fac/sci/wmg/research/csc) in [WMG](https://warwick.ac.uk/fac/sci/wmg) from April 2018 to March 2020. From March 2020 until March 2021 I was a Research Fellow in the [Department of Computer Science](https://warwick.ac.uk/fac/sci/dcs) at the [University of Warwick](https://warwick.ac.uk), where I worked on the [TEAM](/projects/project-6-TEAM) project which was funded by [PETRAS](https://petras-iot.org) to perform trust-based task offloading from resource constrained devices to resource rich edge nodes. Since April 2021 I have been a Lecturer at Lancaster University.
+I received my B.Eng. degree in Telecommunication Engineering from [Zhengzhou University](https://english.zzu.edu.cn/), China, in 2020, and the Ph.D. degree in Communication Systems from [Lancaster University](https://www.lancaster.ac.uk/), U.K., in 2024, supervised by [Prof. Qiang Ni](https://www.lancaster.ac.uk/scc/about-us/people/qiang-ni) and [Prof. Keivan Navaie](https://www.lancaster.ac.uk/scc/about-us/people/keivan-navaie). In 2023, I was a Research Assistant at the University of Sussex, U.K., with [Dr. Aryan Kaushik](https://sites.google.com/view/aryankaushik). From 2023 to 2025, I was a Senior Research Associate at Lancaster University, U.K., working with [Prof. Qiang Ni](https://www.lancaster.ac.uk/scc/about-us/people/qiang-ni). Since Aug. 2025, I have been an Associate Professor at Shanghai University.
 
-## Security Lancaster
 
-The [Security Systems Group](https://ssg.lancs.ac.uk) at Lancaster has a number of open [PhD and Postdoc positions](https://ssg.lancs.ac.uk/open-positions/), please get in contact for further details. The group also runs frequent [events and seminars](https://www.lancaster.ac.uk/security-lancaster/about/seminars-and-events/) on a wide range of security-focused topics.
