@@ -1,0 +1,10 @@
+---
+title: "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading"
+authors: "Guhan Zheng, Qiang Ni, Keivan Navaie, Haris Pervaiz, Charilaos Zarakovitis"
+venue: "IEEE Communications Magazine"
+year: 2023
+paper_type: "journal"
+url: "https://ieeexplore.ieee.org/abstract/document/10328182"
+first_author: true
+publishDate: 2023-11-23
+---
