@@ -6,22 +6,12 @@ author_profile: true
 sitemap: true
 ---
 
-
-<!-- 调试信息 -->
-<p>调试信息: 总共 {{ site.publications | size }} 篇论文</p>
-
-{% for pub in site.publications %}
-<p>{{ pub.title }} - {{ pub.year }}</p>
-{% endfor %}
-
 <p>All my publications are available from <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>.</p>
 
-
-
 <h2 id="FirstAuthor">First/Corresponding Author</h2>
-{%- assign first_author_publications = site.publications | concat: site.publications_hidden | where: "author_position", "first" | sort: 'publishDate' | reverse -%}
-{%- include publication-list publications=first_author_publications -%}
+{% assign first_author_publications = site.publications | where: "first_author", true %}
+{% include publication-list publications=first_author_publications %}
 
 <h2 id="OtherPublications">Others</h2>
-{%- assign other_publications = site.publications | concat: site.publications_hidden | where: "author_position", "other" | sort: 'publishDate' | reverse -%}
-{%- include publication-list publications=other_publications -%}
+{% assign other_publications = site.publications | where: "first_author", "!=", true %}
+{% include publication-list publications=other_publications %}
