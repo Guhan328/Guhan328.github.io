@@ -25,35 +25,9 @@
             <span title="">
             {{ publication.citation | markdownify | remove: "<p>" | remove: "</p>" }}
 
-            {% if publication.bibtex or publication.file or publication.poster or publication.presentation or publication.dataset or publication.project or
-            publication.collection == 'publications' %}
-              <br />
-            {% endif %}
-
-            {% if publication.bibtex %}
-             [<a href="{{ publication.bibtex }}"><i class="fas si-asterisk" aria-hidden="true"></i> bibtex</a>] 
-            {% endif %}
             {% if publication.file %}
-             [<a href="{{ publication.file }}"><i class="fas si-file-pdf" aria-hidden="true"></i> file</a>] 
-            {% endif %}
-            {% if publication.supplemental %}
-             [<a href="{{ publication.supplemental }}"><i class="fas si-file-pdf"></i> supplemental</a>] 
-            {% endif %}
-            {% if publication.poster %}
-             [<a href="{{ publication.poster }}"><i class="fas si-file-image" aria-hidden="true"></i> poster</a>] 
-            {% endif %}
-            {% if publication.presentation %}
-             [<a href="{{ publication.presentation }}"><i class="fas si-file-powerpoint" aria-hidden="true"></i> presentation</a>] 
-            {% endif %}
-            {% if publication.dataset %}
-             [<a href="{{ publication.dataset }}"><i class="fas si-database" aria-hidden="true"></i> dataset</a>] 
-            {% endif %}
-            {% capture project_url %}{{ "/projects/" | append: publication.project | append: "/" }}{% endcapture%}
-            {% if publication.project and page.url != project_url %}
-             [<a href="{{ project_url }}"><i class="fas si-project-diagram" aria-hidden="true"></i> project</a>]
-            {% endif %}
-            {% if publication.collection == 'publications' %}
-             [<a href="{{ publication.url }}"><i class="fas si-ellipsis-h" aria-hidden="true"></i> more details</a>]
+              <br />
+              [<a href="{{ publication.file }}"><i class="fas si-file-pdf" aria-hidden="true"></i> pdf</a>]
             {% endif %}
             </span>
         </li>
