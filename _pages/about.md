@@ -12,11 +12,17 @@ I am an Associate Professor in the [Group of Research and Education in AI and Te
 
 ## My Open Positions
 
-如果你有兴趣攻读无线通信与AI技术硕士，欢迎通过邮件联系我
+如果你具备较强的编程能力和动手实践能力，并对深度学习、语义通信、通信网络优化等研究方向感兴趣，欢迎通过邮件与我联系。我们也热忱欢迎具有跨学科背景的同学（如经济学、社会学等）加入。目前团队名额充足，科研氛围开放，欢迎有志于科研探索的同学共同开展研究。
+
 
 ## Research
 
-My research has explored a variety of issues involving security, context privacy and trust assessment in resource-constrained systems. This has ranged from context privacy issues in [vehicles](/publications/Bradbury_2020_PrivacyChallengesProtecting) and [wireless sensor networks](/projects/project-1-PhD/), and security of different aspects of vehicular systems (including: [system analysis](/projects/project-2-CAPRI), [real-world testing](/projects/project-3-IoT-TRaM) and [PNT](/projects/project-5-PNT)). I am interested in developing and testing practical solutions to security issues based on theoretical foundations.
+My research explores integrating AI techniques into future communication networks to optimize and enhance their design, operation, and adaptability. I am particularly interested in 
+-  edge intelligence
+-  semantic communications
+-  vehicular networks
+-  non-terrestrial networks
+-  the economic aspects of networked systems.
 
 ## Bio
 
