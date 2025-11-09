@@ -15,7 +15,8 @@ sitemap: true
 
 ### Co-supervise P.hD. Students
 
-- Jie Liang[with Dr. Zhengxin Yu] (2025); 1 IoT-J
+- Jie Liang(2025); 1 IoT-J
+  <small>[with Dr. Zhengxin Yu]</small> 
 - Yushi Wang[with Dr. Zhengxin Yu] (2023); TMC(submitted), NETWORK(major) ,JSAC(submitted), NETWORK(submitted)
 
 
