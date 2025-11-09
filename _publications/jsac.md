@@ -1,5 +1,5 @@
 ---
-title: "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things"
+title: "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading"
 authors: "Guhan Zheng, Qiang Ni, Keivan Navaie, Haris Pervaiz"
 venue: "IEEE Journal on Selected Areas in Communications"
 venue_short: "JSAC"
