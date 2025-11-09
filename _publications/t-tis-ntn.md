@@ -7,5 +7,6 @@ year: 2025
 paper_type: "journal"
 url: "https://ieeexplore.ieee.org/abstract/document/10919123"
 first_author: true
+corresponding_author: false
 publishDate: 2025-03-10
 ---
