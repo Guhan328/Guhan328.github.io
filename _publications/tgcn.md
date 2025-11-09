@@ -7,5 +7,6 @@ year: 2024
 paper_type: "journal"
 url: "https://ieeexplore.ieee.org/abstract/document/10527365"
 first_author: true
+corresponding_author: false
 publishDate: 2024-05-09
 ---
