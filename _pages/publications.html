@@ -10,7 +10,7 @@ sitemap: true
 
 
 <h2>First/Corresponding Author</h2>
-<ul>
+<ol>
 {% for publication in site.publications %}
     {% if publication.first_author == true or publication.corresponding_author == true | sort: 'publishDate' | reverse %}
     <li>
@@ -21,10 +21,10 @@ sitemap: true
     </li>
     {% endif %}
 {% endfor %}
-</ul>
+<ol>
 
 <h2>Other Publications</h2>
-<ul>
+<ol>
 {% for publication in site.publications %}
     {% if publication.first_author != true and publication.corresponding_author != true | sort: 'publishDate' | reverse %}
     <li>
@@ -35,4 +35,4 @@ sitemap: true
     </li>
     {% endif %}
 {% endfor %}
-</ul>
+<ol>
