@@ -12,7 +12,7 @@ sitemap: true
 <h2>First/Corresponding Author</h2>
 <ul>
 {% for publication in site.publications %}
-    {% if publication.first_author == true or publication.corresponding_author == true %}
+    {% if publication.first_author == true or publication.corresponding_author == true | sort: 'publishDate' | reverse %}
     <li>
         <strong>{{ publication.title }}</strong><br>
         {{ publication.authors }}<br>
@@ -26,7 +26,7 @@ sitemap: true
 <h2>Other Publications</h2>
 <ul>
 {% for publication in site.publications %}
-    {% if publication.first_author != true and publication.corresponding_author != true %}
+    {% if publication.first_author != true and publication.corresponding_author != true | sort: 'publishDate' | reverse %}
     <li>
         <strong>{{ publication.title }}</strong><br>
         {{ publication.authors }}<br>
