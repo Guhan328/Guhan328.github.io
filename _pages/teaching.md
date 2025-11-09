@@ -16,10 +16,10 @@ sitemap: true
 ### Co-supervise P.hD. Students
 
 - Jie Liang (2025); 1 IoT-J<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[with Dr. Zhengxin Yu]
+  [with Dr. Zhengxin Yu]
   
 - Yushi Wang (2023); TMC(submitted), NETWORK(major), JSAC(submitted), NETWORK(submitted)<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;[with Dr. Zhengxin Yu]
+  [with Dr. Zhengxin Yu]
 
 注：以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。
 ## Lancaster University, UK
