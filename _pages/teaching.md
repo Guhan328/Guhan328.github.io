@@ -17,7 +17,8 @@ sitemap: true
 
 - Jie Liang(2025); 1 IoT-J
   <small>[with Dr. Zhengxin Yu]</small> 
-- Yushi Wang[with Dr. Zhengxin Yu] (2023); TMC(submitted), NETWORK(major) ,JSAC(submitted), NETWORK(submitted)
+- Yushi Wang(2023); TMC(submitted), NETWORK(major) ,JSAC(submitted), NETWORK(submitted)
+  <small>[with Dr. Zhengxin Yu]</small> 
 
 
 ## Lancaster University, UK
