@@ -8,11 +8,11 @@ sitemap: true
 
 <p>All my publications are available from <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>.</p>
 
-
 <h2>First/Corresponding Author</h2>
 <ol>
-{% for publication in site.publications %}
-    {% if publication.first_author == true or publication.corresponding_author == true | sort: 'publishDate' | reverse %}
+{% assign sorted_pubs = site.publications | sort: 'publishDate' | reverse %}
+{% for publication in sorted_pubs %}
+    {% if publication.first_author == true or publication.corresponding_author == true %}
     <li>
         <strong>{{ publication.title }}</strong><br>
         {{ publication.authors }}<br>
@@ -21,12 +21,13 @@ sitemap: true
     </li>
     {% endif %}
 {% endfor %}
-<ol>
+</ol>
 
 <h2>Other Publications</h2>
 <ol>
-{% for publication in site.publications %}
-    {% if publication.first_author != true and publication.corresponding_author != true | sort: 'publishDate' | reverse %}
+{% assign sorted_pubs = site.publications | sort: 'publishDate' | reverse %}
+{% for publication in sorted_pubs %}
+    {% if publication.first_author != true and publication.corresponding_author != true %}
     <li>
         <strong>{{ publication.title }}</strong><br>
         {{ publication.authors }}<br>
@@ -35,4 +36,4 @@ sitemap: true
     </li>
     {% endif %}
 {% endfor %}
-<ol>
+</ol>
