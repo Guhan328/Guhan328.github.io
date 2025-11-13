@@ -30,6 +30,9 @@ sitemap: true
  * Formal Methods for Autonomous Systems Workshop ([FMAS](https://fmasworkshop.github.io/FMAS2019/)) [2019]
 -->
 
+## Conference Chair
+ * 22nd EAI International Conference on Security and Privacy in Communication Networks ([SecureComm 2026, CCF C](https://securecomm.eai-conferences.org/2026/organizing-committee/))
+
 ## Reviewed For
 
  * IEEE Journal on Selected Areas in Communications ([JSAC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=49))
@@ -48,6 +51,7 @@ sitemap: true
  * IEEE International Conference on Communications, ICC 
  * IEEE Wireless Communications and Networking Conference, WCNC
  * IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom
+
 
 
 
