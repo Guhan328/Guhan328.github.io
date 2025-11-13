@@ -31,7 +31,7 @@ sitemap: true
 -->
 
 ## Conference Chair
- * 22nd EAI International Conference on Security and Privacy in Communication Networks ([SecureComm 2026, CCF C](https://securecomm.eai-conferences.org/2026/organizing-committee/))
+ * 22nd EAI International Conference on Security and Privacy in Communication Networks ([SecureComm 2026](https://securecomm.eai-conferences.org/2026/organizing-committee/), CCF C)
 
 ## Reviewed For
 
@@ -51,6 +51,7 @@ sitemap: true
  * IEEE International Conference on Communications, ICC 
  * IEEE Wireless Communications and Networking Conference, WCNC
  * IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom
+
 
 
 
