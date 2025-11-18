@@ -8,7 +8,7 @@ redirect_from:
 sitemap: true
 ---
 
-I am an Associate Professor in the [Group of Research and Education in AI and Telecom (GREAT)](https://scie.shu.edu.cn/info/1281/6334.htm) of the [Shanghai University](https://en.shu.edu.cn/) [School of Communication and Information Engineering](https://scie-en.shu.edu.cn/). I 'm also selected as Shanghai Leading Talent[上海市领军人才（海外）].
+I am an Associate Professor in the [Group of Research and Education in AI and Telecom (GREAT)](https://scie.shu.edu.cn/info/1281/6334.htm) of the [Shanghai University](https://en.shu.edu.cn/) [School of Communication and Information Engineering](https://scie-en.shu.edu.cn/). I 'm also selected as Shanghai Young Leading Talent[上海市领军人才（海外）青年人才].
 
 ## My Open Positions
 
