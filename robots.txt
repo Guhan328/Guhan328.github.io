@@ -15,4 +15,4 @@ Disallow: /.github/
 Disallow: /git-update.sh
 Disallow: /README.md
 
-Sitemap: xtongin.github.io/sitemap.xml
+Sitemap: guhan328.github.io/sitemap.xml
