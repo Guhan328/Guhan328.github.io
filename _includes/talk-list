@@ -1,9 +1,0 @@
-<div>
-    <ul>
-    {% for talk in talks reversed %}
-        <li>
-            <a href="{{ talk.permalink }}">{{ talk.title }}</a> at {{ talk.venue }}, {{ talk.location }} on {{ talk.publishDate | date: site.date_format }}
-        </li>
-    {% endfor %}
-    </ul>
-</div>
