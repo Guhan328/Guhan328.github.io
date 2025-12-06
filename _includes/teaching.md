@@ -2,17 +2,23 @@
 
 <h2 style="margin: 80px 0px 10px;">Teaching</h2>
 
+<h3 style="margin:0 10px 0;">Shanghai University, China</h3>
+<h4 style="margin:0 10px 0;">Master Students</h4>
 <ul>
-  <li>
-    Head Teaching Assistant, <a href="https://cms.sic.saarland/hlcvss22/">High-Level Computer Vision</a> at <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/teaching/courses-1">Max Planck Institutes</a>, 2022
-  </li>
-  <li>
-    Student Mentor, <a href="https://sites.google.com/view/cvpr-academy/">CVPR Academy</a> at <a href="https://cvpr2022.thecvf.com/">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</a>, 2022
-  </li>
-  <li>
-    Teaching Assistant, <a href="https://cms.sic.saarland/hlcvss21/">High-Level Computer Vision</a> at <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/teaching/courses-1">Max Planck Institute</a>, 2021
-  </li>
-  <li>
-    Teaching Assistant, <a href="">Digital Image Processing</a> at <a href="http://www.tju.edu.cn/english/index.htm/">Tianjin University</a>, 2017
-  </li>
+  <li>Xin Liu (2025)</li>
+</ul>
+
+<h4 style="margin:0 10px 0;">Co-supervise Ph.D. Students</h4>
+<ul>
+  <li>Jie Liang (2025); 1 IoT-J [with Dr. Zhengxin Yu]</li>
+  <li>Yushi Wang (2023); TMC(submitted), NETWORK(major), JSAC(submitted), NETWORK(submitted) [with Dr. Zhengxin Yu]</li>
+</ul>
+
+<h3 style="margin:0 10px 0;">Lancaster University, UK</h3>
+<p>Seminar and lab tutor for:</p>
+<ul>
+  <li>2021 – 2024 SCC. 150 Information Systems</li>
+  <li>2021 – 2024 SCC. 210 Computer Science Group Project</li>
+  <li>2022 – 2023 SCC. 312 Languages and Compilation</li>
+  <li>2022 – 2023 SCC. 363 Security and Risk</li>
 </ul>
