@@ -10,8 +10,8 @@
 
 <h4 style="margin:0 10px 0;">Co-supervise Ph.D. Students</h4>
 <ul>
-  <li>Jie Liang (2025); 1 IoT-J [with Dr. Zhengxin Yu]</li>
-  <li>Yushi Wang (2023); TMC(submitted), NETWORK(major), JSAC(submitted), NETWORK(submitted) [with Dr. Zhengxin Yu]</li>
+  <li>Jie Liang (2025); 1 IoT-J <br>[with Dr. Zhengxin Yu]</li>
+  <li>Yushi Wang (2023); TMC(submitted), NETWORK(major), JSAC(submitted), NETWORK(submitted) <br>[with Dr. Zhengxin Yu]</li>
 </ul>
 
 <h3 style="margin:0 10px 0;">Lancaster University, UK</h3>
