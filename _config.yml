@@ -26,9 +26,9 @@ linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
 orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
-avatar: ./assets/img/2寸照.jpg  # base: https://img.yliu.me/avatar.jpg 
-#favicon: ./assets/img/nju_favicon.ico
-#favicon_dark: ./assets/img/nju_favicon.ico
+avatar: ./assets/img/2寸照.jpg 
+favicon: ./assets/img/pic1.ico
+favicon_dark: ./assets/img/pic1.ico
 
 # The following files will be removed from the generated website.
 exclude:
