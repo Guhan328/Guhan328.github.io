@@ -2,7 +2,7 @@
 
 <h2 style="margin: 80px 0px 10px;">Selected Papers</h2>
 <h4 style="margin: 10px 0px 10px;">* is corresponding author</h4>
-Full publications, please see my [Google Scholar](https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl)
+Full publications, please see my <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>
 
 <ol style="margin:0 0 5px;">
   <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128625008126"><autocolor><strong>G. Zheng</strong>, Q. Ni, and W. Yu. "EO-ZT: Economically informed zero-trust for secure spectrum trading in open radio access networks (O-RAN)," Computer Networks, p. 111846, Nov. 2025. </autocolor></a></li>
