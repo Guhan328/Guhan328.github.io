@@ -5,6 +5,7 @@ department: School of Communication and Information Engineering (SCIE)
 department_link: https://scie-en.shu.edu.cn/
 affiliation: Shanghai University
 affiliation_link: https://en.shu.edu.cn/
+affiliation_logo: ./assets/img/图片1.png
 email: gzheng@shu.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -25,7 +26,7 @@ linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
 orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
-#avatar: ./assets/img/2寸照.jpg  # base: https://img.yliu.me/avatar.jpg 
+avatar: ./assets/img/2寸照.jpg  # base: https://img.yliu.me/avatar.jpg 
 #favicon: ./assets/img/nju_favicon.ico
 #favicon_dark: ./assets/img/nju_favicon.ico
 
