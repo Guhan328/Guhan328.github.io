@@ -1,6 +1,6 @@
 <h1 id="publication"></h1>
 
-<h2 style="margin: 80px 0px 10px;">Selected Papers</h2>
+<h2 style="margin: 80px 0px 10px;">Selected Pubilcations</h2>
 <h4 style="margin: 10px 0px 10px;">* is corresponding author</h4>
 Full publications, please see my <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl">Google Scholar</a>
 
