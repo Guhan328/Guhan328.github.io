@@ -25,7 +25,3 @@ My research explores integrating AI techniques into future communication network
 I received my B.Eng. degree in Telecommunication Engineering from Zhengzhou University, China, in 2020, and the Ph.D. degree in Communication Systems from Lancaster University, U.K., in 2024, supervised by Prof. [Qiang Ni](https://www.lancaster.ac.uk/lira/people/qiang-ni) and Prof. [Keivan Navaie](https://www.lancaster.ac.uk/scc/about-us/people/keivan-navaie). In 2023, I was a Research Assistant at the University of Sussex, U.K., with Dr. [Aryan Kaushik](https://sites.google.com/view/aryankaushik). From 2023 to 2025, I was a Senior Research Associate at Lancaster University, U.K., working with Prof. [Qiang Ni](https://www.lancaster.ac.uk/lira/people/qiang-ni). Since Aug. 2025, I have been an Associate Professor at Shanghai University.
   
 
-
-<!-- {% include_relative _includes/news.md %} -->
-
-<!-- {% include_relative _includes/contact.md %} -->
