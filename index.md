@@ -8,7 +8,7 @@ layout: homepage
 I am an Associate Professor in the [Group of Research and Education in AI and Telecom (GREAT)](https://scie.shu.edu.cn/info/1281/6334.htm) of the [Shanghai University](https://en.shu.edu.cn/), [School of Communication and Information Engineering](https://scie-en.shu.edu.cn/). I’m also selected as Shanghai Young Leading Talent [上海市海外高层次青年人才].
 
 
-<h2 style="margin: 80px 0px 10px;">My Open Positions</h2>
+<h2 style="margin: 30px 0px 10px;">My Open Positions</h2>
 如果你具备较强的编程能力和动手实践能力，并对深度学习、语义通信、通信网络优化等研究方向感兴趣，欢迎通过邮件与我联系。我们也热忱欢迎具有跨学科背景的同学（如经济学、社会学等）加入。目前团队名额充足，科研氛围开放，欢迎有志于科研探索的同学共同开展研究。
 
 
