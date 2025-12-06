@@ -5,12 +5,11 @@ department: School of Communication and Information Engineering (SCIE)
 department_link: https://scie-en.shu.edu.cn/
 affiliation: Shanghai University
 affiliation_link: https://en.shu.edu.cn/
-affiliation_logo: ./assets/img/nju_logo.png
 email: gzheng@shu.edu.cn
 
 # Search Engine Optimization (SEO)
 keywords: Guhan Zheng, 郑谷寒
-canonical: https://cacso.nju.edu.cn/main.psp
+canonical: https://scie.shu.edu.cn/
 description: Guhan Zheng is an Associate Professor at Shanghai University. 
 
 # The option is used to enable the Johns Hopkins template.
