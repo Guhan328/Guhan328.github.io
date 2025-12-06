@@ -26,14 +26,9 @@ linkedin: https://www.linkedin.com/in/guhan-zheng-69139a184/
 orcid: https://orcid.org/0000-0001-5602-1108
 
 # Images 
-avatar: ./assets/img/TongXin_Photo_202208.jpg  # base: https://img.yliu.me/avatar.jpg 
+avatar: ./assets/img/2寸照.jpg  # base: https://img.yliu.me/avatar.jpg 
 favicon: ./assets/img/nju_favicon.ico
 favicon_dark: ./assets/img/nju_favicon.ico
-
-# Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-# clustrmaps_id: CJD8XwsJhSyQ6sbsU-Gw0cNcUlbah7KW3xvHN2QlwW0
 
 # The following files will be removed from the generated website.
 exclude:
