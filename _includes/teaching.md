@@ -18,7 +18,7 @@
 </p>
 
 <h3 style="margin:0 10px 0;">Lancaster University, UK</h3>
-<p>Seminar and lab tutor for:</p>
+<p style="margin: 5px 0;">Seminar and lab tutor for:</p>
 <ul>
   <li>2021 – 2024 SCC. 150 Information Systems</li>
   <li>2021 – 2024 SCC. 210 Computer Science Group Project</li>
