@@ -2,9 +2,16 @@
 
 <h2 style="margin: 80px 0px 10px;">Academic Services</h2>
 
+
+<h4 style="margin:0 10px 0;">Editor</h4>
+<ul style="margin:0 0 20px;">
+  <li><autocolor> Lead Guest Editor: IEEE Communications Standards Magazine Special Issue on Collaborative Intelligence in Agentic Non-Terrestrial Networks, 2026</autocolor></li>
+</ul>
+
+
 <h4 style="margin:0 10px 0;">Conference Chair</h4>
 <ul style="margin:0 0 20px;">
-  <li><autocolor>22nd EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2026, CCF C)</autocolor></li>
+  <li><autocolor>22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm 2026, CCF C)</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
