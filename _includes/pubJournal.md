@@ -10,7 +10,7 @@ Full publications, please see my <a href="https://scholar.google.com/citations?u
 
   <li><a><autocolor>Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, S. Zhang, and W. Meng, "Stacked Intelligent Metasurfaces for Collaborative Inference," IEEE Journal on Selected Areas in Communications. (Submitted) </autocolor></a></li>
   <li><a><autocolor>Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, A. Kaushik, W. Meng, and S. Zhang, "Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks," IEEE Transactions on Mobile Computing. (Submitted) </autocolor></a></li>
-  <li><a><autocolor><strong>G. Zheng</strong>, Q. Ni, A. Kaushik, L. Yang, Y. Wang, and C. Zarakovitis, "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges," IEEE Network. (Minor Revision) </autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/document/11319360"><autocolor><strong>G. Zheng</strong>, Q. Ni, A. Kaushik, L. Yang, Y. Wang, and C. Zarakovitis, "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges," IEEE Network.</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128625008126"><autocolor><strong>G. Zheng</strong>, Q. Ni, and W. Yu, "EO-ZT: Economically informed zero-trust for secure spectrum trading in open radio access networks (O-RAN)," Computer Networks, p. 111846, Nov. 2025. </autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/11075850"><autocolor>J. Liang, Z. Yu, H. Pervaiz, <strong>G. Zheng*</strong> and N. Suri, "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things," IEEE Internet of Things Journal, vol. 12, no. 17, pp. 34875-34889, 1 Sept.1, 2025.</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10919123"><autocolor><strong>G. Zheng</strong>, Q. Ni, K. Navaie and C. Zarakovitis, "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems," IEEE Transactions on Intelligent Transportation Systems, vol. 26, no. 10, pp. 17901-17913, Oct. 2025.</autocolor></a></li>
@@ -21,3 +21,4 @@ Full publications, please see my <a href="https://scholar.google.com/citations?u
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10328182"><autocolor><strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis, "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading," IEEE Communications Magazine, vol. 61, no. 11, pp. 64-68, November 2023.</autocolor></a></li>
 
 </ol>
+
