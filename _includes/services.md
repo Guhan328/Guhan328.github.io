@@ -29,11 +29,3 @@
 </ul>
 
 
-
-<h4 style="margin:0 10px 0;">Technical Program Committee</h4>
-<ul style="margin:0 0 20px;">
-  <li><autocolor>IEEE International Conference on Communications, ICC</autocolor></li>
-  <li><autocolor>IEEE Wireless Communications and Networking Conference, WCNC</autocolor></li>
-  <li><autocolor>IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom</autocolor></li>
-</ul>
-
