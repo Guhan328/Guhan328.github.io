@@ -20,7 +20,6 @@
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10527365"><autocolor><strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik and C. Zarakovitis, "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks," IEEE Transactions on Green Communications and Networking, vol. 8, no. 4, pp. 1742-1751, Dec. 2024.</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10416926"><autocolor><strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis, "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks," IEEE Internet of Things Journal, vol. 11, no. 10, pp. 17237-17248, 15 May, 2024.</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/abstract/document/10328182"><autocolor><strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis, "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading," IEEE Communications Magazine, vol. 61, no. 11, pp. 64-68, November 2023.</autocolor></a></li>
-
 </ol>
 
 <style>
@@ -77,34 +76,24 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   // =============================
-  // 手动维护：期刊影响力因子/分区（建议每年更新一次）
+  // 手动维护：期刊影响力因子/分区（最新可用JCR发布）
   // =============================
-  // 注意：下面数值请替换为你确认后的最新官方/可信来源数据
   const JOURNAL_METRICS = {
-  "IEEE Journal on Selected Areas in Communications": { if: "17.2", q: "Q1" },
-  "IEEE Transactions on Mobile Computing": { if: "9.2", q: "Q1" },
-  "IEEE Network": { if: "6.3", q: "Q1" },
-  "Computer Networks": { if: "4.6", q: "Q1" },
-  "IEEE Internet of Things Journal": { if: "8.9", q: "Q1" },
-  "IEEE Transactions on Intelligent Transportation Systems": { if: "8.4", q: "Q1" },
-  "IEEE Transactions on Green Communications and Networking": { if: "6.7", q: "Q1" },
-  "IEEE Communications Magazine": { if: "8.2", q: "Q1" },
-  "IEEE Transactions on Vehicular Technology": { if: "7.1", q: "Q1" }
-};
-
-  // 这里写更新说明（你每次改 IF 时顺手改下日期即可）
-  const METRIC_META = {
-    label: "Journal metrics shown for reference",
-    updatedAt: "2026-02-23",
-    source: "Please update according to latest JCR/CiteScore release"
+    "IEEE Journal on Selected Areas in Communications": { if: "17.2", q: "Q1" },
+    "IEEE Transactions on Mobile Computing": { if: "9.2", q: "Q1" },
+    "IEEE Network": { if: "6.3", q: "Q1" },
+    "Computer Networks": { if: "4.6", q: "Q1" },
+    "IEEE Internet of Things Journal": { if: "8.9", q: "Q1" },
+    "IEEE Transactions on Intelligent Transportation Systems": { if: "8.4", q: "Q1" },
+    "IEEE Transactions on Green Communications and Networking": { if: "6.7", q: "Q1" },
+    "IEEE Communications Magazine": { if: "8.2", q: "Q1" },
+    "IEEE Transactions on Vehicular Technology": { if: "7.1", q: "Q1" }
   };
 
   const list = document.querySelector("#pub-list");
   if (!list) return;
 
   const items = list.querySelectorAll("li");
-
-  // 按期刊名长度排序，避免短名字先匹配造成误判
   const journalNames = Object.keys(JOURNAL_METRICS).sort((a, b) => b.length - a.length);
 
   items.forEach(li => {
@@ -113,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const text = (li.innerText || li.textContent || "").replace(/\s+/g, " ").trim();
     const matchedJournal = journalNames.find(name => text.includes(name));
-
     if (!matchedJournal) return;
 
     const metric = JOURNAL_METRICS[matchedJournal] || {};
@@ -121,11 +109,38 @@ document.addEventListener("DOMContentLoaded", function () {
     const qVal = metric.q ?? "";
 
     const badge = document.createElement("span");
-    badge.className = "journal-metric-badge";
+    // 保留你站点 badge 样式，但通过行内样式覆盖大小/换行问题
+    badge.className = "badge journal-metric-badge";
     badge.title = matchedJournal;
     badge.innerHTML = `IF: ${ifVal}${qVal ? ` <span class="q">${qVal}</span>` : ""}`;
 
-    li.appendChild(badge);
+    // === 不改你的全局CSS，只在这里覆盖显示效果 ===
+    badge.style.fontSize = "inherit";       // 覆盖 .badge 的 75%
+    badge.style.fontWeight = "inherit";     // 覆盖 .badge 的 700
+    badge.style.lineHeight = "inherit";
+    badge.style.display = "inline";         // 防止像块一样掉行
+    badge.style.padding = "0";
+    badge.style.marginLeft = "6px";
+    badge.style.marginTop = "0";
+    badge.style.verticalAlign = "baseline";
+    badge.style.whiteSpace = "nowrap";
+    badge.style.background = "transparent"; // 去掉底色（若想保留可删除）
+    badge.style.border = "none";            // 去掉边框（若想保留可删除）
+    badge.style.boxShadow = "none";         // 去掉阴影（若想保留可删除）
+    badge.style.color = "inherit";          // 覆盖 .badge 的白字
+    badge.style.borderRadius = "0";
+    badge.style.textAlign = "left";
+
+    const qEl = badge.querySelector(".q");
+    if (qEl) {
+      qEl.style.marginLeft = "4px";
+      qEl.style.color = "#0969da";
+      qEl.style.fontWeight = "600";
+    }
+
+    // ✅ 插到文献文字容器尾部（“屁股后面”），不是 li 外层末尾
+    const target = li.querySelector("autocolor") || li.querySelector("a") || li;
+    target.appendChild(badge);
   });
 
   // 插入说明（仅一次）
