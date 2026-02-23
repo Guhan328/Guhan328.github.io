@@ -16,7 +16,7 @@
 <h4 style="margin:0 10px 0;">Co-supervise Ph.D. Students</h4>
 <ul>
   <li>Jie Liang (2025); IoT-J <br>[with Dr. [Zhengxin Yu]</li>
-  <li>Yushi Wang (2023); TMC(major revision), NetMag, JSAC(submitted), NetMag(submitted) <br>[with Dr. Zhengxin Yu]</li>
+  <li>Yushi Wang (2023); TMC(major revision), NetMag, JSAC(submitted) <br>[with Dr. Zhengxin Yu]</li>
 </ul>
 <p style="font-style: italic; color: #666; margin-top: 10px;">
   以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。
