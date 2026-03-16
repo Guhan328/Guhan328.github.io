@@ -29,7 +29,7 @@
   <li><autocolor>IEEE Transactions on Communications (TCOM)</autocolor></li>
   <li><autocolor>IEEE Transactions on Green Communications and Networking (TGCN)</autocolor></li>
   <li><autocolor>IEEE Transactions on Network and Service Management (TNSM)</autocolor></li>
-  <li><autocolor>IEEE Network (NETWORK)</autocolor></li>
+  <li><autocolor>IEEE Network (NetMag)</autocolor></li>
   <li><autocolor>IEEE Internet of Things Magazine (IoTM)</autocolor></li>
 </ul>
 
