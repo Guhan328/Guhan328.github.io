@@ -13,6 +13,7 @@
 <ul style="margin:0 0 20px;">
   <li><autocolor>22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm) 2026, Lancaster, UK</autocolor></li>
   <li><autocolor>"Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks," IEEE International Mediterranean Conference on Communications and Networking (MeditCom) 2026, Cagliari, Italy</autocolor></li>
+  <li><autocolor>"The 2nd Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks," IEEE/CIC International Conference on Communications in China (ICCC) 2026, Wuhan, China</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Talks </h4>
