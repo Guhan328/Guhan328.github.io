@@ -8,7 +8,8 @@
 </p>
 
 <ol id="pub-list" style="margin:0 0 5px;">
-  <li><a><autocolor>C. Shen, Q. Ni, H.Pervaiz, M. Renzo, <strong>G. Zheng*</strong>, and S. Zhang*, "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks," IEEE Transactions on Vehicular Technology. (Submitted) </autocolor></a></li>
+  <li><a><autocolor>Z. Yu, J. Liang, <strong>G. Zheng*</strong>, Z. Chen, and N. Suri, "CAVE-FL: Contract-Guided Architecture-Elastic Federated Learning for Heterogeneous Vehicular Edge Intelligence," IEEE Transactions on Mobile Computing. (Submitted) </autocolor></a></li>
+  <li><a><autocolor>C. Shen, <strong>G. Zheng*</strong>, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*, "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks," IEEE Transactions on Cognitive Communications and Networking. (Submitted) </autocolor></a></li>
   <li><a><autocolor>Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, S. Zhang, and W. Meng, "Stacked Intelligent Metasurfaces for Collaborative Inference," IEEE Journal on Selected Areas in Communications. (Submitted) </autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/document/11592739"><autocolor>[TMC'26, Q1] Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, A. Kaushik, W. Meng, and S. Zhang, "Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks," IEEE Transactions on Mobile Computing, 2026.</autocolor></a></li>
   <li><a href="https://ieeexplore.ieee.org/document/11319360"><autocolor>[NetMag'26, Q1] <strong>G. Zheng</strong>, Q. Ni, A. Kaushik, L. Yang, Y. Wang, and C. Zarakovitis, "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges," IEEE Network, 2026.</autocolor></a></li>
