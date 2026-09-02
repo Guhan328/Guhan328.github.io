@@ -10,13 +10,14 @@
 
 <h4 style="margin:0 10px 0;">Co-supervise Master Students</h4>
 <ul>
-  <li>Chenbo Shen (2024); TVT(submitted) <br>[with Prof. Shunqing Zhang]</li>
+  <li>Chenbo Shen (2024); TCCN(submitted) <br>[with Prof. Shunqing Zhang]</li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Co-supervise Ph.D. Students</h4>
 <ul>
+  <li>Yichen Li (2026); IoT-J <br>[with Dr. [Zhengxin Yu]</li>
   <li>Jie Liang (2025); IoT-J <br>[with Dr. [Zhengxin Yu]</li>
-  <li>Yushi Wang (2023); TMC, NetMag, JSAC(submitted) <br>[with Dr. Zhengxin Yu]</li>
+  <li>Yushi Wang (2023); TMC, NetMag, TCCN(submitted), GlobeCom <br>[with Dr. Zhengxin Yu]</li>
 </ul>
 <p style="font-style: italic; color: #666; margin-top: 10px;">
   以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。
