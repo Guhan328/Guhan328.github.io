@@ -15,7 +15,7 @@
 
 <h4 style="margin:0 10px 0;">Co-supervise Ph.D. Students</h4>
 <ul>
-  <li>Yichen Li (2026); IoT-J <br>[with Dr. [Zhengxin Yu]</li>
+  <li>Yichen Li (2026); <br>[with Dr. [Zhengxin Yu]</li>
   <li>Jie Liang (2025); IoT-J <br>[with Dr. [Zhengxin Yu]</li>
   <li>Yushi Wang (2023); TMC, NetMag, TCCN(submitted), GlobeCom <br>[with Dr. Zhengxin Yu]</li>
 </ul>
