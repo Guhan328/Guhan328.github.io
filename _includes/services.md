@@ -9,7 +9,7 @@
 </ul>
 
 
-<h4 style="margin:0 10px 0;">Conference Chair</h4>
+<h4 style="margin:0 10px 0;">Conference Chairs</h4>
 <ul style="margin:0 0 20px;">
    <li><autocolor>"Workshop on Integrated Communication, Sensing, and Geographic Navigation for Spatial
 Intelligence in Urban Air Mobility," IEEE Wireless Communications and Networking Conference (WCNC) 2027, Panama City, Panama</autocolor></li>
