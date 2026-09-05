@@ -68,24 +68,30 @@ export function HomeClient({
               ))}
             </div>
             <div className="flex flex-col gap-3 text-sm font-medium sm:flex-row sm:flex-wrap">
-              <Link
-                href={`${base}/cv` as any}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-5 py-2 text-white hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
-              >
-                {copy.buttons.cv}
-              </Link>
-              <Link
-                href={`${base}/publications` as any}
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-slate-700 hover:border-slate-400 hover:text-brand dark:border-slate-600 dark:text-slate-200"
-              >
-                {copy.buttons.publications}
-              </Link>
-              <Link
-                href={`${base}/projects` as any}
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-slate-700 hover:border-slate-400 hover:text-brand dark:border-slate-600 dark:text-slate-200"
-              >
-                {copy.buttons.projects}
-              </Link>
+              {copy.buttons.cv && copy.buttons.cv.trim() && (
+                <Link
+                  href={`${base}/cv` as any}
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-5 py-2 text-white hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
+                >
+                  {copy.buttons.cv}
+                </Link>
+              )}
+              {copy.buttons.publications && copy.buttons.publications.trim() && (
+                <Link
+                  href={`${base}/publications` as any}
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-slate-700 hover:border-slate-400 hover:text-brand dark:border-slate-600 dark:text-slate-200"
+                >
+                  {copy.buttons.publications}
+                </Link>
+              )}
+              {copy.buttons.projects && copy.buttons.projects.trim() && (
+                <Link
+                  href={`${base}/projects` as any}
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 px-5 py-2 text-slate-700 hover:border-slate-400 hover:text-brand dark:border-slate-600 dark:text-slate-200"
+                >
+                  {copy.buttons.projects}
+                </Link>
+              )}
             </div>
           </div>
           <aside className="space-y-4 rounded-3xl border border-slate-200 bg-white/80 p-6 dark:border-slate-800 dark:bg-slate-900/60">
@@ -117,62 +123,73 @@ export function HomeClient({
         </div>
       </section>
 
-      <Section title={copy.sections.updates.title} eyebrow={copy.sections.updates.eyebrow}>
-        <InfiniteScrollUpdates updates={updates} />
-      </Section>
+      {/* 只有存在 updates 且 title 非空时才渲染 */}
+      {copy.sections.updates && copy.sections.updates.title && copy.sections.updates.title.trim() && (
+        <Section title={copy.sections.updates.title} eyebrow={copy.sections.updates.eyebrow}>
+          <InfiniteScrollUpdates updates={updates} />
+        </Section>
+      )}
 
-      <Section
-        title={copy.sections.projects.title}
-        eyebrow={copy.sections.projects.eyebrow}
-        actions={
-          <Link href={`${base}/projects` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
-            {copy.sections.projects.action}
-          </Link>
-        }
-      >
-        <div className="grid gap-6 md:grid-cols-2">
-          {highlightProjects.map((item) => (
-            <ProjectCard key={item.name} project={item} />
-          ))}
-        </div>
-      </Section>
+      {/* 只有存在 projects 且 title 非空时才渲染 */}
+      {copy.sections.projects && copy.sections.projects.title && copy.sections.projects.title.trim() && (
+        <Section
+          title={copy.sections.projects.title}
+          eyebrow={copy.sections.projects.eyebrow}
+          actions={
+            <Link href={`${base}/projects` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
+              {copy.sections.projects.action}
+            </Link>
+          }
+        >
+          <div className="grid gap-6 md:grid-cols-2">
+            {highlightProjects.map((item) => (
+              <ProjectCard key={item.name} project={item} />
+            ))}
+          </div>
+        </Section>
+      )}
 
-      <Section
-        title={copy.sections.publications.title}
-        eyebrow={copy.sections.publications.eyebrow}
-        actions={
-          <Link href={`${base}/publications` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
-            {copy.sections.publications.action}
-          </Link>
-        }
-      >
-        <div className="space-y-6">
-          {publications.map((entry) => (
-            <PublicationItem key={entry.id} item={entry} locale={locale} />
-          ))}
-        </div>
-      </Section>
+      {/* 只有存在 publications 且 title 非空时才渲染 */}
+      {copy.sections.publications && copy.sections.publications.title && copy.sections.publications.title.trim() && (
+        <Section
+          title={copy.sections.publications.title}
+          eyebrow={copy.sections.publications.eyebrow}
+          actions={
+            <Link href={`${base}/publications` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
+              {copy.sections.publications.action}
+            </Link>
+          }
+        >
+          <div className="space-y-6">
+            {publications.map((entry) => (
+              <PublicationItem key={entry.id} item={entry} locale={locale} />
+            ))}
+          </div>
+        </Section>
+      )}
 
-      <Section
-        title={copy.sections.awards.title}
-        eyebrow={copy.sections.awards.eyebrow}
-        actions={
-          <Link href={`${base}/cv` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
-            {copy.sections.awards.action}
-          </Link>
-        }
-      >
-        <ul className="space-y-2 text-base text-slate-600 dark:text-slate-300">
-          {awards.map((award) => (
-            <li key={`${award.title}-${award.year}`} className="leading-relaxed">
-              <span className="font-medium text-slate-900 dark:text-slate-50">{award.title}</span>
-              {award.issuer ? <span> · {award.issuer}</span> : null}
-              <span className="text-xs uppercase tracking-[0.3em] text-slate-600 dark:text-slate-300"> · {award.year}</span>
-            </li>
-          ))}
-        </ul>
-      </Section>
+      {/* 只有存在 awards 且 title 非空时才渲染 */}
+      {copy.sections.awards && copy.sections.awards.title && copy.sections.awards.title.trim() && (
+        <Section
+          title={copy.sections.awards.title}
+          eyebrow={copy.sections.awards.eyebrow}
+          actions={
+            <Link href={`${base}/cv` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
+              {copy.sections.awards.action}
+            </Link>
+          }
+        >
+          <ul className="space-y-2 text-base text-slate-600 dark:text-slate-300">
+            {awards.map((award) => (
+              <li key={`${award.title}-${award.year}`} className="leading-relaxed">
+                <span className="font-medium text-slate-900 dark:text-slate-50">{award.title}</span>
+                {award.issuer ? <span> · {award.issuer}</span> : null}
+                <span className="text-xs uppercase tracking-[0.3em] text-slate-600 dark:text-slate-300"> · {award.year}</span>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
     </div>
   );
 }
-
