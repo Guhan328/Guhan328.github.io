@@ -4,15 +4,10 @@
   },
   "en": {
     "heroIntro": "I received my B.Eng. degree in Telecommunication Engineering from Zhengzhou University, China, in 2020, and the Ph.D. degree in Communication Systems from Lancaster University, U.K., in 2024, supervised by Prof. Qiang Ni and Prof. Keivan Navaie. In 2023, I was a Research Assistant at the University of Sussex, U.K., with Prof. Aryan Kaushik. From 2023 to 2025, I was a Senior Research Associate at Lancaster University, U.K., working with Prof. Qiang Ni. Since Aug. 2025, I have been an Associate Professor in the Group of Research and Education in AI and Telecom (GREAT) at Shanghai University, School of Communication and Information Engineering. ",
-    "buttons": {
-      "cv": "View CV",
-      "publications": "View Publications",
-      "projects": "Explore Projects"
-    },
     "highlights": {
       "title": "At a Glance",
-      "focusLabel": "Current focus",
-      "focusValue": "Embodied AI for reliable long-horizon robot tasks",
+      "focusLabel": "Contact",
+      "focusValue": "327, Building 12, <br /> East Campus, Shanghai University (Baoshan Campus), <br />333 Nanchen Road, Baoshan District, <br />Shanghai, China",
       "contactLabel": "Email",
       "contactValue": "gzheng@shu.edu.cn",
       "locationLabel": "Based in"
@@ -26,18 +21,12 @@
   },
   "zh": {
     "heroIntro": "郑谷寒，上海市海外高层次青年人才，2020年本科毕业于郑州大学，2024年3月博士毕业于英国兰卡斯特大学。2023年在英国苏塞克斯大学从事研究助理，2023年10月至2025年3月在英国兰卡斯特大学从事博士后研究。2025年8月起任上海大学通信与信息工程学院副教授。主要研究方向为低空通信网络、城市空中交通、面向任务的通信等。参与多项英国研究与创新署（UKRI）、英国科学创新和技术部（DSIT）资助的科研项目。相关研究成果以第一作者身份在多个IEEE旗舰期刊和顶级期刊/杂志/会议上发表论文，包括IEEE JSAC、COMMAG、ICC等。同时，担任IEEE StdMag的首席客座编辑、IEEE OJ-COMS的高级审稿人以及IEEE JSAC、TMC、TWC和TCOM的技术审稿人。还曾担任 EAI SecureComm 2026 的教程主席、IEEE MeditCom 2026、IEEE/CIC ICCC 2026、IEEE WCNC 2027 的研讨会主席，以及 IEEE ICC、GlobeCom 和 TrustCom 的常规程序委员会成员。",
-    "buttons": {
-      "cv": "查看简历",
-      "publications": "浏览论文",
-      "projects": "查看项目"
-    },
     "highlights": {
-      "title": "工作速览",
-      "focusLabel": "当前重点",
-      "focusValue": "面向长时程任务的具身智能系统",
+      "title": "联系方式",
+      "focusLabel": "办公地点",
+      "focusValue": "上海市宝山区<br />南陈路333号<br />上海大学东区12号楼<br />327",
       "contactLabel": "联系邮箱",
-      "contactValue": "gzheng@shu.edu.cn",
-      "locationLabel": "常驻城市"
+      "contactValue": "gzheng@shu.edu.cn"
     },
     "sections": {
       "updates": { "title": "近期动态", "eyebrow": "动态" },
