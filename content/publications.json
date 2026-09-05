@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "description": "Publications and patents with metadata for the Publications page."
+    "description": "Selected Publications"
   },
   "en": {
     "section": {
@@ -177,7 +177,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "CAVE-FL：面向异构车联网边缘智能的合约引导架构弹性联邦学习",
+        "title": "CAVE-FL：面向异构车辆边缘智能的契约引导架构弹性联邦学习",
         "authors": "Z. Yu, J. Liang, G. Zheng*, Z. Chen, and N. Suri",
         "venue": "IEEE Transactions on Mobile Computing",
         "tags": [],
@@ -187,7 +187,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "低空无线网络端边协同推理的鲁棒堆叠智能超表面",
+        "title": "面向低空无线网络端边协同推理的鲁棒堆叠智能超表面",
         "authors": "C. Shen, G. Zheng*, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*",
         "venue": "IEEE Transactions on Cognitive Communications and Networking",
         "tags": [],
@@ -227,7 +227,7 @@
       {
         "type": "J",
         "year": "2025",
-        "title": "EO-ZT：面向开放无线接入网安全频谱交易的经济信息驱动零信任机制",
+        "title": "EO-ZT：面向开放无线接入网安全频谱交易的经济驱动零信任机制",
         "authors": "G. Zheng, Q. Ni, and W. Yu",
         "venue": "Computer Networks",
         "tags": [],
@@ -257,7 +257,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "面向计算卸载的星载边缘云网络语义通信",
+        "title": "面向星载边缘云网络计算卸载的语义通信",
         "authors": "G. Zheng, Q. Ni, K. Navaie, and H. Pervaiz",
         "venue": "IEEE Journal on Selected Areas in Communications",
         "tags": [],
@@ -277,7 +277,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "面向空中辅助边缘网络的能量高效语义通信",
+        "title": "面向低空边缘网络的能量高效语义通信",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis",
         "venue": "IEEE Transactions on Green Communications and Networking",
         "tags": [],
@@ -297,7 +297,7 @@
       {
         "type": "J",
         "year": "2023",
-        "title": "面向自动驾驶网络任务卸载的语义通信分布式学习架构",
+        "title": "面向自动驾驶网络任务卸载的分布式语义通信框架",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis",
         "venue": "IEEE Communications Magazine",
         "tags": [],
