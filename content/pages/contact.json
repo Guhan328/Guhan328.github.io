@@ -4,20 +4,20 @@
   },
   "en": {
     "title": "Contact",
-    "description": "Office: Room XXX, Building XX, Shanghai University<br />Email: your-email@example.com",
+    "description": "Office: Room XXX, Building XX, Shanghai University\nEmail: your-email@example.com",
     "eyebrow": "Get in Touch",
-    "items": {
-      "contact": "Email",
-      "location": "Office"
-    }
+    "items": [
+      { "label": "Email", "value": "your-email@example.com" },
+      { "label": "Office", "value": "Room XXX, Building XX, Shanghai University" }
+    ]
   },
   "zh": {
     "title": "联系我",
-    "description": "办公室：上海大学通信楼 XXX 室<br />邮箱：your-email@example.com",
+    "description": "办公室：上海大学通信楼 XXX 室\n邮箱：your-email@example.com",
     "eyebrow": "联系",
-    "items": {
-      "contact": "邮箱",
-      "location": "办公室"
-    }
+    "items": [
+      { "label": "邮箱", "value": "your-email@example.com" },
+      { "label": "办公室", "value": "上海大学通信楼 XXX 室" }
+    ]
   }
 }
