@@ -44,13 +44,13 @@
         {
           "name": "Lancaster University, UK",
           "students": [],
+          "coursesLabel": "Seminar and lab tutor for:",
           "courses": [
             "2021 – 2024 SCC.150 Information Systems",
             "2021 – 2024 SCC.210 Computer Science Group Project",
             "2022 – 2023 SCC.312 Languages and Compilation",
             "2022 – 2023 SCC.363 Security and Risk"
-          ],
-          "note": "Seminar and lab tutor for:"
+          ]
         }
       ]
     }
@@ -66,10 +66,10 @@
       "institutions": [
         {
           "name": "上海大学",
+          "coursesLabel": "本科课程",
           "courses": [
             "2026- 并行与分布式计算"
           ],
-          "note": "本科课程",
           "students": [
             {
               "type": "硕士研究生",
@@ -101,13 +101,13 @@
         {
           "name": "英国兰卡斯特大学",
           "students": [],
+          "coursesLabel": "教学助理",
           "courses": [
             "2021 – 2024 SCC.150 信息系统",
             "2021 – 2024 SCC.210 计算机科学小组项目",
             "2022 – 2023 SCC.312 语言与编译",
             "2022 – 2023 SCC.363 安全与风险"
-          ],
-          "note": "教学助理"
+          ]
         }
       ]
     }
