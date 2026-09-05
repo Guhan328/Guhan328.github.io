@@ -17,13 +17,13 @@ const NAV_ITEMS: Record<Locale, NavItem[]> = {
     { label: "Home", href: buildLocalePath("en") },
     { label: "Teaching", href: buildLocalePath("en", "/research") },
     { label: "Publications", href: buildLocalePath("en", "/publications") },
-    { label: "Projects", href: buildLocalePath("en", "/projects") }
+    { label: "Service", href: buildLocalePath("en", "/projects") }
   ],
   zh: [
     { label: "首页", href: buildLocalePath("zh") },
     { label: "教学概览", href: buildLocalePath("zh", "/research") },
     { label: "发表成果", href: buildLocalePath("zh", "/publications") },
-    { label: "项目集锦", href: buildLocalePath("zh", "/projects") }
+    { label: "社会服务", href: buildLocalePath("zh", "/projects") }
   ]
 };
 
