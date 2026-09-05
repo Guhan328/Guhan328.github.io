@@ -27,12 +27,15 @@ export function ProjectsClient({ locale, services, page }: ProjectsClientProps) 
 
   return (
     <div className="space-y-16">
-      <section className="space-y-4 rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-white p-8 shadow-[0_24px_60px_-45px_rgba(30,64,175,0.45)] dark:border-slate-800 dark:bg-gradient-to-br dark:from-slate-900/80 dark:via-slate-900/60 dark:to-slate-900/40">
-        <h1 className="text-3xl font-semibold text-blue-900 dark:text-white">{page.title}</h1>
-        <p className="text-base leading-relaxed text-blue-900/70 dark:text-slate-300">
+      {/* 简洁标题，无大白框 */}
+      <div>
+        <h1 className="text-3xl font-semibold text-slate-900 dark:text-white">
+          {page.title}
+        </h1>
+        <p className="mt-2 text-base text-slate-600 dark:text-slate-400">
           Editorial, conference chair, and reviewing activities
         </p>
-      </section>
+      </div>
 
       {sections.map(({ key, data }) => {
         if (!data || !data.items || data.items.length === 0) return null;
