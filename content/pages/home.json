@@ -32,13 +32,13 @@
     "highlights": {
       "title": "联系方式",
       "focusLabel": "办公地点",
-      "focusValue": "上海市宝山区\n南陈路333号\n上海大学东区12号楼\n327",
+      "focusValue": "上海市宝山区南陈路333号\n上海大学东区12号楼\n327",
       "contactLabel": "联系邮箱",
       "contactValue": "gzheng@shu.edu.cn"
     },
     "sections": {
-      "updates": { "title": "近期动态", "eyebrow": "动态" },
-      "publications": { "title": "近期写作", "eyebrow": "成果", "action": "查看全部" }
+      "updates": { "title": "近期新闻", "eyebrow": "动态" },
+      "publications": { "title": "近期成果", "eyebrow": "成果", "action": "查看全部" }
     }
   }
 }
