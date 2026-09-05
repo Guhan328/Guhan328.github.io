@@ -1,59 +1,91 @@
 {
   "_meta": {
-    "description": "Copy and labels for the Projects page."
+    "description": "Academic services - editorial, conference chairs, talks, and reviewing activities."
   },
   "en": {
-    "heroTitle": "Project Portfolio",
-    "heroDescription": "Showcase academic work, open-source tools, and side projects in one place. Period strings drive sorting, and GitHub stars can be synced automatically if you enable the workflow.",
-    "filters": {
-      "year": "Year",
-      "label": "Tag",
-      "all": "All",
-      "ongoing": "Ongoing",
-      "featured": "Featured"
+    "page": {
+      "title": "Academic Services",
+      "eyebrow": "Editorial & Reviewing"
     },
-    "badges": {
-      "ongoing": "Ongoing",
-      "featured": "Featured"
-    },
-    "empty": "No projects match the selected filters.",
-    "sections": {
-      "updates": {
-        "title": "Recent Project Updates",
-        "eyebrow": "Activity Log"
+    "academicServices": {
+      "editor": {
+        "title": "Editor",
+        "items": [
+          "Lead Guest Editor: IEEE Communications Standards Magazine Special Issue on Collaborative Intelligence in Agentic Non-Terrestrial Networks, 2026"
+        ]
+      },
+      "conferenceChairs": {
+        "title": "Conference Chairs",
+        "items": [
+          "Workshop on Integrated Communication, Sensing, and Geographic Navigation for Spatial Intelligence in Urban Air Mobility, IEEE Wireless Communications and Networking Conference (WCNC) 2027, Panama City, Panama",
+          "22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm) 2026, Lancaster, UK",
+          "Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks, IEEE International Mediterranean Conference on Communications and Networking (MeditCom) 2026, Cagliari, Italy",
+          "The 2nd Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks, IEEE/CIC International Conference on Communications in China (ICCC) 2026, Wuhan, China"
+        ]
+      },
+      "talks": {
+        "title": "Talks",
+        "items": [
+          "Distinguished Speaker, \"Distributed Semantic Communication Systems,\" International Workshop on AI & Next Generation Connectivity (NeuGenNet), London, UK (Mar. 2026)"
+        ]
+      },
+      "journalReviewers": {
+        "title": "Journal Reviewers",
+        "items": [
+          "IEEE Journal on Selected Areas in Communications (JSAC)",
+          "Science China Information Sciences (SCIS)",
+          "IEEE Transactions on Wireless Communications (TWC)",
+          "IEEE Transactions on Mobile Computing (TMC)",
+          "IEEE Transactions on Communications (TCOM)",
+          "IEEE Transactions on Green Communications and Networking (TGCN)",
+          "IEEE Transactions on Network and Service Management (TNSM)",
+          "IEEE Network (NetMag)",
+          "IEEE Internet of Things Magazine (IoTM)"
+        ]
       }
-    },
-    "groupLabels": {
-      "academic": "Academic",
-      "open-source": "Open Source",
-      "default": "Projects"
     }
   },
   "zh": {
-    "heroTitle": "项目集锦",
-    "heroDescription": "在同一个页面展示学术工作、开源工具和个人项目。项目排序由时间字段驱动；如果启用工作流，还可以自动同步 GitHub stars。",
-    "filters": {
-      "year": "年份",
-      "label": "标签",
-      "all": "全部",
-      "ongoing": "进行中",
-      "featured": "精选"
+    "page": {
+      "title": "学术服务",
+      "eyebrow": "编辑与审稿"
     },
-    "badges": {
-      "ongoing": "进行中",
-      "featured": "精选"
-    },
-    "empty": "暂无符合当前筛选条件的项目。",
-    "sections": {
-      "updates": {
-        "title": "项目动态",
-        "eyebrow": "更新记录"
+    "academicServices": {
+      "editor": {
+        "title": "编辑",
+        "items": [
+          "首席客座编辑：IEEE Communications Standards Magazine 专刊 \"Collaborative Intelligence in Agentic Non-Terrestrial Networks\"，2026"
+        ]
+      },
+      "conferenceChairs": {
+        "title": "会议主席",
+        "items": [
+          "研讨会主席：\"Integrated Communication, Sensing, and Geographic Navigation for Spatial Intelligence in Urban Air Mobility\"，IEEE Wireless Communications and Networking Conference (WCNC) 2027，巴拿马城，巴拿马",
+          "22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm) 2026，兰卡斯特，英国",
+          "研讨会主席：\"Collaborative Edge Intelligence for Non-Terrestrial Communication Networks\"，IEEE International Mediterranean Conference on Communications and Networking (MeditCom) 2026，卡利亚里，意大利",
+          "研讨会主席：\"Collaborative Edge Intelligence for Non-Terrestrial Communication Networks\"，IEEE/CIC International Conference on Communications in China (ICCC) 2026，武汉，中国"
+        ]
+      },
+      "talks": {
+        "title": "特邀报告",
+        "items": [
+          "特邀报告人：\"Distributed Semantic Communication Systems\"，International Workshop on AI & Next Generation Connectivity (NeuGenNet)，伦敦，英国（2026年3月）"
+        ]
+      },
+      "journalReviewers": {
+        "title": "期刊审稿人",
+        "items": [
+          "IEEE Journal on Selected Areas in Communications (JSAC)",
+          "Science China Information Sciences (SCIS)",
+          "IEEE Transactions on Wireless Communications (TWC)",
+          "IEEE Transactions on Mobile Computing (TMC)",
+          "IEEE Transactions on Communications (TCOM)",
+          "IEEE Transactions on Green Communications and Networking (TGCN)",
+          "IEEE Transactions on Network and Service Management (TNSM)",
+          "IEEE Network (NetMag)",
+          "IEEE Internet of Things Magazine (IoTM)"
+        ]
       }
-    },
-    "groupLabels": {
-      "academic": "学术项目",
-      "open-source": "开源项目",
-      "default": "项目"
     }
   }
 }
