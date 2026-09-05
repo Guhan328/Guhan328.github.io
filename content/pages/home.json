@@ -19,7 +19,9 @@
     },
     "sections": {
       "updates": { "title": "Recent Updates", "eyebrow": "News" },
-      "publications": { "title": "Latest Writing", "eyebrow": "Publications", "action": "All entries" }
+      "publications": { "title": "Latest Writing", "eyebrow": "Publications", "action": "All entries" },
+      "projects": { "title": "", "eyebrow": "", "action": "" },
+      "awards": { "title": "", "eyebrow": "", "action": "" }
     }
   },
   "zh": {
@@ -38,7 +40,9 @@
     },
     "sections": {
       "updates": { "title": "近期动态", "eyebrow": "动态" },
-      "publications": { "title": "近期写作", "eyebrow": "成果", "action": "查看全部" }
+      "publications": { "title": "近期写作", "eyebrow": "成果", "action": "查看全部" },
+      "projects": { "title": "", "eyebrow": "", "action": "" },
+      "awards": { "title": "", "eyebrow": "", "action": "" }
     }
   }
 }
