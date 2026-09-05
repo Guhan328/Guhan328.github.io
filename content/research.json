@@ -18,14 +18,14 @@
                   "detail": "Co-supervise Master Students"
                 }
               ]
-            }
+            },
             {
               "type": "Co-supervise Ph.D. Students",
               "list": [
                 {
                   "name": "Yichen Li (2026)",
                   "detail": "[with Dr. Zhengxin Yu]"
-                }
+                },
                 {
                   "name": "Yushi Wang (2023)",
                   "detail": "TMC, NetMag, TCCN (submitted), GlobeCom [with Dr. Zhengxin Yu]"
@@ -33,7 +33,7 @@
               ]
             }
           ],
-          "note": "以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。"
+          "note": "The above student achievements reflect only the work I have co-supervised and do not represent their full portfolio."
         },
         {
           "name": "Lancaster University, UK",
@@ -62,11 +62,11 @@
               "list": [
                 {
                   "name": "刘欣 (2025)",
-                  "detail": "",
+                  "detail": ""
                 },
-                 {
+                {
                   "name": "马晨宇 (2026)",
-                  "detail": "",
+                  "detail": ""
                 }
               ]
             },
@@ -79,7 +79,7 @@
                 },
                 {
                   "name": "Yushi Wang (2023)",
-                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom \n [与Dr. Zhengxin Yu 合作]"
+                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom [与Dr. Zhengxin Yu 合作]"
                 }
               ]
             }
