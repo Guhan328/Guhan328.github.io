@@ -50,6 +50,10 @@
     }
   },
   "zh": {
+    "page": {
+      "title": "教学",
+      "eyebrow": "课程与指导"
+    },
     "interests": [],
     "experiences": [],
     "teaching": {
@@ -62,11 +66,11 @@
               "list": [
                 {
                   "name": "刘欣 (2025)",
-                  "detail": ""
+                 
                 },
                 {
                   "name": "马晨宇 (2026)",
-                  "detail": ""
+                  
                 }
               ]
             },
@@ -78,8 +82,8 @@
                   "detail": "[与Dr. Zhengxin Yu 合作]"
                 },
                 {
-                  "name": "Yushi Wang (2023)",
-                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom [与Dr. Zhengxin Yu 合作]"
+                  "name": "Yushi Wang (2023); TMC, NetMag, TCCN (审稿中), GlobeCom",
+                  "detail": "[与Dr. Zhengxin Yu 合作]"
                 }
               ]
             }
