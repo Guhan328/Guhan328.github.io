@@ -46,10 +46,9 @@ export function HomeClient({
   const base = `/${locale}`;
 
   const highlightItems = [
-  { label: copy.highlights.focusLabel, value: copy.highlights.focusValue },
-  { label: copy.highlights.contactLabel, value: copy.highlights.contactValue, href: `${base}/contact` }, 
-  { label: copy.highlights.locationLabel, value: profile.location }
-];
+    { label: copy.highlights.focusLabel, value: copy.highlights.focusValue, href: undefined },
+    { label: copy.highlights.locationLabel, value: profile.location, href: undefined }
+  ];
 
   // 辅助函数：将包含 \n 的字符串渲染为带换行的 React 节点
   const renderMultilineText = (text: string) => {
@@ -136,6 +135,19 @@ export function HomeClient({
           </aside>
         </div>
       </section>
+
+      {/* ===== 招生板块（仅当存在且 title 非空时渲染） ===== */}
+      {copy.sections.recruitment && copy.sections.recruitment.title && copy.sections.recruitment.title.trim() && (
+        <Section title={copy.sections.recruitment.title} eyebrow={copy.sections.recruitment.eyebrow}>
+          <div className="prose prose-slate dark:prose-invert max-w-none">
+            {copy.sections.recruitment.content && (
+              <div className="text-base text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
+                {copy.sections.recruitment.content}
+              </div>
+            )}
+          </div>
+        </Section>
+      )}
 
       {copy.sections.updates && copy.sections.updates.title && copy.sections.updates.title.trim() && (
         <Section title={copy.sections.updates.title} eyebrow={copy.sections.updates.eyebrow}>
