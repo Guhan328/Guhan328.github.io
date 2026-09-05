@@ -3,6 +3,10 @@
     "description": "Teaching experience - courses and student supervision."
   },
   "en": {
+    "page": {
+      "title": "Teaching",
+      "eyebrow": "Courses & Mentoring"
+    },
     "interests": [],
     "experiences": [],
     "teaching": {
@@ -14,10 +18,10 @@
               "type": "Master Students",
               "list": [
                 {
-                  "name": "Xin Liu (2025)",
-                }
+                  "name": "Xin Liu (2025)"
+                },
                 {
-                  "name": "Chenyu Ma (2026)",
+                  "name": "Chenyu Ma (2026)"
                 }
               ]
             },
@@ -27,10 +31,10 @@
                 {
                   "name": "Yichen Li (2026)",
                   "detail": "[with Dr. Zhengxin Yu]"
-                }
+                },
                 {
-                  "name": "Yushi Wang (2023); TMC, NetMag, TCCN (submitted), GlobeCom",
-                  "detail": "[with Dr. Zhengxin Yu]"
+                  "name": "Yushi Wang (2023)",
+                  "detail": "TMC, NetMag, TCCN (submitted), GlobeCom [with Dr. Zhengxin Yu]"
                 }
               ]
             }
@@ -67,11 +71,10 @@
               "type": "硕士研究生",
               "list": [
                 {
-                  "name": "刘欣 (2025)",
-                }
+                  "name": "刘欣 (2025)"
+                },
                 {
-                  "name": "马晨宇 (2026)",
-                  
+                  "name": "马晨宇 (2026)"
                 }
               ]
             },
@@ -81,10 +84,10 @@
                 {
                   "name": "Yichen Li (2026)",
                   "detail": "[与Dr. Zhengxin Yu 合作]"
-                }
+                },
                 {
-                  "name": "Yushi Wang (2023); TMC, NetMag, TCCN (审稿中), GlobeCom",
-                  "detail": "[与Dr. Zhengxin Yu 合作]"
+                  "name": "Yushi Wang (2023)",
+                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom [与Dr. Zhengxin Yu 合作]"
                 }
               ]
             }
