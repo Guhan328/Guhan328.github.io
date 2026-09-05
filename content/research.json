@@ -1,65 +1,125 @@
 {
   "_meta": {
-    "description": "Educational background timeline."
+    "description": "Teaching experience - courses and student supervision."
   },
   "en": {
     "interests": [],
-    "experiences": [
-      {
-        "title": "Ph.D. in Communication Systems",
-        "period": "2020 – 2024",
-        "role": "Lancaster University, U.K.",
-        "advisor": "Supervisors: Prof. Qiang Ni and Prof. Keivan Navaie",
-        "funding": "",
-        "summary": "Research on semantic communication, federated learning, and edge intelligence.",
-        "bullets": [
-          "Thesis: Semantic Communication in Satellite-Borne Edge Cloud Networks",
-          "Published papers in IEEE JSAC, TMC, T-ITS, IoTJ, etc."
-        ],
-        "tags": ["Ph.D.", "Lancaster University", "Communication Systems"]
-      },
-      {
-        "title": "B.Eng. in Telecommunication Engineering",
-        "period": "2016 – 2020",
-        "role": "Zhengzhou University, China",
-        "advisor": "",
-        "funding": "",
-        "summary": "Undergraduate studies in telecommunication engineering.",
-        "bullets": [
-          "Graduated with B.Eng. degree"
-        ],
-        "tags": ["B.Eng.", "Zhengzhou University"]
-      }
-    ]
+    "experiences": [],
+    "teaching": {
+      "institutions": [
+        {
+          "name": "Shanghai University, China",
+          "students": [
+            {
+              "type": "Master Students",
+              "list": [
+                {
+                  "name": "Xin Liu (2025)",
+                  "detail": "Co-supervise Master Students"
+                }
+              ]
+            },
+            {
+              "type": "Co-supervise Master Students",
+              "list": [
+                {
+                  "name": "Chenbo Shen (2024)",
+                  "detail": "TCCN (submitted) [with Prof. Shunqing Zhang]"
+                }
+              ]
+            },
+            {
+              "type": "Co-supervise Ph.D. Students",
+              "list": [
+                {
+                  "name": "Yichen Li (2026)",
+                  "detail": "[with Dr. Zhengxin Yu]"
+                },
+                {
+                  "name": "Jie Liang (2025)",
+                  "detail": "IoT-J [with Dr. Zhengxin Yu]"
+                },
+                {
+                  "name": "Yushi Wang (2023)",
+                  "detail": "TMC, NetMag, TCCN (submitted), GlobeCom [with Dr. Zhengxin Yu]"
+                }
+              ]
+            }
+          ],
+          "note": "以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。"
+        },
+        {
+          "name": "Lancaster University, UK",
+          "students": [],
+          "courses": [
+            "2021 – 2024 SCC.150 Information Systems",
+            "2021 – 2024 SCC.210 Computer Science Group Project",
+            "2022 – 2023 SCC.312 Languages and Compilation",
+            "2022 – 2023 SCC.363 Security and Risk"
+          ],
+          "note": "Seminar and lab tutor for:"
+        }
+      ]
+    }
   },
   "zh": {
     "interests": [],
-    "experiences": [
-      {
-        "title": "博士（通信系统）",
-        "period": "2020 – 2024",
-        "role": "英国兰卡斯特大学",
-        "advisor": "导师：Prof. Qiang Ni 和 Prof. Keivan Navaie",
-        "funding": "",
-        "summary": "研究方向：语义通信、联邦学习、边缘智能。",
-        "bullets": [
-          "博士论文：星载边缘云网络中的语义通信",
-          "在 IEEE JSAC、TMC、T-ITS、IoTJ 等期刊发表论文"
-        ],
-        "tags": ["博士", "兰卡斯特大学", "通信系统"]
-      },
-      {
-        "title": "本科（通信工程）",
-        "period": "2016 – 2020",
-        "role": "中国郑州大学",
-        "advisor": "",
-        "funding": "",
-        "summary": "通信工程本科学习。",
-        "bullets": [
-          "获工学学士学位"
-        ],
-        "tags": ["本科", "郑州大学"]
-      }
-    ]
+    "experiences": [],
+    "teaching": {
+      "institutions": [
+        {
+          "name": "上海大学",
+          "students": [
+            {
+              "type": "硕士研究生",
+              "list": [
+                {
+                  "name": "刘欣 (2025)",
+                  "detail": "联合指导硕士研究生"
+                }
+              ]
+            },
+            {
+              "type": "联合指导硕士研究生",
+              "list": [
+                {
+                  "name": "沈晨博 (2024)",
+                  "detail": "TCCN (审稿中) [与张顺庆教授合作]"
+                }
+              ]
+            },
+            {
+              "type": "联合指导博士研究生",
+              "list": [
+                {
+                  "name": "李一尘 (2026)",
+                  "detail": "[与余正鑫博士合作]"
+                },
+                {
+                  "name": "梁杰 (2025)",
+                  "detail": "IoT-J [与余正鑫博士合作]"
+                },
+                {
+                  "name": "王宇石 (2023)",
+                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom [与余正鑫博士合作]"
+                }
+              ]
+            }
+          ],
+          "note": "以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。"
+        },
+        {
+          "name": "英国兰卡斯特大学",
+          "students": [],
+          "courses": [
+            "2021 – 2024 SCC.150 信息系统",
+            "2021 – 2024 SCC.210 计算机科学小组项目",
+            "2022 – 2023 SCC.312 语言与编译",
+            "2022 – 2023 SCC.363 安全与风险"
+          ],
+          "note": "担任以下课程研讨课与实验课导师："
+        }
+      ]
+    }
   }
 }
