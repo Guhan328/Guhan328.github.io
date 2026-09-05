@@ -20,24 +20,11 @@
               ]
             },
             {
-              "type": "Co-supervise Master Students",
-              "list": [
-                {
-                  "name": "Chenbo Shen (2024)",
-                  "detail": "TCCN (submitted) [with Prof. Shunqing Zhang]"
-                }
-              ]
-            },
-            {
               "type": "Co-supervise Ph.D. Students",
               "list": [
                 {
                   "name": "Yichen Li (2026)",
                   "detail": "[with Dr. Zhengxin Yu]"
-                },
-                {
-                  "name": "Jie Liang (2025)",
-                  "detail": "IoT-J [with Dr. Zhengxin Yu]"
                 },
                 {
                   "name": "Yushi Wang (2023)",
@@ -75,16 +62,11 @@
               "list": [
                 {
                   "name": "刘欣 (2025)",
-                  "detail": "联合指导硕士研究生"
-                }
-              ]
-            },
-            {
-              "type": "联合指导硕士研究生",
-              "list": [
-                {
-                  "name": "沈晨博 (2024)",
-                  "detail": "TCCN (审稿中) [与张顺庆教授合作]"
+                  "detail": "",
+                },
+                 {
+                  "name": "马晨宇 (2026)",
+                  "detail": "",
                 }
               ]
             },
@@ -92,16 +74,12 @@
               "type": "联合指导博士研究生",
               "list": [
                 {
-                  "name": "李一尘 (2026)",
-                  "detail": "[与余正鑫博士合作]"
+                  "name": "Yichen Li (2026)",
+                  "detail": "[与Dr. Zhengxin Yu 合作]"
                 },
                 {
-                  "name": "梁杰 (2025)",
-                  "detail": "IoT-J [与余正鑫博士合作]"
-                },
-                {
-                  "name": "王宇石 (2023)",
-                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom [与余正鑫博士合作]"
+                  "name": "Yushi Wang (2023)",
+                  "detail": "TMC, NetMag, TCCN (审稿中), GlobeCom \n [与Dr. Zhengxin Yu 合作]"
                 }
               ]
             }
@@ -117,7 +95,7 @@
             "2022 – 2023 SCC.312 语言与编译",
             "2022 – 2023 SCC.363 安全与风险"
           ],
-          "note": "担任以下课程研讨课与实验课导师："
+          "note": ""
         }
       ]
     }
