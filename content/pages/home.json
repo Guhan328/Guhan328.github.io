@@ -12,7 +12,7 @@
     "highlights": {
       "title": "At a Glance",
       "focusLabel": "Contact",
-      "focusValue": "327, Building 12, <br /> East Campus, Shanghai University (Baoshan Campus), <br />333 Nanchen Road, Baoshan District, <br />Shanghai, China",
+      "focusValue": "327, Building 12, \n East Campus, Shanghai University (Baoshan Campus), \n 333 Nanchen Road, Baoshan District, \n Shanghai, China",
       "contactLabel": "Email",
       "contactValue": "gzheng@shu.edu.cn",
       "locationLabel": "Based in"
@@ -34,7 +34,7 @@
     "highlights": {
       "title": "联系方式",
       "focusLabel": "办公地点",
-      "focusValue": "上海市宝山区<br />南陈路333号<br />上海大学东区12号楼<br />327",
+      "focusValue": "上海市宝山区\n南陈路333号\n上海大学东区12号楼\n327",
       "contactLabel": "联系邮箱",
       "contactValue": "gzheng@shu.edu.cn"
     },
