@@ -16,7 +16,7 @@ export default async function ResearchPage({ params }: PageProps) {
   }
 
   const content = getResearchContent()[locale];
-  const teaching = content.teaching;
+  const teaching = content.research;
 
   return (
     <div className="space-y-16">
