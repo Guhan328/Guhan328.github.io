@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 import { ProjectsClient } from "./projects-client";
 
-import { getProjectsContent, getProjectsPageCopy, getUpdatesContent } from "@/lib/content";
+import { getProjectsContent } from "@/lib/content";
 import { normalizeLocale } from "@/lib/locale";
 
 type PageProps = {
@@ -16,9 +16,9 @@ export default async function ProjectsPage({ params }: PageProps) {
     notFound();
   }
 
-  const groups = getProjectsContent()[locale].groups;
-  const updates = getUpdatesContent()[locale].updates.slice(0, 7);
-  const copy = getProjectsPageCopy()[locale];
+  const content = getProjectsContent()[locale] as any;
+  const services = content.academicServices;
+  const page = content.page || { title: "Academic Services", eyebrow: "Editorial & Reviewing" };
 
-  return <ProjectsClient locale={locale} groups={groups} updates={updates} copy={copy} />;
+  return <ProjectsClient locale={locale} services={services} page={page} />;
 }
