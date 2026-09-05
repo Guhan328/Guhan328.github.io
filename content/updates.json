@@ -2,31 +2,25 @@
   "_meta": {
     "description": "Recent updates shown on the Home page quick feed.",
     "fields": {
-      "updates": "Array of { date, type, title, summary, link }"
+      "updates": "Array of { date, title, summary }"
     }
   },
   "en": {
     "updates": [
       {
         "date": "2026-04-20",
-        "type": "Commit",
         "title": "chore: align node runtime to 24",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/d62558af994c2df311c4a84f20d406fd487432cc"
+        "summary": "Authored by ronchy"
       },
       {
         "date": "2026-04-10",
-        "type": "Commit",
         "title": "docs: 优化文档",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/269de057f25d94414859f1d39fcbad023f904991"
+        "summary": "Authored by ronchy"
       },
       {
         "date": "2026-04-10",
-        "type": "Commit",
         "title": "docs: add vercel link",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/e8d9b726e91ce71d0123de919164ab1f1e0cc3a7"
+        "summary": "Authored by ronchy"
       }
     ]
   },
@@ -34,24 +28,18 @@
     "updates": [
       {
         "date": "2026年8月",
-        "type": "",
         "title": "在巴拿马城举行的 IEEE WCNC 2027 上担任“城市空中交通空间智能集成通信、传感和地理导航研讨会”的总主席。",
-        "summary": "由 ronchy 提交",
-        "link": ""
+        "summary": ""
       },
       {
         "date": "2026-04-10",
-        "type": "",
         "title": "docs: 优化文档",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/269de057f25d94414859f1d39fcbad023f904991"
+        "summary": "由 ronchy 提交"
       },
       {
         "date": "2026-04-10",
-        "type": "提交",
         "title": "docs: add vercel link",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/e8d9b726e91ce71d0123de919164ab1f1e0cc3a7"
+        "summary": "由 ronchy 提交"
       }
     ]
   }
