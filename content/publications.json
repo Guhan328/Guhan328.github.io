@@ -15,9 +15,8 @@
       "all": "All"
     },
     "types": {
-      "C": "Conference",
       "J": "Journal",
-      "P": "Patent",
+      "O": "Other",
       "S": "In Submission"
     },
     "empty": "No publications match the selected filters.",
@@ -167,9 +166,8 @@
       "all": "全部"
     },
     "types": {
-      "C": "会议",
       "J": "期刊",
-      "P": "专利",
+      "O": "其他",
       "S": "投稿中"
     },
     "empty": "暂无符合当前筛选条件的成果。",
