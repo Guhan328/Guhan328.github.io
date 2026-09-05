@@ -177,7 +177,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "CAVE-FL：面向异构车辆边缘智能的契约引导架构弹性联邦学习",
+        "title": "CAVE-FL: Contract-Guided Architecture-Elastic Federated Learning for Heterogeneous Vehicular Edge Intelligence",
         "authors": "Z. Yu, J. Liang, G. Zheng*, Z. Chen, and N. Suri",
         "venue": "IEEE Transactions on Mobile Computing",
         "tags": [],
@@ -187,7 +187,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "面向低空无线网络端边协同推理的鲁棒堆叠智能超表面",
+        "title": "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks",
         "authors": "C. Shen, G. Zheng*, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*",
         "venue": "IEEE Transactions on Cognitive Communications and Networking",
         "tags": [],
@@ -197,7 +197,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "面向协同推理的堆叠智能超表面",
+        "title": "Stacked Intelligent Metasurfaces for Collaborative Inference",
         "authors": "Y. Wang, Z. Yu, G. Zheng*, H. Pervaiz, S. Zhang, and W. Meng",
         "venue": "IEEE Transactions on Cognitive Communications and Networking",
         "tags": [],
@@ -207,7 +207,7 @@
       {
         "type": "J",
         "year": "2026",
-        "title": "Fed-MoSeC：面向移动网络跨模态语义通信系统的联邦学习框架",
+        "title": "Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks",
         "authors": "Y. Wang, Z. Yu, G. Zheng*, H. Pervaiz, A. Kaushik, W. Meng, and S. Zhang",
         "venue": "IEEE Transactions on Mobile Computing",
         "tags": [],
@@ -217,7 +217,7 @@
       {
         "type": "J",
         "year": "2026",
-        "title": "语义通信遇见异构网络：新兴趋势、机遇与挑战",
+        "title": "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges",
         "authors": "G. Zheng, Q. Ni, A. Kaushik, L. Yang, Y. Wang, and C. Zarakovitis",
         "venue": "IEEE Network",
         "tags": [],
@@ -227,7 +227,7 @@
       {
         "type": "J",
         "year": "2025",
-        "title": "EO-ZT：面向开放无线接入网安全频谱交易的经济驱动零信任机制",
+        "title": "EO-ZT: Economically informed zero-trust for secure spectrum trading in open radio access networks (O-RAN)",
         "authors": "G. Zheng, Q. Ni, and W. Yu",
         "venue": "Computer Networks",
         "tags": [],
@@ -237,7 +237,7 @@
       {
         "type": "J",
         "year": "2025",
-        "title": "博弈论赋能的碳智能联邦多边缘缓存机制及其在工业物联网中的应用",
+        "title": "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things",
         "authors": "J. Liang, Z. Yu, H. Pervaiz, G. Zheng*, and N. Suri",
         "venue": "IEEE Internet of Things Journal",
         "tags": [],
@@ -247,7 +247,7 @@
       {
         "type": "J",
         "year": "2025",
-        "title": "面向非地面网络智能交通系统的社会启发语义通信编解码器更新机制",
+        "title": "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems",
         "authors": "G. Zheng, Q. Ni, K. Navaie, and C. Zarakovitis",
         "venue": "IEEE Transactions on Intelligent Transportation Systems",
         "tags": [],
@@ -257,7 +257,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "面向星载边缘云网络计算卸载的语义通信",
+        "title": "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading",
         "authors": "G. Zheng, Q. Ni, K. Navaie, and H. Pervaiz",
         "venue": "IEEE Journal on Selected Areas in Communications",
         "tags": [],
@@ -267,7 +267,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "基于协同入侵检测的车载自组织网络隐私感知异常检测与通知增强",
+        "title": "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System",
         "authors": "G. Zheng, Q. Ni, and Y. Lu",
         "venue": "IEEE Transactions on Intelligent Transportation Systems",
         "tags": [],
@@ -277,7 +277,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "面向低空边缘网络的能量高效语义通信",
+        "title": "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis",
         "venue": "IEEE Transactions on Green Communications and Networking",
         "tags": [],
@@ -287,7 +287,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "面向车联网语义通信网络的移动感知分裂联邦与迁移学习",
+        "title": "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis",
         "venue": "IEEE Internet of Things Journal",
         "tags": [],
@@ -297,7 +297,7 @@
       {
         "type": "J",
         "year": "2023",
-        "title": "面向自动驾驶网络任务卸载的分布式语义通信框架",
+        "title": "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis",
         "venue": "IEEE Communications Magazine",
         "tags": [],
