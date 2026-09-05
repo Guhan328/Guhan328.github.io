@@ -3,25 +3,23 @@
     "description": "Copy and labels for the Home page."
   },
   "en": {
-    "heroIntro": "I received my B.Eng. degree in Telecommunication Engineering from Zhengzhou University, China, in 2020, and the Ph.D. degree in Communication Systems from Lancaster University, U.K., in 2024, supervised by Prof. Qiang Ni and Prof. Keivan Navaie. In 2023, I was a Research Assistant at the University of Sussex, U.K., with Prof. Aryan Kaushik. From 2023 to 2025, I was a Senior Research Associate at Lancaster University, U.K., working with Prof. Qiang Ni. Since Aug. 2025, I have been an Associate Professor in the Group of Research and Education in AI and Telecom (GREAT) at Shanghai University, School of Communication and Information Engineering. ",
+    "heroIntro": "I received my B.Eng. degree in Telecommunication Engineering from Zhengzhou University, China, in 2020, and the Ph.D. degree in Communication Systems from Lancaster University, U.K., in 2024, supervised by Prof. Qiang Ni and Prof. Keivan Navaie. In 2023, I was a Research Assistant at the University of Sussex, U.K., with Prof. Aryan Kaushik. From 2023 to 2025, I was a Senior Research Associate at Lancaster University, U.K., working with Prof. Qiang Ni. Since Aug. 2025, I have been an Associate Professor in the Group of Research and Education in AI and Telecom (GREAT) at Shanghai University, School of Communication and Information Engineering.",
     "buttons": {
       "cv": "",
       "publications": "View Publications",
-      "projects": "Explore Projects"
+      "projects": ""
     },
     "highlights": {
       "title": "At a Glance",
       "focusLabel": "Contact",
-      "focusValue": "327, Building 12, \n East Campus, Shanghai University (Baoshan Campus), \n 333 Nanchen Road, Baoshan District, \n Shanghai, China",
+      "focusValue": "327, Building 12, \nEast Campus, Shanghai University (Baoshan Campus), \n333 Nanchen Road, Baoshan District, \nShanghai, China",
       "contactLabel": "Email",
       "contactValue": "gzheng@shu.edu.cn",
       "locationLabel": "Based in"
     },
     "sections": {
       "updates": { "title": "Recent Updates", "eyebrow": "News" },
-      "publications": { "title": "Latest Writing", "eyebrow": "Publications", "action": "All entries" },
-      "projects": { "title": "", "eyebrow": "", "action": "" },
-      "awards": { "title": "", "eyebrow": "", "action": "" }
+      "publications": { "title": "Latest Writing", "eyebrow": "Publications", "action": "All entries" }
     }
   },
   "zh": {
@@ -29,7 +27,7 @@
     "buttons": {
       "cv": "",
       "publications": "浏览论文",
-      "projects": "查看项目"
+      "projects": ""
     },
     "highlights": {
       "title": "联系方式",
@@ -40,9 +38,7 @@
     },
     "sections": {
       "updates": { "title": "近期动态", "eyebrow": "动态" },
-      "publications": { "title": "近期写作", "eyebrow": "成果", "action": "查看全部" },
-      "projects": { "title": "", "eyebrow": "", "action": "" },
-      "awards": { "title": "", "eyebrow": "", "action": "" }
+      "publications": { "title": "近期写作", "eyebrow": "成果", "action": "查看全部" }
     }
   }
 }
