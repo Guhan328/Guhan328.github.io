@@ -8,38 +8,38 @@
   "en": {
     "updates": [
       {
-        "date": "2026-04-20",
-        "title": "chore: align node runtime to 24",
-        "summary": "Authored by ronchy"
+        "date": "2026-09",
+        "title": "Serving as General Chair for the "Workshop on Integrated Communication, Sensing, and Geographic Navigation for Spatial Intelligence in Urban Air Mobility,".",
+        "summary": "IEEE WCNC 2027, Panama City, Panama"
       },
       {
-        "date": "2026-04-10",
-        "title": "docs: 优化文档",
-        "summary": "Authored by ronchy"
+        "date": "2026-08",
+        "title": "Two papers are accepted for publication at the IEEE GLOBECOM 2026, Macau S.A.R., China.",
+        "summary": ""Power Offloading Based Energy-Efficient Optimization for ARIS-Assisted LEO Satellite Communication", and "Secure Multi-Modal Federated Semantic Communication Framework Against Semantic Mismatch Poisoning Attacks""
       },
       {
-        "date": "2026-04-10",
-        "title": "docs: add vercel link",
-        "summary": "Authored by ronchy"
+        "date": "2026-07",
+        "title": "Our paper is accepted for publication in the IEEE Transactions on Mobile Computing.",
+        "summary": ""Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks""
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026年8月",
-        "title": "在巴拿马城举行的 IEEE WCNC 2027 上担任“城市空中交通空间智能集成通信、传感和地理导航研讨会”的总主席。",
-        "summary": ""
+        "date": "2026-09",
+        "title": "我们将在IEEE WCNC 2027举办“Integrated Communication, Sensing, and Geographic Navigation for Spatial Intelligence in Urban Air Mobility”研讨会",
+        "summary": "征集稿件中！地点：巴拿马城"
       },
       {
-        "date": "2026-04-10",
-        "title": "docs: 优化文档",
-        "summary": "由 ronchy 提交"
+        "date": "2026-08",
+        "title": "我们的2篇论文被 IEEE Globecom 录用！",
+        "summary": "《Power Offloading Based Energy-Efficient Optimization for ARIS-Assisted LEO Satellite Communication》、《Secure Multi-Modal Federated Semantic Communication Framework Against Semantic Mismatch Poisoning Attacks》"
       },
       {
-        "date": "2026-04-10",
-        "title": "docs: add vercel link",
-        "summary": "由 ronchy 提交"
+        "date": "2026-07",
+        "title": "我们的论文被 IEEE TMC 录用！",
+        "summary": "《Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks》"
       }
     ]
   }
