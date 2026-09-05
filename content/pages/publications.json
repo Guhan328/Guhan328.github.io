@@ -4,7 +4,7 @@
   },
   "en": {
     "section": {
-      "title": "Publications & Patents",
+      "title": "Selected Publications",
       "description": "List papers, preprints, patents, or talks in a single structured file.",
       "eyebrow": "Catalogue",
       "note": "* indicates corresponding author"
@@ -24,7 +24,7 @@
   },
   "zh": {
     "section": {
-      "title": "论文与专利",
+      "title": "精选论文",
       "description": "通过单个结构化文件维护论文、预印本、专利或报告。",
       "eyebrow": "成果目录",
       "note": "* 标注通讯作者"
