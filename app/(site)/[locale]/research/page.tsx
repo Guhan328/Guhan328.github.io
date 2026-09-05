@@ -29,6 +29,25 @@ export default async function ResearchPage({ params }: PageProps) {
                 {inst.name}
               </h3>
 
+              {/* ===== 课程部分（先显示） ===== */}
+              {inst.courses && inst.courses.length > 0 && (
+                <div className="pl-4">
+                  {inst.coursesLabel && (
+                    <p className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                      {inst.coursesLabel}
+                    </p>
+                  )}
+                  <ul className="mt-1 space-y-1 pl-4">
+                    {inst.courses.map((course: string, cIdx: number) => (
+                      <li key={cIdx} className="text-base text-slate-700 dark:text-slate-300">
+                        {course}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* ===== 学生指导部分（后显示） ===== */}
               {inst.students && inst.students.length > 0 && (
                 <div className="space-y-4 pl-4">
                   {inst.students.map((group: any, gIdx: number) => (
@@ -57,21 +76,6 @@ export default async function ResearchPage({ params }: PageProps) {
                       {inst.note}
                     </p>
                   )}
-                </div>
-              )}
-
-              {inst.courses && inst.courses.length > 0 && (
-                <div className="pl-4">
-                  <p className="text-sm text-slate-600 dark:text-slate-400">
-                    {inst.note || "Seminar and lab tutor for:"}
-                  </p>
-                  <ul className="mt-1 space-y-1 pl-4">
-                    {inst.courses.map((course: string, cIdx: number) => (
-                      <li key={cIdx} className="text-base text-slate-700 dark:text-slate-300">
-                        {course}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               )}
             </div>
