@@ -17,10 +17,11 @@ export default async function ResearchPage({ params }: PageProps) {
 
   const content = getResearchContent()[locale] as any;
   const teaching = content.teaching;
+  const page = content.page || { title: "Teaching", eyebrow: "Courses & Mentoring" };
 
   return (
     <div className="space-y-16">
-      <Section title="Teaching" eyebrow="Courses & Mentoring">
+      <Section title={page.title} eyebrow={page.eyebrow}>
         <div className="space-y-8">
           {teaching.institutions.map((inst: any, idx: number) => (
             <div key={idx} className="space-y-3">
@@ -35,17 +36,16 @@ export default async function ResearchPage({ params }: PageProps) {
                       <h4 className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-600 dark:text-slate-400">
                         {group.type}
                       </h4>
-                      <ul className="mt-1 space-y-1 pl-4">
+                      <ul className="mt-1 space-y-2 pl-4">
                         {group.list.map((item: any, iIdx: number) => (
                           <li key={iIdx} className="text-base text-slate-700 dark:text-slate-300">
-                            <span className="font-medium text-slate-900 dark:text-slate-50">
+                            <div className="font-medium text-slate-900 dark:text-slate-50">
                               {item.name}
-                            </span>
+                            </div>
                             {item.detail && (
-                              <span className="text-slate-600 dark:text-slate-400">
-                                {" "}
+                              <div className="text-sm text-slate-600 dark:text-slate-400">
                                 {item.detail}
-                              </span>
+                              </div>
                             )}
                           </li>
                         ))}
