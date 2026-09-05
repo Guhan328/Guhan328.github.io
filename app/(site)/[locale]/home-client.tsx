@@ -45,7 +45,6 @@ export function HomeClient({
 }: HomeClientProps) {
   const base = `/${locale}`;
 
-  // 恢复邮件项，包含 Office、Email、Based in
   const highlightItems = [
     { label: copy.highlights.focusLabel, value: copy.highlights.focusValue, href: undefined },
     { label: copy.highlights.contactLabel, value: copy.highlights.contactValue, href: undefined },
@@ -138,10 +137,10 @@ export function HomeClient({
         </div>
       </section>
 
-      {/* ===== 招生板块 ===== */}
+      {/* ===== 招生板块（标题在外面，白框只包裹正文） ===== */}
       {(copy as any).sections.recruitment && (copy as any).sections.recruitment.title && (copy as any).sections.recruitment.title.trim() && (
-        <div className="rounded-2xl border border-slate-200 bg-white/90 p-6 dark:border-slate-800 dark:bg-slate-900/70">
-          <Section title={(copy as any).sections.recruitment.title} eyebrow={(copy as any).sections.recruitment.eyebrow}>
+        <Section title={(copy as any).sections.recruitment.title} eyebrow={(copy as any).sections.recruitment.eyebrow}>
+          <div className="rounded-2xl border border-slate-200 bg-white/90 p-6 dark:border-slate-800 dark:bg-slate-900/70">
             <div className="prose prose-slate dark:prose-invert max-w-none">
               {(copy as any).sections.recruitment.content && (
                 <div 
@@ -152,8 +151,8 @@ export function HomeClient({
                 />
               )}
             </div>
-          </Section>
-        </div>
+          </div>
+        </Section>
       )}
 
       {copy.sections.updates && copy.sections.updates.title && copy.sections.updates.title.trim() && (
