@@ -14,7 +14,7 @@
   "en": {
     "name": "Guhan Zheng",
     "title": "Associate Professor",
-    "affiliation": "Shanghai University",
+    "affiliation": "School of Communication and Information Engineering, Shanghai University",
     "location": "Shanghai, China",
     "keywords": ["Low-Altitude Networks", "Urban Air Mobility", "Goal-Oriented Communications"],
     "social": [
@@ -22,12 +22,12 @@
       { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" },
       { "label": "ORCID", "href": "https://orcid.org/0000-0001-5602-1108" }
     ],
-    "avatar": "/images/avatar-placeholder.svg"
+    "avatar": "/images/2寸照.jpg"
   },
   "zh": {
     "name": "郑谷寒",
     "title": "副教授",
-    "affiliation": "上海大学",
+    "affiliation": "上海大学｜通信与信息工程学院",
     "location": "中国·上海",
     "keywords": ["低空网络", "城市空中交通", "面向任务的通信"],
     "social": [
@@ -35,6 +35,6 @@
       { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" },
       { "label": "ORCID", "href": "https://orcid.org/0000-0001-5602-1108" }
     ],
-    "avatar": "/images/avatar-placeholder.svg"
+    "avatar": "/images/2寸照.jpg"
   }
 }
