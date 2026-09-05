@@ -136,14 +136,17 @@ export function HomeClient({
         </div>
       </section>
 
-      {/* ===== 招生板块（仅当存在且 title 非空时渲染） ===== */}
+      {/* ===== 招生板块（仅中文显示） ===== */}
       {copy.sections.recruitment && copy.sections.recruitment.title && copy.sections.recruitment.title.trim() && (
         <Section title={copy.sections.recruitment.title} eyebrow={copy.sections.recruitment.eyebrow}>
           <div className="prose prose-slate dark:prose-invert max-w-none">
             {copy.sections.recruitment.content && (
-              <div className="text-base text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
-                {copy.sections.recruitment.content}
-              </div>
+              <div 
+                className="text-base text-slate-700 dark:text-slate-300 leading-relaxed"
+                dangerouslySetInnerHTML={{ 
+                  __html: copy.sections.recruitment.content.replace(/\n/g, '<br />') 
+                }}
+              />
             )}
           </div>
         </Section>
