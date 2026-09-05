@@ -11,27 +11,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Academic Homepage Template",
-  description:
-    "Bilingual academic homepage template for researchers, students, and labs.",
+  title: "郑谷寒-上海大学",
+  description: "上海大学通信与信息工程学院副教授。研究方向：低空通信网络、城市空中交通、面向任务的通信。",
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg"
   },
   openGraph: {
-    title: "Academic Homepage Template",
-    description:
-      "Bilingual academic homepage template for researchers, students, and labs.",
-    url: "https://example.com",
-    siteName: "Academic Homepage Template",
-    locale: "en_US",
+    title: "郑谷寒-上海大学",  // 👈 改这里
+    description: "上海大学通信与信息工程学院副教授。",
+    url: "https://guhan328.github.io",
+    siteName: "郑谷寒-上海大学",  // 👈 改这里
+    locale: "zh_CN",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Academic Homepage Template",
-    description:
-      "Bilingual academic homepage template for researchers, students, and labs."
+    title: "郑谷寒-上海大学",  // 👈 改这里
+    description: "上海大学通信与信息工程学院副教授。"
   }
 };
 
