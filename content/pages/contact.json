@@ -6,18 +6,18 @@
     "title": "Contact",
     "description": "Office: Room XXX, Building XX, Shanghai University<br />Email: gzheng@shu.edu.cn",
     "eyebrow": "Get in Touch",
-    "items": {
-      "contact": "Email",
-      "location": "Office"
-    }
+    "items": [
+      { "label": "Email", "value": "gzheng@shu.edu.cn" },
+      { "label": "Office", "value": "Room XXX, Building XX, Shanghai University" }
+    ]
   },
   "zh": {
     "title": "联系我",
     "description": "办公室：上海市宝山区南陈路333号上海大学东区通信实验楼327<br />邮箱：gzheng@shu.edu.cn",
     "eyebrow": "联系",
-    "items": {
-      "contact": "邮箱",
-      "location": "办公室"
-    }
+    "items": [
+      { "label": "邮箱", "value": "gzheng@shu.edu.cn" },
+      { "label": "办公室", "value": "上海市宝山区南陈路333号上海大学东区通信实验楼327" }
+    ]
   }
 }
