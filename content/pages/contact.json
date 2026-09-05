@@ -1,23 +1,23 @@
 {
   "_meta": {
-    "description": "Contact page - office address and email only."
+    "description": "Contact page - email and office only."
   },
   "en": {
     "title": "Contact",
-    "description": "Office: Room XXX, Building XX, Shanghai University\nEmail: your-email@example.com",
+    "description": "Feel free to reach out via email or visit my office.",
     "eyebrow": "Get in Touch",
     "items": [
-      { "label": "Email", "value": "your-email@example.com" },
-      { "label": "Office", "value": "Room XXX, Building XX, Shanghai University" }
+      { "label": "Email", "value": "gzheng@shu.edu.cn" },
+      { "label": "Office", "value": "Room 327, Communication Building, Shanghai University" }
     ]
   },
   "zh": {
     "title": "联系我",
-    "description": "办公室：上海大学通信楼 XXX 室\n邮箱：your-email@example.com",
+    "description": "欢迎通过邮件联系我，或来办公室交流。",
     "eyebrow": "联系",
     "items": [
-      { "label": "邮箱", "value": "your-email@example.com" },
-      { "label": "办公室", "value": "上海大学通信楼 XXX 室" }
+      { "label": "邮箱", "value": "gzheng@shu.edu.cn" },
+      { "label": "办公室", "value": "上海大学通信楼327室" }
     ]
   }
 }
