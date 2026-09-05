@@ -46,8 +46,9 @@ export function HomeClient({
   const base = `/${locale}`;
 
   const highlightItems = [
-  { label: copy.highlights.focusLabel, value: copy.highlights.focusValue, href: undefined },
-  { label: copy.highlights.locationLabel, value: profile.location, href: undefined }
+  { label: copy.highlights.focusLabel, value: copy.highlights.focusValue },
+  { label: copy.highlights.contactLabel, value: copy.highlights.contactValue, href: `${base}/contact` }, 
+  { label: copy.highlights.locationLabel, value: profile.location }
 ];
 
   // 辅助函数：将包含 \n 的字符串渲染为带换行的 React 节点
