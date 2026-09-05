@@ -7,7 +7,7 @@
       "title": "Publications & Patents",
       "description": "List papers, preprints, patents, or talks in a single structured file.",
       "eyebrow": "Catalogue",
-      "note": "* indicates first author or equal contribution, if applicable"
+      "note": "* indicates corresponding author"
     },
     "filters": {
       "type": "Type",
@@ -27,7 +27,7 @@
       "title": "论文与专利",
       "description": "通过单个结构化文件维护论文、预印本、专利或报告。",
       "eyebrow": "成果目录",
-      "note": "* 可用于标记一作或共同一作"
+      "note": "* 标注通讯作者"
     },
     "filters": {
       "type": "类型",
@@ -41,5 +41,176 @@
       "S": "投稿中"
     },
     "empty": "暂无符合当前筛选条件的成果。"
-  }
+  },
+  "items": [
+    {
+      "type": "S",
+      "year": "2026",
+      "title": "CAVE-FL: Contract-Guided Architecture-Elastic Federated Learning for Heterogeneous Vehicular Edge Intelligence",
+      "authors": "Z. Yu, J. Liang, G. Zheng*, Z. Chen, and N. Suri",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "Submitted"
+    },
+    {
+      "type": "S",
+      "year": "2026",
+      "title": "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks",
+      "authors": "C. Shen, G. Zheng*, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*",
+      "journal": "IEEE Transactions on Cognitive Communications and Networking",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "Submitted"
+    },
+    {
+      "type": "S",
+      "year": "2026",
+      "title": "Stacked Intelligent Metasurfaces for Collaborative Inference",
+      "authors": "Y. Wang, Z. Yu, G. Zheng*, H. Pervaiz, S. Zhang, and W. Meng",
+      "journal": "IEEE Transactions on Cognitive Communications and Networking",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "Submitted"
+    },
+    {
+      "type": "J",
+      "year": "2026",
+      "title": "Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks",
+      "authors": "Y. Wang, Z. Yu, G. Zheng*, H. Pervaiz, A. Kaushik, W. Meng, and S. Zhang",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "",
+      "highlight": true,
+      "note": "TMC'26, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2026",
+      "title": "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges",
+      "authors": "G. Zheng, Q. Ni, A. Kaushik, L. Yang, Y. Wang, and C. Zarakovitis",
+      "journal": "IEEE Network",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "",
+      "highlight": true,
+      "note": "NetMag'26, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2025",
+      "title": "EO-ZT: Economically informed zero-trust for secure spectrum trading in open radio access networks (O-RAN)",
+      "authors": "G. Zheng, Q. Ni, and W. Yu",
+      "journal": "Computer Networks",
+      "volume": "",
+      "pages": "111846",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "CN'25, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2025",
+      "title": "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things",
+      "authors": "J. Liang, Z. Yu, H. Pervaiz, G. Zheng*, and N. Suri",
+      "journal": "IEEE Internet of Things Journal",
+      "volume": "12",
+      "pages": "34875-34889",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "IoTJ'25, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2025",
+      "title": "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems",
+      "authors": "G. Zheng, Q. Ni, K. Navaie, and C. Zarakovitis",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "volume": "26",
+      "pages": "17901-17913",
+      "doi": "",
+      "url": "",
+      "highlight": true,
+      "note": "T-ITS'25, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2024",
+      "title": "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading",
+      "authors": "G. Zheng, Q. Ni, K. Navaie, and H. Pervaiz",
+      "journal": "IEEE Journal on Selected Areas in Communications",
+      "volume": "42",
+      "pages": "1145-1158",
+      "doi": "",
+      "url": "",
+      "highlight": true,
+      "note": "JSAC'24, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2024",
+      "title": "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System",
+      "authors": "G. Zheng, Q. Ni, and Y. Lu",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "volume": "25",
+      "pages": "21172-21182",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "T-ITS'24, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2024",
+      "title": "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks",
+      "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis",
+      "journal": "IEEE Transactions on Green Communications and Networking",
+      "volume": "8",
+      "pages": "1742-1751",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "TGCN'24, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2024",
+      "title": "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks",
+      "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis",
+      "journal": "IEEE Internet of Things Journal",
+      "volume": "11",
+      "pages": "17237-17248",
+      "doi": "",
+      "url": "",
+      "highlight": false,
+      "note": "IoTJ'24, Q1"
+    },
+    {
+      "type": "J",
+      "year": "2023",
+      "title": "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading",
+      "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis",
+      "journal": "IEEE Communications Magazine",
+      "volume": "61",
+      "pages": "64-68",
+      "doi": "",
+      "url": "",
+      "highlight": true,
+      "note": "COMMAG'23, Q1"
+    }
+  ]
 }
