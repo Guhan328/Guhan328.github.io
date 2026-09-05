@@ -1,28 +1,189 @@
-import { Fragment } from "react";
+"use client";
 
-import { ExternalLinkIcon } from "@/components/icons";
-import type { Locale } from "@/lib/locale";
+import { useEffect, useMemo, useState } from "react";
+import type { ReactNode } from "react";
+import { usePathname } from "next/navigation";
 
-type SiteFooterProps = {
+import { SiteHeader } from "@/components/site-header";
+import { SideProfileCard } from "@/components/side-profile-card";
+import { SiteFooter } from "@/components/site-footer";
+import type { LocaleProfile } from "@/lib/content-types";
+import type { NavItem } from "@/types/navigation";
+
+type Locale = "en" | "zh";
+
+type SiteShellProps = {
+  children: React.ReactNode;
+  navItems: NavItem[];
+  profile: LocaleProfile;
   locale: Locale;
   lastUpdated?: string;
 };
 
-// 获取当前构建日期（每次构建时生成）
-const currentDate = new Date().toISOString().split("T")[0];
+const SIDEBAR_EXCLUDED_ROUTES = new Set(["/research", "/publications", "/projects"]);
+const CONTACT_BUTTON = {
+  en: "Reveal email address",
+  zh: "查看邮箱"
+} as const satisfies Record<Locale, string>;
+const SIDEBAR_WIDTH = 260;
+const COLLAPSE_SCROLL_THRESHOLD = 360;
+const EXPAND_SCROLL_THRESHOLD = 220;
+const SCROLL_EASING = "cubic-bezier(0.38, 0, 0.22, 1)";
+const SIDEBAR_TRANSITION = [
+  `width 0.55s ${SCROLL_EASING}`,
+  `flex-basis 0.55s ${SCROLL_EASING}`,
+  `max-width 0.55s ${SCROLL_EASING}`,
+  `opacity 0.3s ease`,
+  `transform 0.55s ${SCROLL_EASING}`
+].join(", ");
+const SIDEBAR_HIDDEN_TRANSFORM = "translateX(-24px)";
 
-export function SiteFooter({ locale, lastUpdated }: SiteFooterProps) {
-  const displayDate = lastUpdated || currentDate;
+function stripLocalePrefix(pathname: string) {
+  const match = pathname.match(/^\/(en|zh)(\/.*)?$/);
+  if (!match) return pathname;
+  return match[2] || "/";
+}
+
+/**
+ * Application shell with responsive header and optional sidebar profile card.
+ * On the Home page the sidebar collapses once you scroll past the hero in desktop view.
+ */
+export function SiteShell({ children, navItems, profile, locale, lastUpdated }: SiteShellProps) {
+  const pathname = usePathname();
+  const normalizedPath = stripLocalePrefix((pathname ?? "/").replace(/\/$/, "") || "/");
+  const sidebarDisabled = SIDEBAR_EXCLUDED_ROUTES.has(normalizedPath);
+  const enableCollapsibleSidebar = !sidebarDisabled && normalizedPath === "/";
+
+  const [homeSidebarCollapsed, setHomeSidebarCollapsed] = useState(false);
+  useEffect(() => {
+    if (!enableCollapsibleSidebar) {
+      setHomeSidebarCollapsed(false);
+      return;
+    }
+
+    let rafId: number | null = null;
+
+    const updateSidebar = () => {
+      rafId = null;
+      const isDesktop = window.innerWidth >= 1024;
+      const scrollY = window.scrollY;
+
+      setHomeSidebarCollapsed((prev) => {
+        if (!isDesktop) {
+          return false;
+        }
+
+        if (!prev && scrollY > COLLAPSE_SCROLL_THRESHOLD) {
+          return true;
+        }
+
+        if (prev && scrollY < EXPAND_SCROLL_THRESHOLD) {
+          return false;
+        }
+
+        return prev;
+      });
+    };
+
+    const scheduleUpdate = () => {
+      if (rafId !== null) {
+        return;
+      }
+      rafId = window.requestAnimationFrame(updateSidebar);
+    };
+
+    scheduleUpdate();
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleUpdate);
+
+    return () => {
+      if (rafId !== null) {
+        window.cancelAnimationFrame(rafId);
+      }
+      window.removeEventListener("scroll", scheduleUpdate);
+      window.removeEventListener("resize", scheduleUpdate);
+    };
+  }, [enableCollapsibleSidebar]);
+
+  useEffect(() => {
+    if (sidebarDisabled) {
+      return;
+    }
+
+    // Reset the collapsed state when leaving the Home page so route transitions start expanded.
+    if (!enableCollapsibleSidebar) {
+      setHomeSidebarCollapsed(false);
+    }
+  }, [enableCollapsibleSidebar, sidebarDisabled]);
+
+  const sidebarHidden = sidebarDisabled || (enableCollapsibleSidebar && homeSidebarCollapsed);
+
+  const layoutStyles = useMemo(() => {
+    const gap = sidebarHidden ? "0rem" : "2rem";
+    return {
+      gap,
+      transition: `gap 0.5s ${SCROLL_EASING}`
+    };
+  }, [sidebarHidden]);
+
+  const sidebarStyles = useMemo(() => {
+    if (sidebarDisabled) {
+      return {
+        width: 0,
+        flexBasis: "0px",
+        maxWidth: "0px",
+        opacity: 0,
+        transform: SIDEBAR_HIDDEN_TRANSFORM,
+        pointerEvents: "none" as const,
+        transition: SIDEBAR_TRANSITION
+      };
+    }
+
+    return {
+      width: sidebarHidden ? 0 : SIDEBAR_WIDTH,
+      flexBasis: sidebarHidden ? "0px" : `${SIDEBAR_WIDTH}px`,
+      maxWidth: sidebarHidden ? "0px" : `${SIDEBAR_WIDTH}px`,
+      opacity: sidebarHidden ? 0 : 1,
+      transform: sidebarHidden ? SIDEBAR_HIDDEN_TRANSFORM : "translateX(0)",
+      pointerEvents: sidebarHidden ? ("none" as const) : undefined,
+      transition: SIDEBAR_TRANSITION
+    };
+  }, [sidebarDisabled, sidebarHidden]);
 
   return (
-    <footer className="mt-16 border-t border-slate-200 py-6 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 md:px-8 xl:max-w-7xl xl:px-10 2xl:max-w-[1500px] 2xl:px-12">
-        <div className="flex items-center gap-2">
-          <span>上次更新：{displayDate}</span>
+    <div className="relative isolate min-h-screen bg-slate-50 dark:bg-slate-950">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_12%_18%,rgba(37,99,235,0.08),transparent_38%),radial-gradient(circle_at_88%_12%,rgba(14,165,233,0.08),transparent_32%),linear-gradient(120deg,rgba(15,23,42,0.03),rgba(15,23,42,0.06))] dark:bg-[radial-gradient(circle_at_15%_25%,rgba(96,165,250,0.12),transparent_40%),radial-gradient(circle_at_85%_15%,rgba(34,211,238,0.1),transparent_36%),linear-gradient(120deg,rgba(15,23,42,0.65),rgba(15,23,42,0.75))]"
+      />
+      <SiteHeader
+        navItems={navItems}
+        profileName={profile.name}
+        currentLocale={locale}
+      />
+      <div
+        className="mx-auto flex w-full max-w-6xl px-4 py-10 lg:px-8 xl:max-w-7xl xl:px-10 2xl:max-w-[1500px] 2xl:px-12"
+        style={layoutStyles}
+      >
+        <div
+          className="hidden overflow-hidden lg:flex"
+          style={sidebarStyles}
+          aria-hidden={sidebarHidden}
+        >
+          {!sidebarDisabled && (
+            <SideProfileCard
+              profile={profile}
+              locale={locale}
+              contactHref={`/${locale}/contact`}
+              contactLabel={CONTACT_BUTTON[locale]}
+            />
+          )}
         </div>
-        {/* 右侧可以留空，或者添加其他内容 */}
-        <div />
+        <main className="flex-1 min-w-0 space-y-16">
+          {children}
+          <SiteFooter lastUpdated={lastUpdated} locale={locale} />
+        </main>
       </div>
-    </footer>
+    </div>
   );
 }
