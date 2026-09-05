@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "katex/dist/katex.min.css";
 import { Providers } from "@/components/providers";
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -11,27 +12,23 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Academic Homepage Template",
+  title: "Guhan Zheng | Academic Homepage",
   description:
-    "Bilingual academic homepage template for researchers, students, and labs.",
-  icons: {
-    icon: "/icon.svg",
-    shortcut: "/icon.svg"
-  },
+    "Associate Professor at Shanghai University, School of Communication and Information Engineering. Research on low-altitude networks, urban air mobility, and goal-oriented communications.",
   openGraph: {
-    title: "Academic Homepage Template",
+    title: "Guhan Zheng | Academic Homepage",
     description:
-      "Bilingual academic homepage template for researchers, students, and labs.",
-    url: "https://example.com",
-    siteName: "Academic Homepage Template",
+      "Associate Professor at Shanghai University. Research on low-altitude networks, urban air mobility, and goal-oriented communications.",
+    url: "https://guhan328.github.io",
+    siteName: "Guhan Zheng",
     locale: "en_US",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Academic Homepage Template",
+    title: "Guhan Zheng | Academic Homepage",
     description:
-      "Bilingual academic homepage template for researchers, students, and labs."
+      "Associate Professor at Shanghai University. Research on low-altitude networks, urban air mobility, and goal-oriented communications."
   }
 };
 
