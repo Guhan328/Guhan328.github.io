@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { Fragment } from "react";
 
 import { ProjectCard } from "@/components/project-card";
 import { PublicationItem } from "@/components/publication-item";
@@ -49,6 +50,19 @@ export function HomeClient({
     { label: copy.highlights.contactLabel, value: copy.highlights.contactValue, href: `${base}/contact` },
     { label: copy.highlights.locationLabel, value: profile.location }
   ];
+
+  // 辅助函数：将包含 \n 的字符串渲染为带换行的 React 节点
+  const renderMultilineText = (text: string) => {
+    if (!text) return null;
+    const lines = text.split('\n');
+    if (lines.length === 1) return text;
+    return lines.map((line, index) => (
+      <Fragment key={index}>
+        {line}
+        {index < lines.length - 1 && <br />}
+      </Fragment>
+    ));
+  };
 
   return (
     <div className="space-y-16">
@@ -110,10 +124,10 @@ export function HomeClient({
                   <dd className="text-base font-medium text-slate-900 dark:text-slate-50">
                     {item.href ? (
                       <a href={item.href} className="hover:text-brand dark:hover:text-brand">
-                        {item.value}
+                        {renderMultilineText(item.value)}
                       </a>
                     ) : (
-                      item.value
+                      renderMultilineText(item.value)
                     )}
                   </dd>
                 </div>
@@ -123,14 +137,12 @@ export function HomeClient({
         </div>
       </section>
 
-      {/* 只有存在 updates 且 title 非空时才渲染 */}
       {copy.sections.updates && copy.sections.updates.title && copy.sections.updates.title.trim() && (
         <Section title={copy.sections.updates.title} eyebrow={copy.sections.updates.eyebrow}>
           <InfiniteScrollUpdates updates={updates} />
         </Section>
       )}
 
-      {/* 只有存在 projects 且 title 非空时才渲染 */}
       {copy.sections.projects && copy.sections.projects.title && copy.sections.projects.title.trim() && (
         <Section
           title={copy.sections.projects.title}
@@ -149,7 +161,6 @@ export function HomeClient({
         </Section>
       )}
 
-      {/* 只有存在 publications 且 title 非空时才渲染 */}
       {copy.sections.publications && copy.sections.publications.title && copy.sections.publications.title.trim() && (
         <Section
           title={copy.sections.publications.title}
@@ -168,7 +179,6 @@ export function HomeClient({
         </Section>
       )}
 
-      {/* 只有存在 awards 且 title 非空时才渲染 */}
       {copy.sections.awards && copy.sections.awards.title && copy.sections.awards.title.trim() && (
         <Section
           title={copy.sections.awards.title}
