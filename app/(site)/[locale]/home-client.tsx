@@ -47,7 +47,6 @@ export function HomeClient({
 
   const highlightItems = [
     { label: copy.highlights.focusLabel, value: copy.highlights.focusValue },
-    { label: copy.highlights.contactLabel, value: copy.highlights.contactValue, href: `${base}/contact` },
     { label: copy.highlights.locationLabel, value: profile.location }
   ];
 
