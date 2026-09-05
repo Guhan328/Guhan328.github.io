@@ -3,6 +3,24 @@
     "description": "Publications and patents with metadata for the Publications page."
   },
   "en": {
+    "section": {
+      "title": "Selected Publications",
+      "description": "List papers, preprints, patents, or talks in a single structured file.",
+      "eyebrow": "Catalogue",
+      "note": "* indicates corresponding author"
+    },
+    "filters": {
+      "type": "Type",
+      "year": "Year",
+      "all": "All"
+    },
+    "types": {
+      "C": "Conference",
+      "J": "Journal",
+      "P": "Patent",
+      "S": "In Submission"
+    },
+    "empty": "No publications match the selected filters.",
     "entries": [
       {
         "type": "S",
@@ -137,6 +155,24 @@
     ]
   },
   "zh": {
+    "section": {
+      "title": "精选论文",
+      "description": "通过单个结构化文件维护论文、预印本、专利或报告。",
+      "eyebrow": "成果目录",
+      "note": "* 标注通讯作者"
+    },
+    "filters": {
+      "type": "类型",
+      "year": "年份",
+      "all": "全部"
+    },
+    "types": {
+      "C": "会议",
+      "J": "期刊",
+      "P": "专利",
+      "S": "投稿中"
+    },
+    "empty": "暂无符合当前筛选条件的成果。",
     "entries": [
       {
         "type": "S",
@@ -151,7 +187,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks",
+        "title": "低空无线网络端边协同推理的鲁棒堆叠智能超表面",
         "authors": "C. Shen, G. Zheng*, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*",
         "venue": "IEEE Transactions on Cognitive Communications and Networking",
         "tags": [],
@@ -161,7 +197,7 @@
       {
         "type": "S",
         "year": "2026",
-        "title": "Stacked Intelligent Metasurfaces for Collaborative Inference",
+        "title": "面向协同推理的堆叠智能超表面",
         "authors": "Y. Wang, Z. Yu, G. Zheng*, H. Pervaiz, S. Zhang, and W. Meng",
         "venue": "IEEE Transactions on Cognitive Communications and Networking",
         "tags": [],
@@ -201,7 +237,7 @@
       {
         "type": "J",
         "year": "2025",
-        "title": "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things",
+        "title": "博弈论赋能的碳智能联邦多边缘缓存机制及其在工业物联网中的应用",
         "authors": "J. Liang, Z. Yu, H. Pervaiz, G. Zheng*, and N. Suri",
         "venue": "IEEE Internet of Things Journal",
         "tags": [],
@@ -211,7 +247,7 @@
       {
         "type": "J",
         "year": "2025",
-        "title": "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems",
+        "title": "面向非地面网络智能交通系统的社会启发语义通信编解码器更新机制",
         "authors": "G. Zheng, Q. Ni, K. Navaie, and C. Zarakovitis",
         "venue": "IEEE Transactions on Intelligent Transportation Systems",
         "tags": [],
@@ -231,7 +267,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System",
+        "title": "基于协同入侵检测的车载自组织网络隐私感知异常检测与通知增强",
         "authors": "G. Zheng, Q. Ni, and Y. Lu",
         "venue": "IEEE Transactions on Intelligent Transportation Systems",
         "tags": [],
@@ -241,7 +277,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks",
+        "title": "面向空中辅助边缘网络的能量高效语义通信",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik, and C. Zarakovitis",
         "venue": "IEEE Transactions on Green Communications and Networking",
         "tags": [],
@@ -251,7 +287,7 @@
       {
         "type": "J",
         "year": "2024",
-        "title": "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks",
+        "title": "面向车联网语义通信网络的移动感知分裂联邦与迁移学习",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis",
         "venue": "IEEE Internet of Things Journal",
         "tags": [],
@@ -261,7 +297,7 @@
       {
         "type": "J",
         "year": "2023",
-        "title": "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading",
+        "title": "面向自动驾驶网络任务卸载的语义通信分布式学习架构",
         "authors": "G. Zheng, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis",
         "venue": "IEEE Communications Magazine",
         "tags": [],
