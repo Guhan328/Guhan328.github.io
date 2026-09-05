@@ -3,7 +3,7 @@
     "description": "Profile information in English and Chinese. Update both locales for consistency.",
     "fields": {
       "name": "Full name string",
-      "nativeName": "Optional secondary language name",
+      #"nativeName": "Optional secondary language name",
       "aka": "Optional preferred nickname shown on English pages only",
       "title": "Short professional title",
       "affiliation": "Current institution, lab, or company",
@@ -23,26 +23,26 @@
     "location": "Shanghai, China",
     "keywords": ["Robot Learning", "Embodied AI", "Field Robotics"],
     "social": [
-      { "label": "GitHub", "href": "https://github.com/your-handle" },
-      { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=YOUR_ID" },
-      { "label": "ORCID", "href": "https://orcid.org/0000-0000-0000-0000" }
+      { "label": "Linkedin", "href": "https://www.linkedin.com/in/guhan-zheng-69139a184/" },
+      { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" },
+      { "label": "ORCID", "href": "https://orcid.org/0000-0001-5602-1108" }
     ],
     "avatar": "/images/avatar-placeholder.svg",
-    "cvLink": "/files/sample-cv.pdf"
+    #"cvLink": "/files/sample-cv.pdf"
   },
   "zh": {
-    "name": "陈明远",
-    "nativeName": "Alex Chen",
-    "title": "机器人方向博士研究生",
-    "affiliation": "示例大学",
+    "name": "郑谷寒",
+    #"nativeName": "Alex Chen",
+    "title": "副教授",
+    "affiliation": "上海大学",
     "location": "中国·上海",
-    "keywords": ["机器人学习", "具身智能", "野外机器人"],
+    "keywords": ["低空网络", "面向任务的通信"],
     "social": [
-      { "label": "GitHub", "href": "https://github.com/your-handle" },
-      { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=YOUR_ID" },
-      { "label": "ORCID", "href": "https://orcid.org/0000-0000-0000-0000" }
+      { "label": "Linkedin", "href": "https://www.linkedin.com/in/guhan-zheng-69139a184/" },
+      { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" },
+      { "label": "ORCID", "href": "https://orcid.org/0000-0001-5602-1108" }
     ],
     "avatar": "/images/avatar-placeholder.svg",
-    "cvLink": "/files/sample-cv.pdf"
+    #"cvLink": "/files/sample-cv.pdf"
   }
 }
