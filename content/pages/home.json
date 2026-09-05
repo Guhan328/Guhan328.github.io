@@ -37,6 +37,11 @@
       "contactValue": "gzheng@shu.edu.cn"
     },
     "sections": {
+      "recruitment": {
+        "title": "招生",
+        "eyebrow": "加入我们",
+        "content": "如果你对相关研究方向感兴趣，欢迎通过邮件与我联系，并附上个人简历。 同样热忱欢迎具有跨学科背景的同学（如经济学、社会学等）申请。课题组当前（<del>学硕、专硕</del>）名额充足，科研氛围开放，鼓励独立思考与合作探索。欢迎有志于科研的同学加入团队，共同开展前沿研究。"
+      },
       "updates": { "title": "近期新闻", "eyebrow": "动态" },
       "publications": { "title": "近期成果", "eyebrow": "成果", "action": "查看全部" }
     }
