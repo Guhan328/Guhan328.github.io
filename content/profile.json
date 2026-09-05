@@ -22,7 +22,8 @@
       { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" },
       { "label": "ORCID", "href": "https://orcid.org/0000-0001-5602-1108" }
     ],
-    "avatar": "/images/2寸照.jpg"
+    "avatar": "/images/2寸照.jpg",
+    "cv": ""
   },
   "zh": {
     "name": "郑谷寒",
@@ -35,6 +36,7 @@
       { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" },
       { "label": "ORCID", "href": "https://orcid.org/0000-0001-5602-1108" }
     ],
-    "avatar": "/images/2寸照.jpg"
+    "avatar": "/images/2寸照.jpg",
+    "cv": ""
   }
 }
