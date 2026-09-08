@@ -1,0 +1,24 @@
+<h1 id="publication"></h1>
+
+<h2 style="margin: 80px 0px 10px;">Selected Publications</h2>
+<h4 style="margin: 10px 0px 10px;">* is corresponding author</h4>
+<p style="margin: 0 0 10px;">
+  Full publications, please see my
+  <a href="https://scholar.google.com/citations?user=377WJ7IAAAAJ&hl" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+</p>
+
+<ol id="pub-list" style="margin:0 0 5px;">
+  <li><a><autocolor>Z. Yu, J. Liang, <strong>G. Zheng*</strong>, Z. Chen, and N. Suri, "CAVE-FL: Contract-Guided Architecture-Elastic Federated Learning for Heterogeneous Vehicular Edge Intelligence," IEEE Transactions on Mobile Computing. (Submitted) </autocolor></a></li>
+  <li><a><autocolor>C. Shen, <strong>G. Zheng*</strong>, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*, "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks," IEEE Transactions on Cognitive Communications and Networking. (Submitted) </autocolor></a></li>
+  <li><a><autocolor>Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, S. Zhang, and W. Meng, "Stacked Intelligent Metasurfaces for Collaborative Inference," IEEE Transactions on Cognitive Communications and Networking. (Submitted) </autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/document/11592739"><autocolor>[TMC'26, Q1] Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, A. Kaushik, W. Meng, and S. Zhang, "Fed-MoSeC: A Federated Learning Framework for Cross-Modal Semantic Communication Systems in Mobile Networks," IEEE Transactions on Mobile Computing, 2026.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/document/11319360"><autocolor>[NetMag'26, Q1] <strong>G. Zheng</strong>, Q. Ni, A. Kaushik, L. Yang, Y. Wang, and C. Zarakovitis, "Semantic Communication Meets Heterogeneous Network: Emerging Trends, Opportunities, and Challenges," IEEE Network, 2026.</autocolor></a></li>
+  <li><a href="https://www.sciencedirect.com/science/article/pii/S1389128625008126"><autocolor>[CN'25, Q1]<strong>G. Zheng</strong>, Q. Ni, and W. Yu, "EO-ZT: Economically informed zero-trust for secure spectrum trading in open radio access networks (O-RAN)," Computer Networks, p. 111846, Nov. 2025. </autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/11075850"><autocolor>[IoTJ'25, Q1] J. Liang, Z. Yu, H. Pervaiz, <strong>G. Zheng*</strong> and N. Suri, "Game Theory Empowered Carbon-Intelligent Federated Multiedge Caching for Industrial Internet of Things," IEEE Internet of Things Journal, vol. 12, no. 17, pp. 34875-34889, 1 Sept.1, 2025.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10919123"><autocolor>[T-ITS'25, Q1] <strong>G. Zheng</strong>, Q. Ni, K. Navaie and C. Zarakovitis, "Socially-Inspired Semantic Communication Codec Updating for NTN-Enabled Intelligent Transportation Systems," IEEE Transactions on Intelligent Transportation Systems, vol. 26, no. 10, pp. 17901-17913, Oct. 2025.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10445211"><autocolor>[JSAC'24, Q1] <strong>G. Zheng</strong>, Q. Ni, K. Navaie and H. Pervaiz, "Semantic Communication in Satellite-Borne Edge Cloud Network for Computation Offloading," IEEE Journal on Selected Areas in Communications, vol. 42, no. 5, pp. 1145-1158, May 2024.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10734671"><autocolor>[T-ITS'24, Q1] <strong>G. Zheng</strong>, Q. Ni and Y. Lu, "Privacy-Aware Anomaly Detection and Notification Enhancement for VANET Based on Collaborative Intrusion Detection System," IEEE Transactions on Intelligent Transportation Systems, vol. 25, no. 12, pp. 21172-21182, Dec. 2024.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10527365"><autocolor>[TGCN'24, Q1] <strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, A. Kaushik and C. Zarakovitis, "Energy-Efficient Semantic Communication for Aerial-Aided Edge Networks," IEEE Transactions on Green Communications and Networking, vol. 8, no. 4, pp. 1742-1751, Dec. 2024.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10416926"><autocolor>[IoTJ'24, Q1] <strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, G. Min, A. Kaushik, and C. Zarakovitis, "Mobility-Aware Split-Federated With Transfer Learning for Vehicular Semantic Communication Networks," IEEE Internet of Things Journal, vol. 11, no. 10, pp. 17237-17248, 15 May, 2024.</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10328182"><autocolor>[COMMAG'23, Q1] <strong>G. Zheng</strong>, Q. Ni, K. Navaie, H. Pervaiz, and C. Zarakovitis, "A Distributed Learning Architecture for Semantic Communication in Autonomous Driving Networks for Task Offloading," IEEE Communications Magazine, vol. 61, no. 11, pp. 64-68, November 2023.</autocolor></a></li>
+</ol>
