@@ -8,6 +8,7 @@
 </p>
 
 <ol id="pub-list" style="margin:0 0 5px;">
+  <li><a><autocolor>Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, W. Miao, and M. Debbah, "Multi-Source and Multi-Dimensional Information Fusion in Resource-Constrained Edge Networks," IEEE Transactions on Mobile Computing. (Submitted) </autocolor></a></li>
   <li><a><autocolor>Z. Yu, J. Liang, <strong>G. Zheng*</strong>, Z. Chen, and N. Suri, "CAVE-FL: Contract-Guided Architecture-Elastic Federated Learning for Heterogeneous Vehicular Edge Intelligence," IEEE Transactions on Mobile Computing. (Submitted) </autocolor></a></li>
   <li><a><autocolor>C. Shen, <strong>G. Zheng*</strong>, H. Pervaiz, M. Renzo, Q. Ni, and S. Zhang*, "Robust Stacked Intelligent Metasurfaces for End-Edge Collaborative Inference in Low-Altitude Wireless Networks," IEEE Transactions on Mobile Computing. (Submitted) </autocolor></a></li>
   <li><a><autocolor>Y. Wang, Z. Yu, <strong>G. Zheng*</strong>, H.Pervaiz, S. Zhang, and W. Meng, "Stacked Intelligent Metasurfaces for Collaborative Inference," IEEE Transactions on Cognitive Communications and Networking. (Submitted) </autocolor></a></li>
