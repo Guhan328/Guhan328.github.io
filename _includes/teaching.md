@@ -6,8 +6,8 @@
 
 <h4 style="margin:0 10px 0;">Master Students</h4>
 <ul>
-  <li>Xin Liu (2025)</li>
-  <li>Chenyu Ma (2026)</li>
+  <li>刘欣 (2025)</li>
+  <li>马晨宇 (2026)</li>
 </ul>
 
 
@@ -15,7 +15,7 @@
 <h4 style="margin:0 10px 0;">Co-supervise Ph.D. Students</h4>
 <ul>
   <li>Yichen Li (2026); <br>[with Dr. [Zhengxin Yu]</li>
-  <li>Yushi Wang (2023); TMC, NetMag, TMC(submitted), GlobeCom <br>[with Dr. Zhengxin Yu]</li>
+  <li>Yushi Wang (2023); TMC, NetMag, TMC*2(submitted), GlobeCom <br>[with Dr. Zhengxin Yu]</li>
 </ul>
 <p style="font-style: italic; color: #666; margin-top: 10px;">
   以上学生成果，仅为本人参与指导的成果，并不代表学生全部成果。
