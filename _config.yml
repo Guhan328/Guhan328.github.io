@@ -1,5 +1,5 @@
 # Basic Information 
-title: 郑谷寒（Guhan Zheng）
+title: Guhan Zheng
 position: Associate Professor
 department: School of Communication and Information Engineering (SCIE)
 department_link: https://scie-en.shu.edu.cn/
@@ -9,9 +9,9 @@ affiliation_logo: ./assets/img/图片1.png
 email: gzheng@shu.edu.cn
 
 # Search Engine Optimization (SEO)
-keywords: Guhan Zheng, 郑谷寒
+keywords: 郑谷寒, Guhan Zheng
 canonical: https://guhan328.github.io/
-description: Guhan Zheng is an Associate Professor at Shanghai University. 
+description: Guhan Zheng (郑谷寒) is an Associate Professor at Shanghai University. 
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: false
