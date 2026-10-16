@@ -5,6 +5,11 @@
 
 <h4 style="margin:0 10px 0;">Editor</h4>
 <ul style="margin:0 0 20px;">
+ <li><autocolor> IEEE Communications Letters-Machine Learning</autocolor></li>
+</ul>
+
+<h4 style="margin:0 10px 0;">Guest Editor</h4>
+<ul style="margin:0 0 20px;">
   <li><autocolor> Lead Guest Editor: IEEE Communications Standards Magazine Special Issue on Collaborative Intelligence in Agentic Non-Terrestrial Networks, 2026</autocolor></li>
 </ul>
 
@@ -12,11 +17,14 @@
 <h4 style="margin:0 10px 0;">Conference Chairs</h4>
 <ul style="margin:0 0 20px;">
    <li><autocolor>General Chair: 5th IEEE ComSoc 2026 TWG-SIG Workshop on Enabling Technologies for 6G & Beyond, 2027, London, UK</autocolor></li>
-  <li><autocolor>General Chair: "Workshop on Integrated Communication, Sensing, and Geographic Navigation for Spatial
+   <li><autocolor>Tutorials Chair: 22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm) 2026, Lancaster, UK</autocolor></li>
+
+  <h4 style="margin:0 10px 0;">Workshop Chairs</h4>
+<ul style="margin:0 0 20px;">
+  <li><autocolor>Lead Chair: "Workshop on Integrated Communication, Sensing, and Geographic Navigation for Spatial
 Intelligence in Urban Air Mobility," IEEE Wireless Communications and Networking Conference (WCNC) 2027, Panama City, Panama</autocolor></li>
-  <li><autocolor>Tutorials Chair: 22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm) 2026, Lancaster, UK</autocolor></li>
-  <li><autocolor>General Chair: "Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks," IEEE International Mediterranean Conference on Communications and Networking (MeditCom) 2026, Cagliari, Italy</autocolor></li>
-  <li><autocolor>General Chair: "The 2nd Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks," IEEE/CIC International Conference on Communications in China (ICCC) 2026, Wuhan, China</autocolor></li>
+  <li><autocolor>Lead Chair: "Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks," IEEE International Mediterranean Conference on Communications and Networking (MeditCom) 2026, Cagliari, Italy</autocolor></li>
+  <li><autocolor>Lead Chair: "The 2nd Workshop on Collaborative Edge Intelligence for Non-Terrestrial Communication Networks," IEEE/CIC International Conference on Communications in China (ICCC) 2026, Wuhan, China</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Talks </h4>
