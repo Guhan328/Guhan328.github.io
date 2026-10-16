@@ -19,7 +19,7 @@
    <li><autocolor>General Chair: 5th IEEE ComSoc 2026 TWG-SIG Workshop on Enabling Technologies for 6G & Beyond, 2027, London, UK</autocolor></li>
    <li><autocolor>Tutorials Chair: 22nd EAI International Conference on Security and Privacy in Communication Networks (EAI SecureComm) 2026, Lancaster, UK</autocolor></li>
 
-  <h4 style="margin:0 10px 0;">Workshop Chairs</h4>
+<h4 style="margin:0 10px 0;">Workshop Chairs</h4>
 <ul style="margin:0 0 20px;">
   <li><autocolor>Lead Chair: "Workshop on Integrated Communication, Sensing, and Geographic Navigation for Spatial
 Intelligence in Urban Air Mobility," IEEE Wireless Communications and Networking Conference (WCNC) 2027, Panama City, Panama</autocolor></li>
