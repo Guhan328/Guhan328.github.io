@@ -5,7 +5,7 @@
 
 <h4 style="margin:0 10px 0;">Editor</h4>
 <ul style="margin:0 0 20px;">
- <li><autocolor> IEEE Communications Letters-Machine Learning</autocolor></li>
+ <li><autocolor> IEEE Communications Letters</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Guest Editor</h4>
